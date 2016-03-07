@@ -7,11 +7,16 @@
     "start": "node index.js",
     "test": "semistandard && npm run coverage",
     "deploy": "node ./node_modules/dpl/dpl.js",
-    "nocov": "node ./node_modules/.bin/mocha test/index.test.js",
+    "nocov": "node ./node_modules/.bin/mocha test/http_request.test.js",
     "semistandard": "semistandard",
-    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test/index.test.js --report lcovonly -- -R spec",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test/http_request.test.js --report lcov -- -R spec",
     "check-coverage": "npm run coverage && node_modules/.bin/istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100"
   },
+  "files_to_deploy": [
+    "package.json",
+    "index.js",
+    "/lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/numo-labs/lambda-ne-classic-package-provider.git"
@@ -23,13 +28,14 @@
   },
   "homepage": "https://github.com/numo-labs/lambda-ne-classic-package-provider#readme",
   "dependencies": {
-    "aws-lambda-helper": "^2.0.0"
+    "aws-lambda-helper": "^2.0.0",
+    "dpl": "^1.0.6"
   },
   "devDependencies": {
     "aws-lambda-test-utils": "^1.0.2",
+    "aws-sdk": "^2.2.41",
     "aws-sdk-mock": "^1.0.9",
-    "code": "^2.1.0",
-    "dpl": "^1.0.7",
+    "dpl": "1.0.6",
     "istanbul": "^0.4.2",
     "mocha": "^2.4.5",
     "pre-commit": "^1.1.2",
