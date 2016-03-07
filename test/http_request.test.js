@@ -13,28 +13,6 @@ describe('http_request', function () {
     });
   });
 
-  it('attempt to make request without a callback (failure test)', function (done) {
-    var options = { host: 'google.com', path: '/amaze' };
-    try {
-      http_request(options);
-    } catch (e) {
-      // console.log(e);
-      assert(e.toString().indexOf('please supply a callback') > -1);
-      done();
-    }
-  });
-
-  it('attempt to make request without options object (failure test)', function (done) {
-    var options;
-    try {
-      http_request(options);
-    } catch (e) {
-      // console.log(e);
-      assert(e.toString().indexOf('http_request requires valid http request options') > -1);
-      done();
-    }
-  });
-
   it('make GET request to invalid url (error branch check)', function (done) {
     var options = {
       'host': 'example',
