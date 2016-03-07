@@ -8,21 +8,21 @@ var CONTEXT = {
 };
 
 var EVENT = {
-  "Records": [
+  'Records': [
     {
-      "Sns": {
-        "Message": "Take me somewhere sunny!"
+      'Sns': {
+        'Message': 'Take me somewhere sunny!'
       }
     }
   ]
- }
+};
 
 describe('Search request handler', function () {
   it('invoke the lambda function handler', function (done) {
-    CONTEXT.succeed = function() {
+    CONTEXT.succeed = function () {
       assert.equal(arguments[0], EVENT.Records[0].Sns.Message);
       done();
-    }
+    };
     handler(EVENT, CONTEXT);
   });
 });

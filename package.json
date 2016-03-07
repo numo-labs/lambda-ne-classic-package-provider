@@ -8,7 +8,7 @@
     "test": "semistandard && npm run coverage",
     "deploy": "node ./node_modules/dpl/dpl.js",
     "nocov": "node ./node_modules/.bin/mocha test/http_request.test.js",
-    "semistandard": "semistandard",
+    "semistandard": "semistandard --verbose | snazzy",
     "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test/http_request.test.js --report lcov -- -R spec",
     "check-coverage": "npm run coverage && node_modules/.bin/istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100"
   },
@@ -39,7 +39,8 @@
     "istanbul": "^0.4.2",
     "mocha": "^2.4.5",
     "pre-commit": "^1.1.2",
-    "semistandard": "^7.0.5"
+    "semistandard": "^7.0.5",
+    "snazzy": "^3.0.0"
   },
   "semistandard": {
     "globals": [
