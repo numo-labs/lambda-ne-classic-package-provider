@@ -5,8 +5,9 @@ describe('api_request', function () {
   it('call the nordics classic API', function (done) {
     var params = {
       adults: 2,
-      children: 2,
-      allInclusive: 'true'
+      children: 3,
+      allInclusive: 'true', // yes these values are strings not boolean!
+      lmsOnly: 'true'
     };
     api_request(params, function (err, json) {
       assert(!err);

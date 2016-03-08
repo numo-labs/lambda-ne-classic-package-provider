@@ -15,7 +15,7 @@ describe('http_request', function () {
 
   it('make GET request to invalid url (error branch check)', function (done) {
     var options = {
-      'host': 'example',
+      'host': 'example.jo',
       'path': '/thiswillfail'
     };
     http_request(options, function (e, res) {
