@@ -7,11 +7,18 @@ var CONTEXT = {
   invokedFunctionArn: 'arn:aws:lambda:eu-west-1:655240711487:function:LambdaTest:ci'
 };
 
+var SNS_MESSAGE = {
+  'bucketId': '12345',
+  'hotelIds': '139891,10002,99281',
+  'adults': '2',
+  'children': '1'
+};
+
 var EVENT = {
   'Records': [
     {
       'Sns': {
-        'Message': 'Take me somewhere sunny!'
+        'Message': JSON.stringify(SNS_MESSAGE)
       }
     }
   ]
@@ -20,7 +27,9 @@ var EVENT = {
 describe('Search request handler', function () {
   it('invoke the lambda function handler', function (done) {
     CONTEXT.succeed = function () {
-      assert.equal(arguments[0], EVENT.Records[0].Sns.Message);
+      console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
+      // console.log(arguments); // the argument to context.succeed
+      assert(parseInt(arguments[0], 10) > 1);
       done();
     };
     handler(EVENT, CONTEXT);

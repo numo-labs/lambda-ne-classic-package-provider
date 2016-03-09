@@ -40,7 +40,9 @@ to apply *before* rolling out.
 
 
 
-Read: http://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-aws-proxy.html
+Read:
++ http://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-aws-proxy.html
++ http://docs.aws.amazon.com/apigateway/latest/developerguide/request-response-data-mappings.html
 
 
 geography:ne.{spainen-code}
