@@ -64,4 +64,19 @@ describe('api_request', function () {
       done();
     });
   });
+
+  it('GET ALL NE Hotels', function (done) {
+    var params = {
+      path: 'all-hotels'
+    };
+    api_request(params, function (err, json) {
+      assert(!err);
+      var sample_filename = dir + '1000_NE_hotels.json';
+      fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
+      // console.log(JSON.stringify(json.result[0], null, 2));
+      console.log('Result Count:', json.result.length);
+      assert(json.result.length > 1);
+      done();
+    });
+  });
 });
