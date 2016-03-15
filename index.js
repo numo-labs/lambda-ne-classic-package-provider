@@ -23,16 +23,16 @@ exports.handler = function (event, context) {
     var hotelIds = response.result.map(function (item) {
       return item.wvHotelPartId;
     }).join(',');
-    var hids = hotelIds.split(',').slice(0,31);
+    var hids = hotelIds.split(',').slice(0, 31);
     console.log(hids.join(','));
-    var hotel_params = {
-      path: 'hotels',
-      stage: params.stage,
-      hotelIds: hids
-    };
+    // var hotel_params = {
+    //   path: 'hotels',
+    //   stage: params.stage,
+    //   hotelIds: hids
+    // };
     // api_request(hotel_params, function (err, hotel_response) {
       // console.log(err, hotel_response.result[0]);
-      context.succeed(response.totalHits);
+    context.succeed(response.totalHits);
     // });
     // if(err) {
     //   context.fail()
