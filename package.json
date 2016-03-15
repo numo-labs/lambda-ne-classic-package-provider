@@ -21,7 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/numo-labs/lambda-ne-classic-package-provider.git"
   },
-  "author": "Jack Carlisle",
+  "author": "Jack Carlisle & Friends :-)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/numo-labs/lambda-ne-classic-package-provider/issues"
@@ -29,7 +29,7 @@
   "homepage": "https://github.com/numo-labs/lambda-ne-classic-package-provider#readme",
   "dependencies": {
     "aws-lambda-helper": "^2.3.0",
-    "dpl": "^1.0.6"
+    "lodash.result": "^4.2.0"
   },
   "devDependencies": {
     "aws-lambda-test-utils": "^1.0.2",

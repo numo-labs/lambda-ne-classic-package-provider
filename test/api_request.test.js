@@ -3,7 +3,7 @@ var assert = require('assert');
 var fs = require('fs');
 var path = require('path');
 var dir = path.resolve(__dirname + '/sample_results/') + '/';
-console.log('>>' + dir);
+// console.log('>>' + dir);
 
 describe('api_request', function () {
   it('GET NE trips', function (done) {

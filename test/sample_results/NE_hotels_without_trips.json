@@ -1,312 +1,452 @@
 {
   "result": [
     {
-      "wvId": 10861,
-      "caId": 8857,
-      "name": "Altamar",
-      "description": "Altamar er verdens mest klassiske Spies-hotel. Her kan vi tilbyde særlige Simon Spies-suiter, som blandt andet er indrettet med festlige indslag fra Simon. Vi kan også tilbyde Spies Easy Travel, som gør din rejse nemmere.\n\nPå Altamar får du de perfekte rammer for familiens ferie sammen - intet mindre. Det er et efterspurgt og meget værdsat Family Garden, som ligger højt og roligt på en sydvendt bjergskråning lige uden for Puerto Rico med en storslået udsigt over havet. Her findes alt, hvad der skal til, for at hele familien får en dejlig og afslappet ferie: opvarmede pools i vinterhalvåret, en hyggelig restaurant samt lejligheder til op til 5 personer. Hvis du vil spise godt og samtidig have styr på feriebudgettet, anbefaler vi, at du bestiller All Inclusive, hvor børn under 12 år spiser for 0,- i selskab med en betalende voksen.\n\nAltamar fungerer som Family Garden i vinterhalvåret (8/10 2015 til 8/4 2016 og 13/10 2016 til 5/4 2017). I denne periode er her skandinavisk børneklub, Mini Disco, bingo, familieaktiviteter og Spies' servicehjørne med skandinaviske guider.  \n\nFra november til marts er de fleste af hotellets gæster fra Skandinavien.\n\nNyhed vinteren 2016/17\nI løbet af sommeren renoveres samtlige lejligheder neden for restauranten. De nyrenoverede lejligheder kan bestilles med afrejse fra den 19/10. Læs mere under \"Lejlighederne\" og type D samt se oversigten med lejlighedernes beliggenhed. \n\nJubilæum på Altamar 11. og 12. december 2016\nDen 11. og 12. december 2016 fejrer vi Altamars 30-års jubilæum med et særligt jubilæumsarrangement for alle gæster, som bor på hotellet i de to dage. Højdepunktet bliver selve jubilæumsmiddagen den 11/12, som skal bestilles på forhånd. \n\nAltamar om sommeren\nI sommerhalvåret tilbyder hotellet aktiviteter og underholdning med engelsktalende guider. Om sommeren råder Spies kun over et mindre antal af hotellets værelser. Der er ingen hotelbus til stranden, og ingen direkte bustransfer eller check-in af bagage på hotellet ved hjemrejsen. I perioden 20/4-30/6 2016 renoveres samtlige 77 lejligheder neden for restauranten, hvilket kan medføre byggestøj på hverdage kl. 8-16.\n\n*Spies Easy Travel\nNår du bor på Altamar og flyver med vores eget flyselskab, Thomas Cook Airlines, indgår Spies Easy Travel i vinterhalvåret (første udrejse 8/10 2015 og sidste hjemrejse 8/4 2016 samt første udrejse 13/10 2016 og sidste hjemrejse 5/4 2017). Det betyder, at du kan tjekke din bagage ind, før du forlader hotellet (gælder ikke ved flyafgange før kl. 11). Du må desuden medbringe op til 30 kg bagage (gælder hele året), og har du tilkøbt bustransfer mellem lufthavnen og hotellet, bliver du kørt direkte uden stop ved andre hoteller.",
+      "wvId": 10002,
+      "caId": 9210,
+      "name": "Villa Aspro",
+      "description": "Populært lejlighedshotel beliggende i gåafstand fra det pulserende forlystelsesliv ved havet og havnen i Hersonissos, og du kommer nemt med taxi til de ældre dele af byen, hvor der findes mange hyggelige tavernaer. Hotellet har et livligt poolområde samt en bar, der serverer enkle retter. Villa Aspro har mange unge og livlige gæster. Er du under 18 år, kan du ikke bestille hotellet i perioden 15/6-13/8.\n\nDe fleste af hotellets gæster er fra Skandinavien.",
       "rating": {
-        "guestRating": 4.4,
-        "doubledRating": 7
+        "guestRating": 4.1,
+        "doubledRating": 4
       },
       "geographical": {
-        "countryId": 179,
-        "countryName": "Spanien",
-        "areaId": 108069,
-        "areaName": "Gran Canaria",
-        "resortId": 605,
-        "resortName": "Puerto Rico"
+        "countryId": 78,
+        "countryName": "Grækenland",
+        "areaId": 108055,
+        "areaName": "Kreta",
+        "resortId": 378,
+        "resortName": "Hersonissos"
       },
       "location": {
-        "latitude": 27.7886658,
-        "longitude": -15.7194166
+        "latitude": 35.32045,
+        "longitude": 25.384285
       },
-      "url": "http://www.spies.dk/de-kanariske-oer/puerto-rico/altamar",
-      "concept": {
-        "id": "familyGarden",
-        "title": "Family Garden"
-      },
+      "url": "http://www.spies.dk/graekenland/hersonissos/villa-aspro",
       "images": [
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_1_13.jpg?v=17",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1048_1_13.jpg?v=2",
           "description": "",
           "width": 696,
           "height": 307
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_2_30.jpg?v=47",
-          "description": "Fra Altamar har du en fantastisk udsigt over Atlanterhavet",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1048_10_51.jpg?v=2",
+          "description": "",
+          "width": 975,
+          "height": 350
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1048_2_30.jpg?v=2",
+          "description": "",
           "width": 1280,
           "height": 853
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_3_15.jpg?v=17",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1048_3_15.jpg?v=2",
           "description": "",
           "width": 232,
           "height": 131
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_4_14.jpg?v=17",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1048_4_14.jpg?v=2",
           "description": "",
           "width": 380,
           "height": 215
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_5_32.jpg?v=17",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1048_5_32.jpg?v=2",
           "description": "",
           "width": 170,
           "height": 113
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_6_16.jpg?v=17",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1048_6_16.jpg?v=2",
           "description": "",
           "width": 210,
           "height": 118
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_7_20.jpg?v=17",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1048_7_20.jpg?v=2",
           "description": "",
           "width": 136,
           "height": 77
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_8_17.jpg?v=17",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1048_8_17.jpg?v=2",
           "description": "",
           "width": 210,
           "height": 196
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_10_51.jpg?v=22",
-          "description": "Fra Altamar har du en fantastisk udsigt over Atlanterhavet",
-          "width": 975,
-          "height": 350
-        },
-        {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_9_46.jpg?v=13",
-          "description": "",
-          "width": 209,
-          "height": 117
-        },
-        {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1150_2_30.jpg?v=22",
-          "description": "2-værelses Club Room-lejlighed med stor balkon",
-          "width": 1280,
-          "height": 853
-        },
-        {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1154_2_30.jpg?v=22",
-          "description": "2-værelses Club Room-lejlighed med stor balkon",
-          "width": 1280,
-          "height": 853
-        },
-        {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1164_2_30.jpg?v=1",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1054_2_30.jpg?v=2",
           "description": "",
           "width": 1280,
           "height": 853
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1105_2_30.jpg?v=47",
-          "description": "1-værelses Simon Spies-suite til 2-3 personer",
-          "width": 1280,
-          "height": 853
-        },
-        {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1107_2_30.jpg?v=47",
-          "description": "1-værelses Simon Spies-suite til 2-3 personer",
-          "width": 1280,
-          "height": 853
-        },
-        {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1110_2_29.jpg?v=29",
-          "description": "1-værelses Simon Spies-suite til 2-3 personer",
-          "width": 631,
-          "height": 960
-        },
-        {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1081_2_30.jpg?v=47",
-          "description": "Legeplads til børnene",
-          "width": 1280,
-          "height": 853
-        },
-        {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1136_2_29.jpg?v=29",
-          "description": "På Family Garden Altamar trives alle børn",
-          "width": 631,
-          "height": 960
-        },
-        {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1122_2_29.jpg?v=29",
-          "description": "Carlos - en af de populære tjenere i restauranten",
-          "width": 631,
-          "height": 960
-        },
-        {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1052_2_29.jpg?v=29",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1054_5_32.jpg?v=2",
           "description": "",
-          "width": 631,
-          "height": 960
+          "width": 170,
+          "height": 113
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1119_2_30.jpg?v=47",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1061_2_30.jpg?v=2",
           "description": "",
           "width": 1280,
           "height": 853
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1160_2_30.jpg?v=16",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1061_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1070_2_30.jpg?v=2",
           "description": "",
           "width": 1280,
           "height": 853
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1132_2_29.jpg?v=29",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1070_5_32.jpg?v=2",
           "description": "",
-          "width": 631,
-          "height": 960
+          "width": 170,
+          "height": 113
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1091_2_30.jpg?v=47",
-          "description": "",
-          "width": 1280,
-          "height": 853
-        },
-        {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1089_2_30.jpg?v=47",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1041_2_30.jpg?v=2",
           "description": "",
           "width": 1280,
           "height": 853
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1087_2_30.jpg?v=47",
-          "description": "2-værelses Club Room-lejlighed oven for poolområdet, type C",
-          "width": 1280,
-          "height": 853
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1041_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1163_2_30.jpg?v=16",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1042_2_30.jpg?v=2",
           "description": "",
           "width": 1280,
           "height": 853
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1127_2_30.jpg?v=47",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1042_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1062_2_30.jpg?v=2",
           "description": "",
           "width": 1280,
           "height": 853
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1156_2_30.jpg?v=16",
-          "description": "2-værelses Club Room med stor balkon (A22CLB)",
-          "width": 1280,
-          "height": 853
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1062_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1157_2_30.jpg?v=16",
-          "description": "2-værelses Club Room med stor balkon (A22CLB)",
-          "width": 1280,
-          "height": 853
-        },
-        {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1137_2_30.jpg?v=47",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1063_2_30.jpg?v=2",
           "description": "",
           "width": 1280,
           "height": 853
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1142_2_30.jpg?v=47",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1063_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1060_2_30.jpg?v=2",
           "description": "",
           "width": 1280,
           "height": 853
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1162_2_30.jpg?v=16",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1060_5_32.jpg?v=2",
           "description": "",
-          "width": 1280,
-          "height": 853
+          "width": 170,
+          "height": 113
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1134_2_29.jpg?v=29",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1076_2_29.jpg?v=2",
           "description": "",
           "width": 631,
           "height": 960
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1158_2_30.jpg?v=16",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1053_2_30.jpg?v=2",
           "description": "",
           "width": 1280,
           "height": 853
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1159_2_29.jpg?v=10",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1053_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1051_2_30.jpg?v=2",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1051_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1049_2_30.jpg?v=2",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1049_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1043_2_30.jpg?v=2",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1043_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1044_2_30.jpg?v=2",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1044_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1045_2_30.jpg?v=2",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1045_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1046_2_30.jpg?v=2",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1046_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1047_2_30.jpg?v=2",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1047_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1050_2_30.jpg?v=2",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1050_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1056_2_30.jpg?v=2",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1056_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1058_2_30.jpg?v=2",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1058_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1065_2_30.jpg?v=2",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1065_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1066_2_30.jpg?v=2",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1066_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1064_2_29.jpg?v=2",
           "description": "",
           "width": 631,
           "height": 960
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1126_2_30.jpg?v=47",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1064_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1068_2_30.jpg?v=2",
           "description": "",
           "width": 1280,
           "height": 853
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1085_2_30.jpg?v=47",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1068_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1069_2_30.jpg?v=2",
           "description": "",
           "width": 1280,
           "height": 853
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1092_2_30.jpg?v=47",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1069_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1077_2_30.jpg?v=2",
           "description": "",
           "width": 1280,
           "height": 853
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA9997_2_30.jpg?v=29",
-          "description": "Oversigt over lejlighedernes placering på hotelområdet",
-          "width": 1280,
-          "height": 853
-        },
-        {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1144_2_29.jpg?v=29",
-          "description": "Theodoro - hotellets direktør",
-          "width": 631,
-          "height": 960
-        },
-        {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1146_2_29.jpg?v=29",
-          "description": "José - receptionschef",
-          "width": 631,
-          "height": 960
-        },
-        {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1161_2_30.jpg?v=16",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1072_2_30.jpg?v=2",
           "description": "",
           "width": 1280,
           "height": 853
         },
         {
-          "url": "http://images1.spies.dk/images/Hotel/LPAALTA9998_2_30.jpg?v=2",
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1072_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1067_2_30.jpg?v=2",
           "description": "",
           "width": 1280,
           "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1067_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1075_2_30.jpg?v=2",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1040_2_30.jpg?v=2",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1040_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1052_2_30.jpg?v=2",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/HERASPR1052_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
         }
       ],
       "facts": [
         {
           "id": "OutdoorPool",
           "name": "Pool",
-          "value": "2 stk."
+          "value": "Ja"
         },
         {
           "id": "DistanceToBeach",
           "name": "Nærmeste strand",
-          "value": "1,5 km"
+          "value": "1 km"
         },
         {
           "id": "DistanceToCenter",
           "name": "Nærmeste centrum",
-          "value": "500 m"
+          "value": "400 m"
         },
         {
           "id": "Bar",
@@ -321,32 +461,27 @@
         {
           "id": "Elevator",
           "name": "Elevator",
-          "value": "(kabelelevatorer som til tider kan være forstyrrende)"
+          "value": "(i en af bygningerne)"
         },
         {
           "id": "PoolBar",
           "name": "Poolbar",
-          "value": "Ja"
-        },
-        {
-          "id": 130,
-          "name": "Restaurant",
-          "value": "1"
+          "value": "(serverer enkle retter)"
         },
         {
           "id": "MiniMarket",
           "name": "Minimarked",
-          "value": "Ja"
+          "value": "Nej"
         },
         {
           "id": "CleaningDaysPerWeek",
           "name": "Rengøring (antal dage pr. uge)",
-          "value": "5"
+          "value": "4"
         },
         {
           "id": "Internet",
           "name": "Internet",
-          "value": "Mod betaling"
+          "value": "Ja"
         },
         {
           "id": "WaterSlide",
@@ -370,8 +505,678 @@
         }
       ],
       "hotelProduct": {
-        "id": 43,
-        "key": "FamilyGarden"
+        "id": 52,
+        "key": "Ordinary"
+      },
+      "interestProducts": [],
+      "importUpdateId": "2016-03-15T17:25:07.118Z"
+    },
+    {
+      "wvId": 99281,
+      "caId": 8815,
+      "name": "Gloria Palace Royal",
+      "description": "Gloria Palace Royal er et elegant hotel med høj standard og komfort. Hotellet ligger højt i Playa de Amadores med flot udsigt over havet og den hvide sandstrand. På Gloria Palace Royal kan du både slappe af og være aktiv. Her findes to store solterrasser med indbydende pools, et motionsrum samt en lækker spaafdeling, der indbyder til selvforkælelse.",
+      "rating": {
+        "guestRating": 4.6,
+        "doubledRating": 9
+      },
+      "geographical": {
+        "countryId": 179,
+        "countryName": "Spanien",
+        "areaId": 108069,
+        "areaName": "Gran Canaria",
+        "resortId": 436,
+        "resortName": "Playa de Amadores"
+      },
+      "location": {
+        "latitude": 27.7925339,
+        "longitude": -15.7230663
+      },
+      "url": "http://www.spies.dk/de-kanariske-oer/playa-de-amadores/gloria-palace-royal",
+      "concept": {
+        "id": "familyTopSelection",
+        "title": "Family Top Selection"
+      },
+      "images": [
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_1_13.jpg?v=3",
+          "description": "",
+          "width": 696,
+          "height": 307
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_10_51.jpg?v=3",
+          "description": "",
+          "width": 975,
+          "height": 350
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_3_15.jpg?v=3",
+          "description": "",
+          "width": 232,
+          "height": 131
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_4_14.jpg?v=3",
+          "description": "",
+          "width": 380,
+          "height": 215
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_6_16.jpg?v=3",
+          "description": "",
+          "width": 210,
+          "height": 118
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_7_20.jpg?v=3",
+          "description": "",
+          "width": 136,
+          "height": 77
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_8_17.jpg?v=3",
+          "description": "",
+          "width": 210,
+          "height": 196
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_9_46.jpg?v=3",
+          "description": "",
+          "width": 209,
+          "height": 117
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1011_2_29.jpg?v=3",
+          "description": "",
+          "width": 631,
+          "height": 960
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1011_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1039_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1039_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1002_2_30.jpg?v=16",
+          "description": "Soveværelse i en af lejlighederne",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1002_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1064_2_30.jpg?v=16",
+          "description": "Balkon i en af lejlighederne",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1064_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1050_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1050_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1074_2_30.jpg?v=16",
+          "description": "1-værelses lejlighed",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1074_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1085_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1085_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1088_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1088_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1089_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1089_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1094_2_30.jpg?v=15",
+          "description": "2-værelses lejlighedssuite",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1094_5_32.jpg?v=2",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1049_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1049_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1036_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1036_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1031_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1031_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1033_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1033_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1028_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1028_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1021_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1021_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1015_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1015_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1068_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1068_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1072_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1072_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1013_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1013_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1086_2_30.jpg?v=16",
+          "description": "18-hullers banen på Anfi Tauro Golf",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1086_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1093_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1093_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1008_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1008_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1007_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1007_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1004_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1004_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1024_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1024_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1029_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1029_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1030_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1030_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1080_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1080_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1081_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1081_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1082_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1082_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1079_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAGLOR1079_5_32.jpg?v=3",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_396_13.jpg?v=1",
+          "description": "",
+          "width": 696,
+          "height": 307
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_396_51.jpg?v=1",
+          "description": "",
+          "width": 975,
+          "height": 350
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_397_15.jpg?v=1",
+          "description": "",
+          "width": 232,
+          "height": 131
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_398_14.jpg?v=1",
+          "description": "",
+          "width": 380,
+          "height": 215
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_399_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_400_16.jpg?v=1",
+          "description": "",
+          "width": 210,
+          "height": 118
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_401_20.jpg?v=1",
+          "description": "",
+          "width": 136,
+          "height": 77
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_402_17.jpg?v=1",
+          "description": "",
+          "width": 210,
+          "height": 196
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090002_404_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090003_406_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090004_408_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090005_410_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090006_412_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090007_414_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090008_416_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090009_418_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090010_420_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090011_422_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090012_424_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        }
+      ],
+      "facts": [
+        {
+          "id": "OutdoorPool",
+          "name": "Pool",
+          "value": "2 stk."
+        },
+        {
+          "id": "DistanceToBeach",
+          "name": "Nærmeste strand",
+          "value": "300 m"
+        },
+        {
+          "id": "DistanceToCenter",
+          "name": "Nærmeste centrum",
+          "value": "1,2 km"
+        },
+        {
+          "id": "Bar",
+          "name": "Bar",
+          "value": "3 stk."
+        },
+        {
+          "id": "ChildrenPool",
+          "name": "Børnepool",
+          "value": "Ja"
+        },
+        {
+          "id": "Elevator",
+          "name": "Elevator",
+          "value": "Ja"
+        },
+        {
+          "id": "PoolBar",
+          "name": "Poolbar",
+          "value": "Ja"
+        },
+        {
+          "id": 130,
+          "name": "Restaurant",
+          "value": "2"
+        },
+        {
+          "id": "MiniMarket",
+          "name": "Minimarked",
+          "value": "Nej"
+        },
+        {
+          "id": "CleaningDaysPerWeek",
+          "name": "Rengøring (antal dage pr. uge)",
+          "value": "7"
+        },
+        {
+          "id": "Internet",
+          "name": "Internet",
+          "value": "Ja"
+        },
+        {
+          "id": "WaterSlide",
+          "name": "Vandrutsjebane",
+          "value": "Nej"
+        },
+        {
+          "id": "LolloAndBernie",
+          "name": "Lollo och Bernie",
+          "value": false
+        },
+        {
+          "id": "IsAdultHotel",
+          "name": "Adult hotel",
+          "value": false
+        },
+        {
+          "id": "AllInclusive",
+          "name": "All Inclusive",
+          "value": false
+        }
+      ],
+      "hotelProduct": {
+        "id": 60,
+        "key": "FamilyTopSelection"
       },
       "interestProducts": [
         {
@@ -379,13 +1184,347 @@
           "key": "AllTypesOfInclusive"
         },
         {
+          "id": 77,
+          "key": "FreeWiFi"
+        },
+        {
+          "id": 79,
+          "key": "WiFiAllOverHotel"
+        },
+        {
+          "id": 84,
+          "key": "ChildrensClubInternational"
+        },
+        {
           "id": 85,
           "key": "AllChildrensClub"
         }
       ],
-      "importUpdateId": "2016-03-15T10:25:06.315Z"
+      "importUpdateId": "2016-03-15T17:25:07.118Z"
+    },
+    {
+      "wvId": 139891,
+      "caId": 61612,
+      "name": "AC Iberia Las Palmas",
+      "description": "AC Iberia Las Palmas er et stort hotel med flot og moderne interiør beliggende i udkanten af Las Palmas. Hotellet har en a la carte-restaurant, et cafeteria og en bar samt en dejlig tagterrasse med pool. Hvis du vil motionere, har hotellet desuden et lille motionsrum med udsigt over havet. Fra AC Iberia Las Palmas har du gåafstand til den gamle bydel Vegueta, hvor der ligger hyggelige restauranter og barer. \n\nHotellet er velegnet til voksne, der rejser uden børn. Vi kan dog ikke garantere, at hotellet er helt børnefrit.",
+      "rating": {
+        "guestRating": 4.2,
+        "doubledRating": 7
+      },
+      "geographical": {
+        "countryId": 179,
+        "countryName": "Spanien",
+        "areaId": 108069,
+        "areaName": "Gran Canaria",
+        "resortId": 509,
+        "resortName": "Las Palmas"
+      },
+      "location": {
+        "latitude": 28.1124039,
+        "longitude": -15.4174042
+      },
+      "url": "http://www.spies.dk/de-kanariske-oer/las-palmas/ac-iberia-las-palmas",
+      "concept": {
+        "id": "primeSelect",
+        "title": "Prime Select"
+      },
+      "images": [
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1034_1_13.jpg?v=1",
+          "description": "",
+          "width": 696,
+          "height": 307
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1034_1_51.jpg?v=1",
+          "description": "",
+          "width": 975,
+          "height": 350
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1034_2_30.jpg?v=1",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1034_3_15.jpg?v=1",
+          "description": "",
+          "width": 232,
+          "height": 131
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1034_4_14.jpg?v=1",
+          "description": "",
+          "width": 380,
+          "height": 215
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1034_5_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1034_6_16.jpg?v=1",
+          "description": "",
+          "width": 210,
+          "height": 118
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1034_7_20.jpg?v=1",
+          "description": "",
+          "width": 136,
+          "height": 77
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1034_8_17.jpg?v=1",
+          "description": "",
+          "width": 210,
+          "height": 196
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1020_2_30.jpg?v=1",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1020_5_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1027_2_30.jpg?v=1",
+          "description": "Dobbeltværelse",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1027_5_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1025_2_30.jpg?v=1",
+          "description": "Dobbeltværelse",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1025_5_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1024_2_30.jpg?v=1",
+          "description": "Dobbeltværelse",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1024_5_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1026_2_29.jpg?v=1",
+          "description": "",
+          "width": 631,
+          "height": 960
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1026_5_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1028_2_30.jpg?v=1",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1028_5_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1036_2_30.jpg?v=1",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1036_5_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1021_2_30.jpg?v=1",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1021_5_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1022_2_30.jpg?v=1",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1022_5_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1033_2_30.jpg?v=1",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1033_5_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1037_2_30.jpg?v=1",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1037_5_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1038_2_30.jpg?v=1",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1038_5_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1032_2_30.jpg?v=1",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAACIB1032_5_32.jpg?v=1",
+          "description": "",
+          "width": 170,
+          "height": 113
+        }
+      ],
+      "facts": [
+        {
+          "id": "OutdoorPool",
+          "name": "Pool",
+          "value": "Ja"
+        },
+        {
+          "id": "DistanceToBeach",
+          "name": "Nærmeste strand",
+          "value": "3,5 km"
+        },
+        {
+          "id": "DistanceToCenter",
+          "name": "Nærmeste centrum",
+          "value": "1 km"
+        },
+        {
+          "id": "Bar",
+          "name": "Bar",
+          "value": "Ja"
+        },
+        {
+          "id": "ChildrenPool",
+          "name": "Børnepool",
+          "value": "Nej"
+        },
+        {
+          "id": "Elevator",
+          "name": "Elevator",
+          "value": "Ja"
+        },
+        {
+          "id": "PoolBar",
+          "name": "Poolbar",
+          "value": "Nej"
+        },
+        {
+          "id": 130,
+          "name": "Restaurant",
+          "value": "1"
+        },
+        {
+          "id": "MiniMarket",
+          "name": "Minimarked",
+          "value": "Nej"
+        },
+        {
+          "id": "CleaningDaysPerWeek",
+          "name": "Rengøring (antal dage pr. uge)",
+          "value": "7"
+        },
+        {
+          "id": "Internet",
+          "name": "Internet",
+          "value": "Ja"
+        },
+        {
+          "id": "WaterSlide",
+          "name": "Vandrutsjebane",
+          "value": "Nej"
+        },
+        {
+          "id": "LolloAndBernie",
+          "name": "Lollo och Bernie",
+          "value": false
+        },
+        {
+          "id": "IsAdultHotel",
+          "name": "Adult hotel",
+          "value": true
+        },
+        {
+          "id": "AllInclusive",
+          "name": "All Inclusive",
+          "value": false
+        }
+      ],
+      "hotelProduct": {
+        "id": 72,
+        "key": "PrimeSelect"
+      },
+      "interestProducts": [],
+      "importUpdateId": "2016-03-15T17:25:07.118Z"
     }
   ],
-  "totalHits": 1,
-  "next": "http://partnerapi.thomascook.se/v2/nextResult/cXVlcnlUaGVuRmV0Y2g7NTs1ODI5NDc2OllBMzZFNUhUVERhcXhnN3o4QXRCNVE7NTgyOTQ3ODpZQTM2RTVIVFREYXF4Zzd6OEF0QjVROzU4Mjk0Nzc6WUEzNkU1SFRURGFxeGc3ejhBdEI1UTs1NDQ0NzA4OnVNUVMzQnJVVGI2NU1WMXVkNVlvT3c7NTgyOTQ3OTpZQTM2RTVIVFREYXF4Zzd6OEF0QjVROzA7"
+  "totalHits": 3,
+  "next": "http://partnerapi.thomascook.se/v2/nextResult/cXVlcnlUaGVuRmV0Y2g7NTsxNzY2NTU6QTRCUWZ0ZUxSZS05TjN2TUQ2aU9NUTs1OTAxMDk2OllBMzZFNUhUVERhcXhnN3o4QXRCNVE7NTkwMTA5NTpZQTM2RTVIVFREYXF4Zzd6OEF0QjVROzE3NjY1NjpBNEJRZnRlTFJlLTlOM3ZNRDZpT01ROzU5MDEwOTI6WUEzNkU1SFRURGFxeGc3ejhBdEI1UTswOw=="
 }
