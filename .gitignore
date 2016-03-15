@@ -32,3 +32,6 @@ node_modules
 # Optional REPL history
 .node_repl_history
 .DS_Store
+
+# Should we put the sample results from NE API on GitHub...?
+sample_results
