@@ -1,0 +1,391 @@
+{
+  "result": [
+    {
+      "wvId": 10861,
+      "caId": 8857,
+      "name": "Altamar",
+      "description": "Altamar er verdens mest klassiske Spies-hotel. Her kan vi tilbyde særlige Simon Spies-suiter, som blandt andet er indrettet med festlige indslag fra Simon. Vi kan også tilbyde Spies Easy Travel, som gør din rejse nemmere.\n\nPå Altamar får du de perfekte rammer for familiens ferie sammen - intet mindre. Det er et efterspurgt og meget værdsat Family Garden, som ligger højt og roligt på en sydvendt bjergskråning lige uden for Puerto Rico med en storslået udsigt over havet. Her findes alt, hvad der skal til, for at hele familien får en dejlig og afslappet ferie: opvarmede pools i vinterhalvåret, en hyggelig restaurant samt lejligheder til op til 5 personer. Hvis du vil spise godt og samtidig have styr på feriebudgettet, anbefaler vi, at du bestiller All Inclusive, hvor børn under 12 år spiser for 0,- i selskab med en betalende voksen.\n\nAltamar fungerer som Family Garden i vinterhalvåret (8/10 2015 til 8/4 2016 og 13/10 2016 til 5/4 2017). I denne periode er her skandinavisk børneklub, Mini Disco, bingo, familieaktiviteter og Spies' servicehjørne med skandinaviske guider.  \n\nFra november til marts er de fleste af hotellets gæster fra Skandinavien.\n\nNyhed vinteren 2016/17\nI løbet af sommeren renoveres samtlige lejligheder neden for restauranten. De nyrenoverede lejligheder kan bestilles med afrejse fra den 19/10. Læs mere under \"Lejlighederne\" og type D samt se oversigten med lejlighedernes beliggenhed. \n\nJubilæum på Altamar 11. og 12. december 2016\nDen 11. og 12. december 2016 fejrer vi Altamars 30-års jubilæum med et særligt jubilæumsarrangement for alle gæster, som bor på hotellet i de to dage. Højdepunktet bliver selve jubilæumsmiddagen den 11/12, som skal bestilles på forhånd. \n\nAltamar om sommeren\nI sommerhalvåret tilbyder hotellet aktiviteter og underholdning med engelsktalende guider. Om sommeren råder Spies kun over et mindre antal af hotellets værelser. Der er ingen hotelbus til stranden, og ingen direkte bustransfer eller check-in af bagage på hotellet ved hjemrejsen. I perioden 20/4-30/6 2016 renoveres samtlige 77 lejligheder neden for restauranten, hvilket kan medføre byggestøj på hverdage kl. 8-16.\n\n*Spies Easy Travel\nNår du bor på Altamar og flyver med vores eget flyselskab, Thomas Cook Airlines, indgår Spies Easy Travel i vinterhalvåret (første udrejse 8/10 2015 og sidste hjemrejse 8/4 2016 samt første udrejse 13/10 2016 og sidste hjemrejse 5/4 2017). Det betyder, at du kan tjekke din bagage ind, før du forlader hotellet (gælder ikke ved flyafgange før kl. 11). Du må desuden medbringe op til 30 kg bagage (gælder hele året), og har du tilkøbt bustransfer mellem lufthavnen og hotellet, bliver du kørt direkte uden stop ved andre hoteller.",
+      "rating": {
+        "guestRating": 4.4,
+        "doubledRating": 7
+      },
+      "geographical": {
+        "countryId": 179,
+        "countryName": "Spanien",
+        "areaId": 108069,
+        "areaName": "Gran Canaria",
+        "resortId": 605,
+        "resortName": "Puerto Rico"
+      },
+      "location": {
+        "latitude": 27.7886658,
+        "longitude": -15.7194166
+      },
+      "url": "http://www.spies.dk/de-kanariske-oer/puerto-rico/altamar",
+      "concept": {
+        "id": "familyGarden",
+        "title": "Family Garden"
+      },
+      "images": [
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_1_13.jpg?v=17",
+          "description": "",
+          "width": 696,
+          "height": 307
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_2_30.jpg?v=47",
+          "description": "Fra Altamar har du en fantastisk udsigt over Atlanterhavet",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_3_15.jpg?v=17",
+          "description": "",
+          "width": 232,
+          "height": 131
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_4_14.jpg?v=17",
+          "description": "",
+          "width": 380,
+          "height": 215
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_5_32.jpg?v=17",
+          "description": "",
+          "width": 170,
+          "height": 113
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_6_16.jpg?v=17",
+          "description": "",
+          "width": 210,
+          "height": 118
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_7_20.jpg?v=17",
+          "description": "",
+          "width": 136,
+          "height": 77
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_8_17.jpg?v=17",
+          "description": "",
+          "width": 210,
+          "height": 196
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_10_51.jpg?v=22",
+          "description": "Fra Altamar har du en fantastisk udsigt over Atlanterhavet",
+          "width": 975,
+          "height": 350
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_9_46.jpg?v=13",
+          "description": "",
+          "width": 209,
+          "height": 117
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1150_2_30.jpg?v=22",
+          "description": "2-værelses Club Room-lejlighed med stor balkon",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1154_2_30.jpg?v=22",
+          "description": "2-værelses Club Room-lejlighed med stor balkon",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1164_2_30.jpg?v=1",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1105_2_30.jpg?v=47",
+          "description": "1-værelses Simon Spies-suite til 2-3 personer",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1107_2_30.jpg?v=47",
+          "description": "1-værelses Simon Spies-suite til 2-3 personer",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1110_2_29.jpg?v=29",
+          "description": "1-værelses Simon Spies-suite til 2-3 personer",
+          "width": 631,
+          "height": 960
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1081_2_30.jpg?v=47",
+          "description": "Legeplads til børnene",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1136_2_29.jpg?v=29",
+          "description": "På Family Garden Altamar trives alle børn",
+          "width": 631,
+          "height": 960
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1122_2_29.jpg?v=29",
+          "description": "Carlos - en af de populære tjenere i restauranten",
+          "width": 631,
+          "height": 960
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1052_2_29.jpg?v=29",
+          "description": "",
+          "width": 631,
+          "height": 960
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1119_2_30.jpg?v=47",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1160_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1132_2_29.jpg?v=29",
+          "description": "",
+          "width": 631,
+          "height": 960
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1091_2_30.jpg?v=47",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1089_2_30.jpg?v=47",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1087_2_30.jpg?v=47",
+          "description": "2-værelses Club Room-lejlighed oven for poolområdet, type C",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1163_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1127_2_30.jpg?v=47",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1156_2_30.jpg?v=16",
+          "description": "2-værelses Club Room med stor balkon (A22CLB)",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1157_2_30.jpg?v=16",
+          "description": "2-værelses Club Room med stor balkon (A22CLB)",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1137_2_30.jpg?v=47",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1142_2_30.jpg?v=47",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1162_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1134_2_29.jpg?v=29",
+          "description": "",
+          "width": 631,
+          "height": 960
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1158_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1159_2_29.jpg?v=10",
+          "description": "",
+          "width": 631,
+          "height": 960
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1126_2_30.jpg?v=47",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1085_2_30.jpg?v=47",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1092_2_30.jpg?v=47",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA9997_2_30.jpg?v=29",
+          "description": "Oversigt over lejlighedernes placering på hotelområdet",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1144_2_29.jpg?v=29",
+          "description": "Theodoro - hotellets direktør",
+          "width": 631,
+          "height": 960
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1146_2_29.jpg?v=29",
+          "description": "José - receptionschef",
+          "width": 631,
+          "height": 960
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA1161_2_30.jpg?v=16",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "http://images1.spies.dk/images/Hotel/LPAALTA9998_2_30.jpg?v=2",
+          "description": "",
+          "width": 1280,
+          "height": 853
+        }
+      ],
+      "facts": [
+        {
+          "id": "OutdoorPool",
+          "name": "Pool",
+          "value": "2 stk."
+        },
+        {
+          "id": "DistanceToBeach",
+          "name": "Nærmeste strand",
+          "value": "1,5 km"
+        },
+        {
+          "id": "DistanceToCenter",
+          "name": "Nærmeste centrum",
+          "value": "500 m"
+        },
+        {
+          "id": "Bar",
+          "name": "Bar",
+          "value": "Ja"
+        },
+        {
+          "id": "ChildrenPool",
+          "name": "Børnepool",
+          "value": "Ja"
+        },
+        {
+          "id": "Elevator",
+          "name": "Elevator",
+          "value": "(kabelelevatorer som til tider kan være forstyrrende)"
+        },
+        {
+          "id": "PoolBar",
+          "name": "Poolbar",
+          "value": "Ja"
+        },
+        {
+          "id": 130,
+          "name": "Restaurant",
+          "value": "1"
+        },
+        {
+          "id": "MiniMarket",
+          "name": "Minimarked",
+          "value": "Ja"
+        },
+        {
+          "id": "CleaningDaysPerWeek",
+          "name": "Rengøring (antal dage pr. uge)",
+          "value": "5"
+        },
+        {
+          "id": "Internet",
+          "name": "Internet",
+          "value": "Mod betaling"
+        },
+        {
+          "id": "WaterSlide",
+          "name": "Vandrutsjebane",
+          "value": "Nej"
+        },
+        {
+          "id": "LolloAndBernie",
+          "name": "Lollo och Bernie",
+          "value": false
+        },
+        {
+          "id": "IsAdultHotel",
+          "name": "Adult hotel",
+          "value": false
+        },
+        {
+          "id": "AllInclusive",
+          "name": "All Inclusive",
+          "value": false
+        }
+      ],
+      "hotelProduct": {
+        "id": 43,
+        "key": "FamilyGarden"
+      },
+      "interestProducts": [
+        {
+          "id": 61,
+          "key": "AllTypesOfInclusive"
+        },
+        {
+          "id": 85,
+          "key": "AllChildrensClub"
+        }
+      ],
+      "importUpdateId": "2016-03-15T10:25:06.315Z"
+    }
+  ],
+  "totalHits": 1,
+  "next": "http://partnerapi.thomascook.se/v2/nextResult/cXVlcnlUaGVuRmV0Y2g7NTs1ODI5NDc2OllBMzZFNUhUVERhcXhnN3o4QXRCNVE7NTgyOTQ3ODpZQTM2RTVIVFREYXF4Zzd6OEF0QjVROzU4Mjk0Nzc6WUEzNkU1SFRURGFxeGc3ejhBdEI1UTs1NDQ0NzA4OnVNUVMzQnJVVGI2NU1WMXVkNVlvT3c7NTgyOTQ3OTpZQTM2RTVIVFREYXF4Zzd6OEF0QjVROzA7"
+}

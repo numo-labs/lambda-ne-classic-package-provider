@@ -34,4 +34,4 @@ node_modules
 .DS_Store
 
 # Should we put the sample results from NE API on GitHub...?
-sample_results
+sample_results/*.json
