@@ -35,3 +35,6 @@ node_modules
 
 # Should we put the sample results from NE API on GitHub...?
 sample_results/*.json
+test/sample_results/NE_hotels_without_trips.json
+test/sample_results/NE_trips_with_hotels.json
+test/sample_results/NE_trips_without_hotels.json
