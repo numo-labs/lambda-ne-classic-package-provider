@@ -20,9 +20,22 @@ exports.handler = function (event, context) {
   delete params.bucketId;         // don't send bucketId to api
   api_request(params, function (err, response) {
     console.log(err, response.result[0]);
+    var hotelIds = response.result.map(function (item) {
+      return item.wvHotelPartId;
+    }).join(',');
+
+    var hotel_params = {
+      path: 'hotels',
+      stage: params.stage,
+      hotelIds: hotelIds
+    };
+    console.log(hotel_params);
+    // api_request(hotel_params, function(err, hotel_response){
+    //   console.log(err, hotel_response.result[0]);
+    context.succeed(response.totalHits);
+    // });
     // if(err) {
     //   context.fail()
     // }
-    context.succeed(response.totalHits);
   });
 };
