@@ -548,9 +548,9 @@ e.g: `"wvHotelPartId": 10861`
 
 ## Todo:
 
-We have not yet setup the IAM role to ensure the API is *only* accessible by a
+We have setup an **IAM role** to ensure the API is *only* accessible by a
 subset of users/lambdas, this is a security enhancement we will need
-to apply *before* rolling out.
+to apply to the "Outbound" API Gateway *before* rolling out.
 
 > see: https://tc-jira.atlassian.net/browse/ISEARCH-208
 

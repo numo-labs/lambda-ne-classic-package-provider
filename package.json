@@ -9,7 +9,7 @@
     "deploy": "node ./node_modules/dpl/dpl.js",
     "nocov": "node ./node_modules/.bin/mocha test/api_request.test.js",
     "semistandard": "semistandard --verbose | snazzy",
-    "api":"./node_modules/.bin/mocha test/api_request.test.js",
+    "api": "./node_modules/.bin/mocha test/api_request.test.js",
     "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test/ --report lcov -- -R spec",
     "check-coverage": "npm run coverage && node_modules/.bin/istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100"
   },
@@ -30,7 +30,8 @@
   "homepage": "https://github.com/numo-labs/lambda-ne-classic-package-provider#readme",
   "dependencies": {
     "aws-lambda-helper": "^2.3.0",
-    "lodash.result": "^4.2.0"
+    "lodash.result": "^4.2.0",
+    "lodash.uniq": "^4.2.0"
   },
   "devDependencies": {
     "aws-lambda-test-utils": "^1.0.2",
