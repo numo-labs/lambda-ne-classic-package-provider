@@ -9,7 +9,7 @@ var CONTEXT = {
 
 var SNS_MESSAGE = {
   'bucketId': '12345',
-  'hotelIds': '139891,10002,99281',
+  // 'hotelIds': '139891,10002,99281',
   'adults': '2',
   'children': '1'
 };

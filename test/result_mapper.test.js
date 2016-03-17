@@ -59,7 +59,7 @@ describe('Get Currency Code from Market ID', function () {
 });
 
 describe('Map results and hotels', function () {
-  it('map_ne_result_to_graphql map entire NE API result to GraphQL', function (done) {
+  it('map_ne_result_to_graphql maps entire NE API result to GraphQL', function (done) {
     // console.log(sample_packages_result);
     var result = mapper.map_ne_result_to_graphql(sample_packages_result.result, sample_hotels_result);
     var expected_keys = [ 'id', 'name', 'images', 'starRating', 'place', 'flights', 'price', 'provider', 'nights' ];

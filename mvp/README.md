@@ -1,9 +1,9 @@
-## Building the *Scateboard*
+## Building the *Skateboard* Hotel Candidate List
 
 ![mvp-skateboard-car](https://cloud.githubusercontent.com/assets/194400/13809689/d6864572-eb63-11e5-8ab1-1264beb6e322.png)
 
 Until we have a Lambda-based Tagging System where we can lookup a *list*
-of "*Candiate*" hotels for a given region, we need to construct the list
+of "*Candiate*" hotels for a given region/geo, we need to construct the list
 *manually* that we can use to request a list of packages from the `/trips` API.
 
 API Gateway does not allow us to *dynamically* specify the *range*
