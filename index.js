@@ -20,7 +20,7 @@ exports.handler = function (event, context) {
     console.log('Unique Packages:', results.length);
     // var batches = Math.ceil(results / 30); // 30 is the NE /hotels API limit
 
-    var packages = results.splice(0, 29); // TODO: implement batching
+    var packages = results.splice(0, 30); // TODO: implement batching
 
     var hotel_params = {
       path: 'hotels',
@@ -31,9 +31,10 @@ exports.handler = function (event, context) {
     api_request(hotel_params, function (err, hotel_response) {
       console.log(err, hotel_response.result.length);
       console.log('HOTEL Count:', hotel_params.hotelIds.split(',').length);
-      console.log('Packages Count:', response.totalHits);
+      console.log('Packages Count:', packages.length);
 
-      var records = mapper.map_ne_result_to_graphql(results, hotel_response);
+      var records = mapper.map_ne_result_to_graphql(packages, hotel_response);
+      console.log(records);
       console.log('records count:', records.length);
       fs.writeFileSync(__dirname + '/test/sample_results/results.json', JSON.stringify(records, null, 2));
       context.succeed(response.totalHits);
