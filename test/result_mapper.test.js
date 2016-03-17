@@ -67,3 +67,15 @@ describe('Map results and hotels', function () {
     done();
   });
 });
+
+var sample_packages_without_hotels = dir + 'NE_trips_without_hotels.json';
+var sample_packages_result_without = JSON.parse(fs.readFileSync(sample_packages_without_hotels, 'utf8'));
+
+describe('Simulate Failure Where a hotels API does not return hotel detail', function () {
+  it('map_ne_result_to_graphql returns early when no hotel details found', function (done) {
+    var result = mapper.map_ne_result_to_graphql(sample_packages_result_without.result, sample_hotels_result);
+    // console.log(result);
+    assert.equal(result.length, 0);
+    done();
+  });
+});
