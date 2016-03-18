@@ -61,7 +61,7 @@ describe('Get Currency Code from Market ID', function () {
 describe('Map results and hotels', function () {
   it('map_ne_result_to_graphql maps entire NE API result to GraphQL', function (done) {
     // console.log(sample_packages_result);
-    var result = mapper.map_ne_result_to_graphql(sample_packages_result.result, sample_hotels_result);
+    var result = mapper.map_ne_result_to_graphql(sample_packages_result.result, sample_hotels_result.result);
     var expected_keys = [ 'id', 'name', 'images', 'starRating', 'place', 'flights', 'price', 'provider', 'nights' ];
     assert.deepEqual(Object.keys(result[0].packageOffer.hotel), expected_keys);
     done();
@@ -73,7 +73,7 @@ var sample_packages_result_without = JSON.parse(fs.readFileSync(sample_packages_
 
 describe('Simulate Failure Where a hotels API does not return hotel detail', function () {
   it('map_ne_result_to_graphql returns early when no hotel details found', function (done) {
-    var result = mapper.map_ne_result_to_graphql(sample_packages_result_without.result, sample_hotels_result);
+    var result = mapper.map_ne_result_to_graphql(sample_packages_result_without.result, sample_hotels_result.result);
     // console.log(result);
     assert.equal(result.length, 0);
     done();
