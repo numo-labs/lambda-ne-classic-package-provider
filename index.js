@@ -3,19 +3,24 @@ var api_request = require('./lib/api_request');
 var unique_packages = require('./lib/unique_packages');
 var mapper = require('./lib/result_mapper');
 var batch_insert = require('./lib/dynamo_insert');
-// var fs = require('fs');
 
+/**
+ * handler receives an SNS message with search parameters and makes requests
+ * to the ThomasCook Nordics "Classsic" Packages API. Once we get results
+ * they are converted into the format required by GraphQL and inserted into
+ * DynamoDB for retrieval by by the lambda-dynamo-search-result-retriever
+ */
 exports.handler = function (event, context) {
   AwsHelper.init(context); // used to extract the version (ci/prod) from Arn
-  // console.log('Received event:', JSON.stringify(event, null, 2));
+  console.log('Received event:', JSON.stringify(event, null, 2)); // debug SNS
   var params = JSON.parse(event.Records[0].Sns.Message); // bucketId & search terms
-  params.stage = AwsHelper.version;
-  console.log(' ');
+  params.stage = AwsHelper.version; // get environment e.g: ci or prod
   console.log('- - - - -  >SNS Search Terms:', params);
   var bucketId = params.bucketId; // we need the bucketId to insert the results
   delete params.bucketId;         // don't send bucketId to NE api
   api_request(params, function (err, response) { // get packages from NE API
     console.log(err, 'Package Results:', response.result.length);
+
     var results = unique_packages(response.result); // one package per hotel
     var packages = results.splice(0, 30); // limit to the first 30 results
 
@@ -30,8 +35,9 @@ exports.handler = function (event, context) {
       var records = mapper.map_ne_result_to_graphql(packages, hotel_response.result);
       batch_insert(AwsHelper.version, bucketId, records, function (err, data) {
         console.log(err, 'Records inserted:', data.join(','));
-        // write results to disk for debug.
-        // fs.writeFileSync(__dirname + '/test/sample_results/results.json', JSON.stringify(records, null, 2));
+        // during dev we write results to disk for debug - remove these lines in prod.
+        // require('fs').writeFileSync(__dirname + '/test/sample_results/results.json',
+        //   JSON.stringify(records, null, 2));
         context.succeed(response.totalHits);
       });
     });
