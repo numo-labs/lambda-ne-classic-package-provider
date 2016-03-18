@@ -48,7 +48,7 @@ describe('api_request', function () {
   it('GET NE hotels (fetch additional info)', function (done) {
     var params = {
       path: 'hotels',
-      stage: 'ci', // there is no 'prod' API Gateway endpoint for now.
+      stage: '$LATEST', // there is no 'prod' API Gateway endpoint for now.
       hotelIds: '139891,10002,99281',
       adults: 2,
       allInclusive: 'true', // yes these values are strings not boolean!

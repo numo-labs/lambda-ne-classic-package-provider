@@ -9,7 +9,6 @@ var CONTEXT = {
 
 var SNS_MESSAGE = {
   'bucketId': '12345',
-  // 'hotelIds': '139891,10002,99281',
   'adults': '2',
   'children': '3'
 };
@@ -23,6 +22,9 @@ var EVENT = {
     }
   ]
 };
+console.log(' - - - - - - - - - - - - - - - - - - - - TEST SNS MESSAGE:');
+console.log(JSON.stringify(EVENT, null, 2));
+console.log(' - - - - - - - - - - - - - - - - - - - - - - - - - - - - -');
 
 describe('Search request handler', function () {
   it('invoke the lambda function handler', function (done) {
