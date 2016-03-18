@@ -14,7 +14,8 @@ exports.handler = function (event, context) {
   AwsHelper.init(context); // used to extract the version (ci/prod) from Arn
   console.log('Received event:', JSON.stringify(event, null, 2)); // debug SNS
   var params = JSON.parse(event.Records[0].Sns.Message); // bucketId & search terms
-  params.stage = AwsHelper.version; // get environment e.g: ci or prod
+  var stage = AwsHelper.version; // get environment e.g: ci or prod
+  params.stage = stage = (stage === '$LATEST' || !stage) ? 'ci' : stage;
   console.log('- - - - -  >SNS Search Terms:', params);
   var bucketId = params.bucketId; // we need the bucketId to insert the results
   delete params.bucketId;         // don't send bucketId to NE api
@@ -33,7 +34,7 @@ exports.handler = function (event, context) {
     api_request(hotel_params, function (err, hotel_response) { // get hotel info
       console.log(err, 'Hotel Results:', hotel_response.result.length);
       var records = mapper.map_ne_result_to_graphql(packages, hotel_response.result);
-      batch_insert(AwsHelper.version, bucketId, records, function (err, data) {
+      batch_insert(stage, bucketId, records, function (err, data) {
         console.log(err, 'Records inserted:', data.join(','));
         // during dev we write results to disk for debug - remove these lines in prod.
         // require('fs').writeFileSync(__dirname + '/test/sample_results/results.json',
