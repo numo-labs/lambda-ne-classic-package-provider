@@ -2,7 +2,7 @@ var AwsHelper = require('aws-lambda-helper');
 var api_request = require('./lib/api_request');
 var unique_packages = require('./lib/unique_packages');
 var mapper = require('./lib/result_mapper');
-// var batch_insert = require('./lib/dynamo_insert');
+var batch_insert = require('./lib/dynamo_insert');
 
 /**
  * handler receives an SNS message with search parameters and makes requests
@@ -17,7 +17,7 @@ exports.handler = function (event, context) {
   var stage = AwsHelper.version; // get environment e.g: ci or prod
   params.stage = stage = (stage === '$LATEST' || !stage) ? 'ci' : stage;
   console.log('- - - - -  >SNS Search Terms:', params);
-  // var bucketId = params.bucketId; // we need the bucketId to insert the results
+  var bucketId = params.bucketId; // we need the bucketId to insert the results
   delete params.bucketId;         // don't send bucketId to NE api
   api_request(params, function (err, response) { // get packages from NE API
     console.log(err, 'Package Results:', response.result.length);
@@ -34,13 +34,13 @@ exports.handler = function (event, context) {
     api_request(hotel_params, function (err, hotel_response) { // get hotel info
       console.log(err, 'Hotel Results:', hotel_response.result.length);
       var records = mapper.map_ne_result_to_graphql(packages, hotel_response.result);
-      // batch_insert(stage, bucketId, records, function (err, data) {
-      console.log(err, 'Records inserted:', records.length);
-        // during dev we write results to disk for debug - remove these lines in prod.
-        // require('fs').writeFileSync(__dirname + '/test/sample_results/results.json',
-        //   JSON.stringify(records, null, 2));
-      context.succeed(records.length);
-      // });
+      batch_insert(stage, bucketId, records, function (err, data) {
+        console.log(err, 'Records inserted:', records.length);
+          // during dev we write results to disk for debug - remove these lines in prod.
+          // require('fs').writeFileSync(__dirname + '/test/sample_results/results.json',
+          //   JSON.stringify(records, null, 2));
+        context.succeed(records.length);
+      });
     });
   });
 };
