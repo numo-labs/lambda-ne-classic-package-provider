@@ -5,35 +5,46 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "semistandard && npm run coverage",
+    "test": "semistandard && npm run api && npm run coverage",
     "deploy": "node ./node_modules/dpl/dpl.js",
-    "nocov": "node ./node_modules/.bin/mocha test/index.test.js",
-    "semistandard": "semistandard",
-    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test/index.test.js --report lcovonly -- -R spec",
+    "nocov": "node ./node_modules/.bin/mocha test/api_request.test.js",
+    "semistandard": "semistandard --verbose | snazzy",
+    "api": "./node_modules/.bin/mocha test/api_request.test.js",
+    "main": "./node_modules/.bin/mocha test/index.test.js",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test/ --report lcov -- -R spec",
     "check-coverage": "npm run coverage && node_modules/.bin/istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100"
   },
+  "files_to_deploy": [
+    "package.json",
+    "index.js",
+    "/lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/numo-labs/lambda-ne-classic-package-provider.git"
   },
-  "author": "Jack Carlisle",
+  "author": "Jack Carlisle & Friends :-)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/numo-labs/lambda-ne-classic-package-provider/issues"
   },
   "homepage": "https://github.com/numo-labs/lambda-ne-classic-package-provider#readme",
   "dependencies": {
-    "aws-lambda-helper": "^2.0.0"
+    "aws-lambda-helper": "^2.3.0",
+    "aws-sdk": "^2.2.41",
+    "dynamodb-doc": "^1.0.0",
+    "lodash.result": "^4.2.0",
+    "node-uuid": "^1.4.7"
   },
   "devDependencies": {
     "aws-lambda-test-utils": "^1.0.2",
     "aws-sdk-mock": "^1.0.9",
-    "code": "^2.1.0",
-    "dpl": "^1.0.7",
+    "dpl": "1.0.6",
     "istanbul": "^0.4.2",
     "mocha": "^2.4.5",
     "pre-commit": "^1.1.2",
-    "semistandard": "^7.0.5"
+    "semistandard": "^7.0.5",
+    "snazzy": "^3.0.0"
   },
   "semistandard": {
     "globals": [
