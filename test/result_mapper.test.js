@@ -62,7 +62,7 @@ describe('Map results and hotels', function () {
   it('map_ne_result_to_graphql maps entire NE API result to GraphQL', function (done) {
     // console.log(sample_packages_result);
     var result = mapper.map_ne_result_to_graphql(sample_packages_result.result, sample_hotels_result.result);
-    var expected_keys = [ 'id', 'name', 'images', 'starRating', 'place', 'flights', 'price', 'provider', 'nights' ];
+    var expected_keys = ['id', 'name', 'images', 'starRating', 'place'];
     assert.deepEqual(Object.keys(result[0].packageOffer.hotel), expected_keys);
     done();
   });
