@@ -11,7 +11,7 @@ var EVENT = {
   'Records': [
     {
       'Sns': {
-        'Message': '{\"data\":{\"context\":{\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"12345\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"},{\"birthday\":\"2012-07-14\"},{\"birthday\":\"2015-07-14\"}]}},\"id\":\"bd3c5c00-efa5-11e5-9ef8-c535434e66f5\"}'
+        'Message': '{\"data\":{\"context\":{\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"12345\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"},{\"birthday\":\"2012-07-14\"},{\"birthday\":\"2015-07-14\"}]}},\"id\":\"12345\"}'
       }
     }
   ]
