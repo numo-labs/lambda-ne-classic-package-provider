@@ -3,7 +3,7 @@ var api_request = require('./lib/api_request');
 var unique_packages = require('./lib/unique_packages');
 var mapper = require('./lib/result_mapper');
 var batch_insert = require('./lib/dynamo_insert');
-
+var parse_sns = require('./lib/parse_sns');
 /**
  * handler receives an SNS message with search parameters and makes requests
  * to the ThomasCook Nordics "Classsic" Packages API. Once we get results
@@ -13,16 +13,17 @@ var batch_insert = require('./lib/dynamo_insert');
 exports.handler = function (event, context) {
   AwsHelper.init(context); // used to extract the version (ci/prod) from Arn
   console.log('Received event:', JSON.stringify(event, null, 2)); // debug SNS
-  var params = JSON.parse(event.Records[0].Sns.Message); // bucketId & search terms
+  var params = parse_sns(event.Records[0].Sns.Message);
   var stage = AwsHelper.version; // get environment e.g: ci or prod
   params.stage = stage = (stage === '$LATEST' || !stage) ? 'ci' : stage;
-  console.log('- - - - -  >SNS Search Terms:', params);
   var bucketId = params.bucketId; // we need the bucketId to insert the results
   delete params.bucketId;         // don't send bucketId to NE api
   api_request(params, function (err, response) { // get packages from NE API
     console.log(err, 'Package Results:', response.result.length);
 
     var results = unique_packages(response.result); // one package per hotel
+    console.log('Number of unique_packages: ' + results.length);
+
     var packages = results.splice(0, 30); // limit to the first 30 results
 
     var hotel_params = {
