@@ -7,17 +7,11 @@ var CONTEXT = {
   invokedFunctionArn: 'arn:aws:lambda:eu-west-1:655240711487:function:LambdaTest:$LATEST'
 };
 
-var SNS_MESSAGE = {
-  'bucketId': '12345',
-  'adults': '2',
-  'children': '3'
-};
-
 var EVENT = {
   'Records': [
     {
       'Sns': {
-        'Message': JSON.stringify(SNS_MESSAGE)
+        'Message': '{\"data\":{\"context\":{\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"12345\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"},{\"birthday\":\"2012-07-14\"},{\"birthday\":\"2015-07-14\"}]}},\"id\":\"bd3c5c00-efa5-11e5-9ef8-c535434e66f5\"}'
       }
     }
   ]
