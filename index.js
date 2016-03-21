@@ -16,8 +16,8 @@ exports.handler = function (event, context) {
   var params = parse_sns(event.Records[0].Sns.Message);
   var stage = AwsHelper.version; // get environment e.g: ci or prod
   params.stage = stage = (stage === '$LATEST' || !stage) ? 'ci' : stage;
-  var bucketId = params.bucketId; // we need the bucketId to insert the results
-  delete params.bucketId;         // don't send bucketId to NE api
+  var bucketId = params.id; // we need the bucketId to insert the results
+  delete params.id;         // don't send bucketId to NE api
   api_request(params, function (err, response) { // get packages from NE API
     console.log(err, 'Package Results:', response.result.length);
 
