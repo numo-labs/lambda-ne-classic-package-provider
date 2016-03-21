@@ -10,7 +10,13 @@ describe('parse_sns', function () {
   it('get number of children & adults from passengers array', function (done) {
     var params = parse_sns(sns.Message);
     assert.ok(params.adults === 2, 'Two Adults');
+    // console.log(params);
+    done();
+  });
+  it('extracts the bucketId from the SNS message', function (done) {
+    var params = parse_sns(sns.Message);
     console.log(params);
+    assert.ok(params.id === 'bd3c5c00-efa5-11e5-9ef8-c535434e66f5', 'Id extracted');
     done();
   });
 });
