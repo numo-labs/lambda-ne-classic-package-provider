@@ -22,10 +22,10 @@ exports.handler = function (event, context) {
     console.log(err, 'Package Results:', response.result.length);
 
     var results = unique_packages(response.result); // one package per hotel
-    console.log('Number of unique_packages: ' + results.length);
+    console.log('Number of unique packages: ' + results.length);
 
     var packages = results.splice(0, 30); // limit to the first 30 results
-    console.log(results.map(function (i) { return i.wvHotelPartId; }).join(','));
+    // console.log(results.map(function (i) { return i.wvHotelPartId; }).join(','));
     var hotel_params = {
       path: 'hotels',
       stage: params.stage, // always need the stage (environment e.g: ci/prod)
@@ -36,7 +36,7 @@ exports.handler = function (event, context) {
       console.log(err, 'Hotel Results:', hotel_response.result.length);
       var records = mapper.map_ne_result_to_graphql(packages, hotel_response.result);
       batch_insert(stage, bucketId, records, function (err, data) {
-        console.log(err, 'Records inserted:', records.length);
+        console.log(err, 'Records inserted into DynamoDB:', records.length);
           // during dev we write results to disk for debug - remove these lines in prod.
           // require('fs').writeFileSync(__dirname + '/test/sample_results/results.json',
           //   JSON.stringify(records, null, 2));
