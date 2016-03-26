@@ -25,7 +25,7 @@ exports.handler = function (event, context) {
     console.log('Number of unique_packages: ' + results.length);
 
     var packages = results.splice(0, 30); // limit to the first 30 results
-
+    console.log(results.map(function (i) { return i.wvHotelPartId; }).join(','));
     var hotel_params = {
       path: 'hotels',
       stage: params.stage, // always need the stage (environment e.g: ci/prod)
