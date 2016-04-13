@@ -21,7 +21,7 @@ coverage
 .lock-wscript
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Releasex§
+build/Release
 
 # Dependency directory
 node_modules
@@ -34,10 +34,8 @@ node_modules
 .DS_Store
 
 # Should we put the sample results from NE API on GitHub...? (1k results is 80k lines ...)
-sample_results/*.json
 test/sample_results/NE_hotels_without_trips.json
 test/sample_results/NE_trips_with_hotels.json
 test/sample_results/NE_trips_without_hotels.json
 test/sample_results/1000_NE_hotels.json
 test/sample_results/all_hotels.json
-mvp/hotels
