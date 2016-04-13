@@ -2,9 +2,10 @@ var parse_sns = require('../lib/parse_sns');
 var assert = require('assert');
 
 // yes this is how the SNS message arrives ...
-var sns = {'Message': '{\"data\":{\"context\":{\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"12345\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"},{\"birthday\":\"2015-07-14\"}]}},\"id\":\"bd3c5c00-efa5-11e5-9ef8-c535434e66f5\"}'};
+var sns = {'Message': '{\"data\":{\"context\":{\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"12345\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"},{\"birthday\":\"2015-07-14\"}],\"hotels\":[\"hotel:NE.wvHotelPartId.197915\",\"hotel:NE.wvHotelPartId.197941\"]}},\"id\":\"bd3c5c00-efa5-11e5-9ef8-c535434e66f5\"}'};
+console.log(JSON.parse(sns.Message));
 // var sns = JSON.parse(JSON.parse(sns.Message).default);
-// console.log(JSON.stringify(sns, null, 2));
+console.log(JSON.stringify(sns, null, 2));
 
 describe('parse_sns', function () {
   it('get number of children & adults from passengers array', function (done) {
