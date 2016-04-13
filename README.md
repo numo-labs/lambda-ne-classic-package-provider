@@ -299,6 +299,14 @@ e.g: `"wvHotelPartId": 10861`
     {
       "id": 85,
       "key": "AllChildrensClub"
+    },
+    {
+      "id": 77,
+      "key": "FreeWiFi"
+    },
+    {
+      "id": 79,
+      "key": "WiFiAllOverHotel"
     }
   ],
   "importUpdateId": "2016-03-15T10:25:06.315Z"

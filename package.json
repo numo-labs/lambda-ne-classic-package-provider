@@ -4,8 +4,9 @@
   "description": "AWS lambda-ne-classic-package-provider",
   "main": "index.js",
   "scripts": {
+    "fixtures":"node test/_create_all_hotels_fixture.js",
     "start": "node index.js",
-    "test": "semistandard && npm run api && npm run coverage",
+    "test": "semistandard && npm run fixtures && npm run api && npm run coverage",
     "deploy": "node ./node_modules/dpl/dpl.js",
     "nocov": "node ./node_modules/.bin/mocha test/api_request.test.js",
     "semistandard": "semistandard --verbose | snazzy",
