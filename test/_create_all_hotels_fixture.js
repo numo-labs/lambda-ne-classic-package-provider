@@ -17,12 +17,6 @@ function api_request (path, callback) {
   http_request(options, callback);
 }
 
-// see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
-function sort_by_guest_rating_decending (a, b) {
-  return (a.rating.guestRating < b.rating.guestRating)
-  ? 1 : ((b.rating.guestRating < a.rating.guestRating) ? -1 : 0);
-}
-
 var base = '/sd/hotels/';
 // the first digit in the path is "Skip" and the second is "Take"
 // so 31/30 means skip the first 31 results and take the next 30
@@ -34,18 +28,19 @@ var all_hotels = []; // ALL the hotels are temporarily stored in this array
 range.forEach(function (batch) { // parallel requests
   api_request(base + batch, function (err, res) {
     assert(!err);
-    res.Result.sort(sort_by_guest_rating_decending).forEach(function (item) {
+    res.Result.forEach(function (item) {
       all_hotels.push(item);
     });
 
-    console.log('Count:', all_hotels.length);
+    // console.log('Count:', all_hotels.length);
     if (--count === 0) { // once all requests are done
-
       var all_hotels_file = sample_results + 'all_hotels.json'; // ALL The Hotels!
       fs.writeFileSync(all_hotels_file, JSON.stringify(all_hotels, null, 2));
 
       var end = Date.now();
-      console.log('done. results:', all_hotels.length);
+
+      console.log('Hotel results:', all_hotels.length);
+      console.log('Fixture created:', all_hotels_file);
       console.log('Time taken: ' + (end - start) + ' ms');
     }
   });
