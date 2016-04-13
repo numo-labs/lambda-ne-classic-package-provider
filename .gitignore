@@ -21,7 +21,7 @@ coverage
 .lock-wscript
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
+build/Releasex§
 
 # Dependency directory
 node_modules
@@ -39,4 +39,5 @@ test/sample_results/NE_hotels_without_trips.json
 test/sample_results/NE_trips_with_hotels.json
 test/sample_results/NE_trips_without_hotels.json
 test/sample_results/1000_NE_hotels.json
+test/sample_results/all_hotels.json
 mvp/hotels
