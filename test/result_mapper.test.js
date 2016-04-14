@@ -73,10 +73,19 @@ var sample_packages_result_without = require(sample_packages_without_hotels);
 
 describe('Simulate Failure Where a hotels API does not return hotel detail', function () {
   it('map_ne_result_to_graphql returns early when no hotel details found', function (done) {
-    var one_hotel = sample_hotels_result.result.slice(0,1); // ensures hotel is not found
+    var one_hotel = sample_hotels_result.result.slice(0, 1); // simulate mapping failure
     var result = mapper.map_ne_result_to_graphql(sample_packages_result_without.result, one_hotel);
     // console.log(result);
     assert.equal(result.length, 0);
+    done();
+  });
+});
+
+describe('Use NE Product SKU as provider.reference', function () {
+  it('SKU is made from destinationCode + hotelCode', function (done) {
+    var result = mapper.map_ne_result_to_graphql(sample_packages_result.result, sample_hotels_result.result);
+    // console.log(result[0].packageOffer.provider);
+    assert.equal(result[0].packageOffer.provider.reference, 'LPAGLOR');
     done();
   });
 });
