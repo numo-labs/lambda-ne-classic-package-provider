@@ -1,0 +1,435 @@
+{
+  "packageOffer": {
+    "priorityCode": 63,
+    "hotel": {
+      "name": "Viva Bahia",
+      "images": [
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1204_1_13.jpg?v=3"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1204_10_51.jpg?v=3"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1204_2_30.jpg?v=19"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1204_3_15.jpg?v=3"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1204_4_14.jpg?v=3"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1204_5_32.jpg?v=3"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1204_6_16.jpg?v=3"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1204_7_20.jpg?v=3"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1204_8_17.jpg?v=3"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1204_9_46.jpg?v=3"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1152_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1152_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1167_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1167_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1197_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1197_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1186_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1186_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1181_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1181_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1147_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1147_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1154_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1154_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI9999_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI9999_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1153_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1153_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1124_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1124_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1155_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1155_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1202_2_30.jpg?v=19"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1200_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1200_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1174_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1174_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1178_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1178_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1120_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1120_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1121_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1121_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1134_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1134_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1138_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1138_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1151_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1151_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1173_2_29.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1173_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1191_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1191_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1189_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1189_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1201_2_30.jpg?v=25"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1201_5_32.jpg?v=8"
+        },
+        {
+          "type": "image/jpeg",
+          "displaySequence": null,
+          "primary": null,
+          "uri": "http://images1.spies.dk/images/Hotel/PMIBAHI1206_2_30.jpg?v=2"
+        }
+      ],
+      "starRating": 4.5,
+      "place": {
+        "name": "Alcudia",
+        "country": "Spanien",
+        "region": "Mallorca"
+      }
+    },
+    "flights": {
+      "outbound": [
+        {
+          "number": "na",
+          "departure": {
+            "localDateTime": "2016-05-17T07:10:00",
+            "airport": {
+              "code": "BLL",
+              "name": "Billund"
+            }
+          },
+          "arrival": {
+            "localDateTime": "2016-05-17T10:10:00",
+            "airport": {
+              "code": "PMI"
+            }
+          },
+          "carrier": {
+            "code": "DK"
+          }
+        }
+      ],
+      "inbound": [
+        {
+          "number": "na",
+          "departure": {
+            "localDateTime": "2016-05-24T20:20:00",
+            "airport": {
+              "code": "PMI",
+              "name": "Mallorca"
+            }
+          },
+          "arrival": {
+            "localDateTime": "2016-05-24T23:15:00",
+            "airport": {
+              "code": "BLL"
+            }
+          },
+          "carrier": {
+            "code": "DK"
+          }
+        }
+      ]
+    },
+    "price": {
+      "total": 6014,
+      "perPerson": 6014,
+      "currency": "DKK"
+    },
+    "provider": {
+      "id": "lambda-searcher",
+      "reference": 62103010
+    },
+    "nights": 7,
+    "amenities": {
+      "outdoorpool": "3 stk.",
+      "distancetobeach": "0 m",
+      "distancetocenter": "500 m",
+      "bar": true,
+      "childrenpool": true,
+      "elevator": true,
+      "poolbar": true,
+      "restaurant": true,
+      "minimarket": true,
+      "cleaningdaysperweek": "5",
+      "wifi": true,
+      "waterslide": true,
+      "lolloandbernie": false,
+      "isadulthotel": false,
+      "allinclusive": false
+    }
+  }
+}

@@ -5,7 +5,7 @@ var path = require('path');
 var dir = path.resolve(__dirname + '/sample_results/') + '/';
 // Sample Hotels API Query Result Saved by the api_request.test.js
 var sample_hotels_result_filename = dir + 'NE_hotels_without_trips.json';
-var sample_hotels_result = JSON.parse(fs.readFileSync(sample_hotels_result_filename, 'utf8'));
+var sample_hotels_result = require(sample_hotels_result_filename);
 var sample_packages_result_filename = dir + 'NE_trips_with_hotels.json';
 var sample_packages_result = JSON.parse(fs.readFileSync(sample_packages_result_filename, 'utf8'));
 
@@ -69,13 +69,23 @@ describe('Map results and hotels', function () {
 });
 
 var sample_packages_without_hotels = dir + 'NE_trips_without_hotels.json';
-var sample_packages_result_without = JSON.parse(fs.readFileSync(sample_packages_without_hotels, 'utf8'));
+var sample_packages_result_without = require(sample_packages_without_hotels);
 
 describe('Simulate Failure Where a hotels API does not return hotel detail', function () {
   it('map_ne_result_to_graphql returns early when no hotel details found', function (done) {
-    var result = mapper.map_ne_result_to_graphql(sample_packages_result_without.result, sample_hotels_result.result);
+    var one_hotel = sample_hotels_result.result.slice(0, 1); // simulate mapping failure
+    var result = mapper.map_ne_result_to_graphql(sample_packages_result_without.result, one_hotel);
     // console.log(result);
     assert.equal(result.length, 0);
+    done();
+  });
+});
+
+describe('Use NE Product SKU as provider.reference', function () {
+  it('SKU is made from destinationCode + hotelCode', function (done) {
+    var result = mapper.map_ne_result_to_graphql(sample_packages_result.result, sample_hotels_result.result);
+    // console.log(result[0].packageOffer.provider);
+    assert.equal(result[0].packageOffer.provider.reference, 'LPAGLOR');
     done();
   });
 });
