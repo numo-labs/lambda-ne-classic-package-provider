@@ -313,8 +313,7 @@ e.g: `"wvHotelPartId": 10861`
 }
 ```
 
-
-## Todo:
+## *Todo*:
 
 We have setup an **IAM role** to ensure the API is *only* accessible by a
 subset of users/lambdas, this is a security enhancement we will need
@@ -322,9 +321,6 @@ to apply to the "Outbound" API Gateway *before* rolling out.
 
 > see: https://tc-jira.atlassian.net/browse/ISEARCH-208
 
-
 Read:
 + http://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-aws-proxy.html
 + http://docs.aws.amazon.com/apigateway/latest/developerguide/request-response-data-mappings.html
-
-geography:ne.{spainen-code}
