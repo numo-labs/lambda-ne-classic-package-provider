@@ -36,9 +36,7 @@ range.forEach(function (batch) { // parallel requests
     if (--count === 0) { // once all requests are done
       var all_hotels_file = sample_results + 'all_hotels.json'; // ALL The Hotels!
       fs.writeFileSync(all_hotels_file, JSON.stringify(all_hotels, null, 2));
-
       var end = Date.now();
-
       console.log('Hotel results:', all_hotels.length);
       console.log('Fixture created:', all_hotels_file);
       console.log('Time taken: ' + (end - start) + ' ms');
