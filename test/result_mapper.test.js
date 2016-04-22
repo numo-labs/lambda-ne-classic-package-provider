@@ -64,6 +64,7 @@ describe('Map results and hotels', function () {
     var result = mapper.map_ne_result_to_graphql(sample_packages_result.result, sample_hotels_result.result);
     var expected_keys = ['id', 'name', 'images', 'starRating', 'place'];
     assert.deepEqual(Object.keys(result[0].packageOffer.hotel), expected_keys);
+    // console.log(result[0].packageOffer.hotel)
     done();
   });
 });

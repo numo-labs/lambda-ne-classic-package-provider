@@ -32,7 +32,6 @@ but when we roll-out to more markets it will be 5 minutes of API Gateway setup
 other regions.
 
 
-
 ## *Sample* NE Classic API Request & Response:
 
 ### List of Trips for a 2 adults & 3 children
