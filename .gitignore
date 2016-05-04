@@ -39,3 +39,6 @@ test/sample_results/NE_trips_with_hotels.json
 test/sample_results/NE_trips_without_hotels.json
 test/sample_results/1000_NE_hotels.json
 test/sample_results/all_hotels.json
+
+# Keep .env Environment Variables Secure
+.env

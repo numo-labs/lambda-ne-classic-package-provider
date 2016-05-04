@@ -32,6 +32,21 @@ but when we roll-out to more markets it will be 5 minutes of API Gateway setup
 other regions.
 
 
+## *Required* Environment Variables
+
+To run/develop/test this Lambda *locally* you will need a few Environment Variables.
+We recommend you export these using an `.env` file containing the following keys:
+```
+export API_GATEWAY_ENDPOINT=https://tc-jira.atlassian.net/browse/ISEARCH-218
+export NE_API_KEY=https://tc-jira.atlassian.net/browse/ISEARCH-218
+export NE_API_ENDPOINT=https://tc-jira.atlassian.net/browse/ISEARCH-218
+export AWS_REGION=eu-west-1
+export AWS_IAM_ROLE=arn:aws:iam::12345678:role/lambdafull
+export AWS_ACCESS_KEY_ID=YOURKEY
+export AWS_SECRET_ACCESS_KEY=SUPERSECRET
+```
+> set the correct values ... if you get stuck *ask*!
+
 ## *Sample* NE Classic API Request & Response:
 
 ### List of Trips for a 2 adults & 3 children
@@ -312,13 +327,6 @@ e.g: `"wvHotelPartId": 10861`
 }
 ```
 
-## *Todo*:
-
-We have setup an **IAM role** to ensure the API is *only* accessible by a
-subset of users/lambdas, this is a security enhancement we will need
-to apply to the "Outbound" API Gateway *before* rolling out.
-
-> see: https://tc-jira.atlassian.net/browse/ISEARCH-208
 
 Read:
 + http://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-aws-proxy.html

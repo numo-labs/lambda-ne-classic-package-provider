@@ -1,3 +1,4 @@
+require('env2')('.env');
 var start = Date.now();
 var http_request = require('../lib/http_request');
 var fs = require('fs');
@@ -8,10 +9,10 @@ var sample_results = path.resolve(__dirname + '/sample_results/') + '/';
 function api_request (path, callback) {
   var options = {
     headers: {
-      'Authorization': '6bf31b1ba54c63c35854a1454b2f8e43'
+      'Authorization': process.env.NE_API_KEY
     },
     port: 443,
-    host: 'partnerapi.thomascook.se',
+    host: process.env.NE_API_ENDPOINT,
     path: path
   };
   http_request(options, callback);
