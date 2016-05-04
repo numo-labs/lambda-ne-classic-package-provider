@@ -17,15 +17,6 @@ Instead of directly calling the NE API endpoint, we use the following setup:
 This meant that we had to create an API Gateway endpoint to serve as the
 reverse-proxy.
 
-
-Our "*internal*" API is available on:
-+ https://gm9oumnp1h.execute-api.eu-west-1.amazonaws.com/ci/trips or
-+ https://gm9oumnp1h.execute-api.eu-west-1.amazonaws.com/ci/hotels
-
-This re-routes to:
-+ http://partnerapi.thomascook.se/sd/trips and
-+ http://partnerapi.thomascook.se/sd/hotels *respectively*
-
 at present this is pointing to the *Denmark* (`sd`) endpoint for our MVP,
 but when we roll-out to more markets it will be 5 minutes of API Gateway setup
 (*per NE region*) and roughly 20 mins to *map* the URL query parameters for
