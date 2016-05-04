@@ -11,11 +11,12 @@ var EVENT = {
   'Records': [
     {
       'Sns': {
-        'Message': '{\"data\":{\"context\":{\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"12345\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"},{\"birthday\":\"2012-07-14\"},{\"birthday\":\"2015-07-14\"}]}},\"id\":\"12345\"}'
+        'Message': '{\"data\":{\"context\":{\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"12345\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"},{\"birthday\":\"2012-07-14\"},{\"birthday\":\"2015-07-14\"}],\"hotels\":[\"hotel:NE.wvHotelPartId.186356\",\"hotel:NE.wvHotelPartId.197915\",\"hotel:NE.wvHotelPartId.197941\"]}},\"id\":\"12345\"}'
       }
     }
   ]
 };
+
 console.log(' - - - - - - - - - - - - - - - - - - - - TEST SNS MESSAGE:');
 console.log(JSON.stringify(EVENT, null, 2));
 console.log(' - - - - - - - - - - - - - - - - - - - - - - - - - - - - -');
@@ -24,7 +25,7 @@ describe('Search request handler $LATEST', function () {
   it('invoke the lambda function handler', function (done) {
     CONTEXT.succeed = function () {
       console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      // console.log(arguments); // the argument to context.succeed
+      console.log(arguments); // the argument to context.succeed
       assert(parseInt(arguments[0], 10) > 1);
       done();
     };
