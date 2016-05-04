@@ -40,7 +40,7 @@ exports.handler = function (event, context) {
           // during dev we write results to disk for debug - remove these lines in prod.
           // require('fs').writeFileSync(__dirname + '/test/sample_results/results.json',
           //   JSON.stringify(records, null, 2));
-        context.succeed(records.length);
+        context.succeed(records[0]);
       });
     });
   });

@@ -24,9 +24,9 @@ console.log(' - - - - - - - - - - - - - - - - - - - - - - - - - - - - -');
 describe('Search request handler ', function () {
   it('invoke the lambda function handler $LATEST', function (done) {
     CONTEXT.succeed = function () {
-      console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      console.log(arguments); // the argument to context.succeed
-      assert(parseInt(arguments[0], 10) > 0);
+      // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
+      // console.log(arguments); // the argument to context.succeed
+      assert(arguments[0].packageOffer);
       done();
     };
     handler(EVENT, CONTEXT);
@@ -36,8 +36,8 @@ describe('Search request handler ', function () {
     CONTEXT.invokedFunctionArn = 'arn:aws:lambda:eu-west-1:12345:function:LambdaTest:ci';
     CONTEXT.succeed = function () {
       console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      console.log(arguments); // the argument to context.succeed
-      assert(parseInt(arguments[0], 10) > 0);
+      console.log(JSON.stringify(arguments[0], null, 2)); // the argument to context.succeed
+      assert(arguments[0].packageOffer);
       done();
     };
     handler(EVENT, CONTEXT);
