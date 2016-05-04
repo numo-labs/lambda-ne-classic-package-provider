@@ -17,20 +17,26 @@ Instead of directly calling the NE API endpoint, we use the following setup:
 This meant that we had to create an API Gateway endpoint to serve as the
 reverse-proxy.
 
-
-Our "*internal*" API is available on:
-+ https://gm9oumnp1h.execute-api.eu-west-1.amazonaws.com/ci/trips or
-+ https://gm9oumnp1h.execute-api.eu-west-1.amazonaws.com/ci/hotels
-
-This re-routes to:
-+ http://partnerapi.thomascook.se/sd/trips and
-+ http://partnerapi.thomascook.se/sd/hotels *respectively*
-
 at present this is pointing to the *Denmark* (`sd`) endpoint for our MVP,
 but when we roll-out to more markets it will be 5 minutes of API Gateway setup
 (*per NE region*) and roughly 20 mins to *map* the URL query parameters for
 other regions.
 
+
+## *Required* Environment Variables
+
+To run/develop/test this Lambda *locally* you will need a few Environment Variables.
+We recommend you export these using an `.env` file containing the following keys:
+```
+export API_GATEWAY_ENDPOINT=https://tc-jira.atlassian.net/browse/ISEARCH-218
+export NE_API_KEY=https://tc-jira.atlassian.net/browse/ISEARCH-218
+export NE_API_ENDPOINT=https://tc-jira.atlassian.net/browse/ISEARCH-218
+export AWS_REGION=eu-west-1
+export AWS_IAM_ROLE=arn:aws:iam::12345678:role/lambdafull
+export AWS_ACCESS_KEY_ID=YOURKEY
+export AWS_SECRET_ACCESS_KEY=SUPERSECRET
+```
+> set the correct values ... if you get stuck *ask*!
 
 ## *Sample* NE Classic API Request & Response:
 
@@ -312,13 +318,9 @@ e.g: `"wvHotelPartId": 10861`
 }
 ```
 
-## *Todo*:
+## Sample Package Result
 
-We have setup an **IAM role** to ensure the API is *only* accessible by a
-subset of users/lambdas, this is a security enhancement we will need
-to apply to the "Outbound" API Gateway *before* rolling out.
-
-> see: https://tc-jira.atlassian.net/browse/ISEARCH-208
+> See: [/test/sample_results/sample_package.json](https://github.com/numo-labs/lambda-ne-classic-package-provider/blob/master/test/sample_results/sample_package.json)
 
 Read:
 + http://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-aws-proxy.html
