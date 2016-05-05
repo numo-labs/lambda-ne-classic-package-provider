@@ -140,7 +140,7 @@ Sample response (*just one trip*):
       "boardCodeDescription": "Ingen måltider",
       "available": true,
       "indexedDate": "2015-12-06T04:01:44.5825643+01:00",
-      "tripUrl": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2016-08-24&duration=22&departureCode=BLL&destinationCode=LPA&transportSerial=31&transportClass=E&hotelCode=ALTA&roomType=A22CLL",
+      "tripUrl": "http://www.travel.net/redir/BookRedirect.aspx?departureDate=2016-08-24&duration=22&departureCode=BLL&destinationCode=LPA&transportSerial=31&transportClass=E&hotelCode=ALTA&roomType=A22CLL",
       "isLastMinuteSale": false
     }
   ]
@@ -184,32 +184,32 @@ e.g: `"wvHotelPartId": 10861`
     "latitude": 27.7886658,
     "longitude": -15.7194166
   },
-  "url": "http://www.spies.dk/de-kanariske-oer/puerto-rico/altamar",
+  "url": "http://www.travel.net/de-kanariske-oer/puerto-rico/altamar",
   "concept": {
     "id": "familyGarden",
     "title": "Family Garden"
   },
   "images": [
     {
-      "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_1_13.jpg?v=17",
+      "url": "http://images1.travel.net/images/Hotel/LPAALTA1093_1_13.jpg?v=17",
       "description": "",
       "width": 696,
       "height": 307
     },
     {
-      "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_2_30.jpg?v=47",
+      "url": "http://images1.travel.net/images/Hotel/LPAALTA1093_2_30.jpg?v=47",
       "description": "Fra Altamar har du en fantastisk udsigt over Atlanterhavet",
       "width": 1280,
       "height": 853
     },
     {
-      "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_3_15.jpg?v=17",
+      "url": "http://images1.travel.net/images/Hotel/LPAALTA1093_3_15.jpg?v=17",
       "description": "",
       "width": 232,
       "height": 131
     },
     {
-      "url": "http://images1.spies.dk/images/Hotel/LPAALTA1093_4_14.jpg?v=17",
+      "url": "http://images1.travel.net/images/Hotel/LPAALTA1093_4_14.jpg?v=17",
       "description": "",
       "width": 380,
       "height": 215

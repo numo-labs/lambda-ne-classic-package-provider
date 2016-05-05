@@ -85,8 +85,9 @@ describe('Simulate Failure Where a hotels API does not return hotel detail', fun
 describe('Use NE Product SKU as provider.reference', function () {
   it('SKU is made from destinationCode + hotelCode', function (done) {
     var result = mapper.map_ne_result_to_graphql(sample_packages_result.result, sample_hotels_result.result);
-    // console.log(result[0].packageOffer.provider);
-    assert.equal(result[0].packageOffer.provider.reference, 'LPAGLOR');
+    var pkg = sample_packages_result.result[0];
+    var ref = pkg.destinationCode + pkg.hotelCode;
+    assert.equal(result[0].packageOffer.provider.reference, ref);
     done();
   });
 });

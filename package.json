@@ -1,10 +1,10 @@
 {
   "name": "lambda-ne-classic-package-provider",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AWS lambda-ne-classic-package-provider",
   "main": "index.js",
   "scripts": {
-    "fixtures": "node test/_create_all_hotels_fixture.js",
+    "fixtures": "node test/_create_hotels_fixture.js",
     "start": "node index.js",
     "test": "semistandard && npm run fixtures && npm run api && npm run coverage",
     "deploy": "node ./node_modules/dpl/dpl.js",
@@ -25,7 +25,7 @@
     "type": "git",
     "url": "git+https://github.com/numo-labs/lambda-ne-classic-package-provider.git"
   },
-  "author": "Jack Carlisle & Friends :-)",
+  "author": "Pascal & Pals",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/numo-labs/lambda-ne-classic-package-provider/issues"

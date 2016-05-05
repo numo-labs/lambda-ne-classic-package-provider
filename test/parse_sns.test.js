@@ -3,7 +3,8 @@ var assert = require('assert');
 
 // yes this is how the SNS message arrives ...
 var sns = {'Message': '{\"data\":{\"context\":{\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"12345\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"},{\"birthday\":\"2015-07-14\"}],\"hotels\":[\"hotel:NE.wvHotelPartId.197915\",\"hotel:NE.wvHotelPartId.197941\"]}},\"id\":\"bd3c5c00-efa5-11e5-9ef8-c535434e66f5\"}'};
-// console.log('sns.Message:', JSON.stringify(JSON.parse(sns.Message), null, 2));
+var sns_no_hotels = {'Message': '{\"data\":{\"context\":{\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"12345\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"},{\"birthday\":\"2015-07-14\"}]}},\"id\":\"123456\"}'};
+// console.log('sns.Message:', JSON.stringify(JSON.parse(sns_no_hotels.Message), null, 2));
 
 describe('parse_sns', function () {
   it('get number of children & adults from passengers array', function (done) {
@@ -14,8 +15,14 @@ describe('parse_sns', function () {
   });
   it('extracts the bucketId from the SNS message', function (done) {
     var params = parse_sns(sns.Message);
-    console.log(params);
+    // console.log(params);
     assert.ok(params.id === 'bd3c5c00-efa5-11e5-9ef8-c535434e66f5', 'Id extracted');
+    done();
+  });
+  it('Parse SNS without hotels', function (done) {
+    var params = parse_sns(sns_no_hotels.Message);
+    // console.log(params);
+    assert.ok(params.id === '123456', 'Id extracted');
     done();
   });
 });
@@ -35,7 +42,7 @@ describe('get_age', function () {
   it('compute age of person born in the *future*!', function (done) {
     var D = new Date();
     var BORN_TOMORROW = D.getFullYear() + '-' + (D.getMonth() + 1) + '-' + (D.getDate() + 1);
-    console.log('Tomorrow is:', BORN_TOMORROW);
+    // console.log('Tomorrow is:', BORN_TOMORROW);
     assert(parse_sns.get_age(BORN_TOMORROW) === -1);
     done();
   });
