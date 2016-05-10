@@ -1,0 +1,4222 @@
+[
+  {
+    "packageOffer": {
+      "priorityCode": 305,
+      "hotel": {
+        "name": "Gloria Palace Royal",
+        "images": {
+          "small": [
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_1_13.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_10_51.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_3_15.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_4_14.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_6_16.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_7_20.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_8_17.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_9_46.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1011_2_29.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1011_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1039_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1039_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1002_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1002_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1064_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1064_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1050_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1050_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1074_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1074_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1085_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1085_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1088_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1088_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1089_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1089_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1094_2_30.jpg?v=15"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1094_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1049_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1049_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1036_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1036_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1031_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1031_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1033_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1033_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1028_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1028_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1021_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1021_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1015_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1015_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1068_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1068_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1072_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1072_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1013_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1013_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1086_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1086_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1093_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1093_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1008_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1008_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1007_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1007_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1004_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1004_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1024_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1024_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1029_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1029_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1030_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1030_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1080_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1080_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1081_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1081_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1082_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1082_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1079_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1079_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_396_13.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_396_51.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_397_15.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_398_14.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_399_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_400_16.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_401_20.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_402_17.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090002_404_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090003_406_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090004_408_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090005_410_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090006_412_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090007_414_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090008_416_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090009_418_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090010_420_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090011_422_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090012_424_32.jpg?v=1"
+            }
+          ],
+          "large": [
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1003_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1039_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1002_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1064_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1050_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1074_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1089_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1085_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1094_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1088_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1049_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1036_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1031_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1033_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1028_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1021_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1015_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1072_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1068_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1086_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1093_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1013_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1008_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1007_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1004_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1024_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1029_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1030_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1080_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1081_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1082_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1079_2_30.jpg"
+            }
+          ]
+        },
+        "starRating": 4.7,
+        "place": {
+          "name": "Playa de Amadores",
+          "country": "Spanien",
+          "region": "Gran Canaria"
+        },
+        "description": "Gloria Palace Royal er et elegant hotel med høj standard og komfort. Hotellet ligger højt i Playa de Amadores med flot udsigt over havet og den hvide sandstrand. På Gloria Palace Royal kan du både slappe af og være aktiv. Her findes to store solterrasser med indbydende pools, et motionsrum samt en lækker spaafdeling, der indbyder til selvforkælelse."
+      },
+      "flights": {
+        "outbound": [
+          {
+            "number": "na",
+            "departure": {
+              "localDateTime": "2016-11-04T07:55:00",
+              "airport": {
+                "code": "CPH",
+                "name": "Kastrup Terminal 2"
+              }
+            },
+            "arrival": {
+              "localDateTime": "2016-11-04T12:15:00",
+              "airport": {
+                "code": "LPA"
+              }
+            },
+            "carrier": {
+              "code": "DK"
+            }
+          }
+        ],
+        "inbound": [
+          {
+            "number": "na",
+            "departure": {
+              "localDateTime": "2016-11-11T13:35:00",
+              "airport": {
+                "code": "LPA",
+                "name": "Gran Canaria"
+              }
+            },
+            "arrival": {
+              "localDateTime": "2016-11-11T19:45:00",
+              "airport": {
+                "code": "CPH"
+              }
+            },
+            "carrier": {
+              "code": "DK"
+            }
+          }
+        ]
+      },
+      "price": {
+        "total": 46585,
+        "perPerson": 9899,
+        "currency": "DKK",
+        "discountPrice": -300
+      },
+      "provider": {
+        "id": "lambda-searcher",
+        "reference": "LPAGLOR",
+        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2016-11-04&duration=8&departureCode=CPH&destinationCode=LPA&transportSerial=51&transportClass=E&hotelCode=GLOR&roomType=A22SUI"
+      },
+      "nights": 7,
+      "amenities": {
+        "outdoorpool": "2 stk.",
+        "distancetobeach": "300 m",
+        "distancetocenter": true,
+        "bar": "3 stk.",
+        "childrenpool": true,
+        "elevator": true,
+        "poolbar": true,
+        "restaurant": "2",
+        "minimarket": false,
+        "cleaningdaysperweek": "7",
+        "wifi": true,
+        "waterslide": false,
+        "lolloandbernie": false,
+        "isadulthotel": false,
+        "allinclusive": false
+      }
+    }
+  },
+  {
+    "packageOffer": {
+      "priorityCode": 270,
+      "hotel": {
+        "name": "Gloria Palace Royal",
+        "images": {
+          "small": [
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_1_13.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_10_51.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_3_15.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_4_14.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_6_16.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_7_20.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_8_17.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_9_46.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1011_2_29.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1011_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1039_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1039_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1002_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1002_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1064_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1064_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1050_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1050_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1074_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1074_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1085_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1085_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1088_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1088_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1089_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1089_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1094_2_30.jpg?v=15"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1094_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1049_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1049_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1036_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1036_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1031_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1031_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1033_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1033_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1028_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1028_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1021_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1021_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1015_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1015_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1068_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1068_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1072_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1072_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1013_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1013_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1086_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1086_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1093_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1093_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1008_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1008_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1007_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1007_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1004_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1004_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1024_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1024_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1029_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1029_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1030_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1030_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1080_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1080_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1081_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1081_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1082_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1082_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1079_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1079_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_396_13.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_396_51.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_397_15.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_398_14.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_399_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_400_16.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_401_20.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_402_17.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090002_404_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090003_406_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090004_408_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090005_410_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090006_412_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090007_414_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090008_416_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090009_418_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090010_420_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090011_422_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090012_424_32.jpg?v=1"
+            }
+          ],
+          "large": [
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1003_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1039_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1002_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1064_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1050_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1074_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1089_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1085_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1094_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1088_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1049_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1036_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1031_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1033_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1028_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1021_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1015_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1072_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1068_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1086_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1093_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1013_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1008_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1007_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1004_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1024_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1029_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1030_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1080_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1081_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1082_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1079_2_30.jpg"
+            }
+          ]
+        },
+        "starRating": 4.7,
+        "place": {
+          "name": "Playa de Amadores",
+          "country": "Spanien",
+          "region": "Gran Canaria"
+        },
+        "description": "Gloria Palace Royal er et elegant hotel med høj standard og komfort. Hotellet ligger højt i Playa de Amadores med flot udsigt over havet og den hvide sandstrand. På Gloria Palace Royal kan du både slappe af og være aktiv. Her findes to store solterrasser med indbydende pools, et motionsrum samt en lækker spaafdeling, der indbyder til selvforkælelse."
+      },
+      "flights": {
+        "outbound": [
+          {
+            "number": "na",
+            "departure": {
+              "localDateTime": "2016-10-14T07:20:00",
+              "airport": {
+                "code": "AAL",
+                "name": "Aalborg"
+              }
+            },
+            "arrival": {
+              "localDateTime": "2016-10-14T11:40:00",
+              "airport": {
+                "code": "LPA"
+              }
+            },
+            "carrier": {
+              "code": "DK"
+            }
+          }
+        ],
+        "inbound": [
+          {
+            "number": "na",
+            "departure": {
+              "localDateTime": "2016-10-29T13:00:00",
+              "airport": {
+                "code": "LPA",
+                "name": "Gran Canaria"
+              }
+            },
+            "arrival": {
+              "localDateTime": "2016-10-29T19:10:00",
+              "airport": {
+                "code": "AAL"
+              }
+            },
+            "carrier": {
+              "code": "DK"
+            }
+          }
+        ]
+      },
+      "price": {
+        "total": 84895,
+        "perPerson": 18149,
+        "currency": "DKK",
+        "discountPrice": -300
+      },
+      "provider": {
+        "id": "lambda-searcher",
+        "reference": "LPAGLOR",
+        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2016-10-14&duration=16&departureCode=AAL&destinationCode=LPA&transportSerial=61&transportClass=E&hotelCode=GLOR&roomType=A22SUI"
+      },
+      "nights": 15,
+      "amenities": {
+        "outdoorpool": "2 stk.",
+        "distancetobeach": "300 m",
+        "distancetocenter": true,
+        "bar": "3 stk.",
+        "childrenpool": true,
+        "elevator": true,
+        "poolbar": true,
+        "restaurant": "2",
+        "minimarket": false,
+        "cleaningdaysperweek": "7",
+        "wifi": true,
+        "waterslide": false,
+        "lolloandbernie": false,
+        "isadulthotel": false,
+        "allinclusive": false
+      }
+    }
+  },
+  {
+    "packageOffer": {
+      "priorityCode": 150,
+      "hotel": {
+        "name": "Gloria Palace Royal",
+        "images": {
+          "small": [
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_1_13.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_10_51.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_3_15.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_4_14.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_6_16.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_7_20.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_8_17.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_9_46.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1011_2_29.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1011_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1039_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1039_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1002_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1002_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1064_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1064_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1050_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1050_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1074_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1074_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1085_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1085_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1088_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1088_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1089_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1089_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1094_2_30.jpg?v=15"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1094_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1049_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1049_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1036_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1036_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1031_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1031_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1033_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1033_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1028_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1028_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1021_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1021_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1015_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1015_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1068_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1068_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1072_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1072_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1013_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1013_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1086_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1086_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1093_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1093_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1008_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1008_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1007_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1007_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1004_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1004_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1024_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1024_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1029_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1029_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1030_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1030_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1080_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1080_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1081_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1081_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1082_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1082_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1079_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1079_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_396_13.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_396_51.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_397_15.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_398_14.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_399_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_400_16.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_401_20.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_402_17.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090002_404_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090003_406_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090004_408_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090005_410_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090006_412_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090007_414_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090008_416_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090009_418_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090010_420_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090011_422_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090012_424_32.jpg?v=1"
+            }
+          ],
+          "large": [
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1003_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1039_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1002_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1064_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1050_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1074_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1089_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1085_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1094_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1088_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1049_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1036_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1031_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1033_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1028_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1021_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1015_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1072_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1068_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1086_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1093_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1013_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1008_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1007_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1004_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1024_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1029_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1030_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1080_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1081_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1082_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1079_2_30.jpg"
+            }
+          ]
+        },
+        "starRating": 4.7,
+        "place": {
+          "name": "Playa de Amadores",
+          "country": "Spanien",
+          "region": "Gran Canaria"
+        },
+        "description": "Gloria Palace Royal er et elegant hotel med høj standard og komfort. Hotellet ligger højt i Playa de Amadores med flot udsigt over havet og den hvide sandstrand. På Gloria Palace Royal kan du både slappe af og være aktiv. Her findes to store solterrasser med indbydende pools, et motionsrum samt en lækker spaafdeling, der indbyder til selvforkælelse."
+      },
+      "flights": {
+        "outbound": [
+          {
+            "number": "na",
+            "departure": {
+              "localDateTime": "2016-07-27T08:20:00",
+              "airport": {
+                "code": "BLL",
+                "name": "Billund"
+              }
+            },
+            "arrival": {
+              "localDateTime": "2016-07-27T12:30:00",
+              "airport": {
+                "code": "LPA"
+              }
+            },
+            "carrier": {
+              "code": "DK"
+            }
+          }
+        ],
+        "inbound": [
+          {
+            "number": "na",
+            "departure": {
+              "localDateTime": "2016-08-03T13:50:00",
+              "airport": {
+                "code": "LPA",
+                "name": "Gran Canaria"
+              }
+            },
+            "arrival": {
+              "localDateTime": "2016-08-03T19:40:00",
+              "airport": {
+                "code": "BLL"
+              }
+            },
+            "carrier": {
+              "code": "DK"
+            }
+          }
+        ]
+      },
+      "price": {
+        "total": 36895,
+        "perPerson": 7649,
+        "currency": "DKK",
+        "discountPrice": -500
+      },
+      "provider": {
+        "id": "lambda-searcher",
+        "reference": "LPAGLOR",
+        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2016-07-27&duration=8&departureCode=BLL&destinationCode=LPA&transportSerial=31&transportClass=E&hotelCode=GLOR&roomType=A12SEX"
+      },
+      "nights": 7,
+      "amenities": {
+        "outdoorpool": "2 stk.",
+        "distancetobeach": "300 m",
+        "distancetocenter": true,
+        "bar": "3 stk.",
+        "childrenpool": true,
+        "elevator": true,
+        "poolbar": true,
+        "restaurant": "2",
+        "minimarket": false,
+        "cleaningdaysperweek": "7",
+        "wifi": true,
+        "waterslide": false,
+        "lolloandbernie": false,
+        "isadulthotel": false,
+        "allinclusive": false
+      }
+    }
+  },
+  {
+    "packageOffer": {
+      "priorityCode": 305,
+      "hotel": {
+        "name": "Gloria Palace Royal",
+        "images": {
+          "small": [
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_1_13.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_10_51.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_3_15.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_4_14.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_6_16.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_7_20.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_8_17.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_9_46.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1011_2_29.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1011_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1039_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1039_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1002_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1002_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1064_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1064_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1050_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1050_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1074_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1074_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1085_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1085_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1088_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1088_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1089_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1089_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1094_2_30.jpg?v=15"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1094_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1049_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1049_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1036_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1036_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1031_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1031_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1033_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1033_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1028_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1028_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1021_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1021_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1015_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1015_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1068_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1068_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1072_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1072_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1013_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1013_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1086_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1086_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1093_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1093_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1008_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1008_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1007_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1007_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1004_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1004_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1024_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1024_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1029_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1029_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1030_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1030_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1080_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1080_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1081_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1081_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1082_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1082_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1079_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1079_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_396_13.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_396_51.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_397_15.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_398_14.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_399_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_400_16.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_401_20.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_402_17.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090002_404_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090003_406_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090004_408_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090005_410_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090006_412_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090007_414_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090008_416_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090009_418_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090010_420_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090011_422_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090012_424_32.jpg?v=1"
+            }
+          ],
+          "large": [
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1003_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1039_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1002_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1064_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1050_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1074_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1089_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1085_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1094_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1088_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1049_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1036_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1031_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1033_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1028_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1021_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1015_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1072_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1068_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1086_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1093_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1013_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1008_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1007_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1004_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1024_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1029_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1030_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1080_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1081_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1082_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1079_2_30.jpg"
+            }
+          ]
+        },
+        "starRating": 4.7,
+        "place": {
+          "name": "Playa de Amadores",
+          "country": "Spanien",
+          "region": "Gran Canaria"
+        },
+        "description": "Gloria Palace Royal er et elegant hotel med høj standard og komfort. Hotellet ligger højt i Playa de Amadores med flot udsigt over havet og den hvide sandstrand. På Gloria Palace Royal kan du både slappe af og være aktiv. Her findes to store solterrasser med indbydende pools, et motionsrum samt en lækker spaafdeling, der indbyder til selvforkælelse."
+      },
+      "flights": {
+        "outbound": [
+          {
+            "number": "na",
+            "departure": {
+              "localDateTime": "2016-12-24T07:20:00",
+              "airport": {
+                "code": "BLL",
+                "name": "Billund"
+              }
+            },
+            "arrival": {
+              "localDateTime": "2016-12-24T11:30:00",
+              "airport": {
+                "code": "LPA"
+              }
+            },
+            "carrier": {
+              "code": "DK"
+            }
+          }
+        ],
+        "inbound": [
+          {
+            "number": "na",
+            "departure": {
+              "localDateTime": "2016-12-31T12:50:00",
+              "airport": {
+                "code": "LPA",
+                "name": "Gran Canaria"
+              }
+            },
+            "arrival": {
+              "localDateTime": "2016-12-31T18:40:00",
+              "airport": {
+                "code": "BLL"
+              }
+            },
+            "carrier": {
+              "code": "DK"
+            }
+          }
+        ]
+      },
+      "price": {
+        "total": 53145,
+        "perPerson": 11299,
+        "currency": "DKK",
+        "discountPrice": -300
+      },
+      "provider": {
+        "id": "lambda-searcher",
+        "reference": "LPAGLOR",
+        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2016-12-24&duration=8&departureCode=BLL&destinationCode=LPA&transportSerial=61&transportClass=E&hotelCode=GLOR&roomType=A22SUI"
+      },
+      "nights": 7,
+      "amenities": {
+        "outdoorpool": "2 stk.",
+        "distancetobeach": "300 m",
+        "distancetocenter": true,
+        "bar": "3 stk.",
+        "childrenpool": true,
+        "elevator": true,
+        "poolbar": true,
+        "restaurant": "2",
+        "minimarket": false,
+        "cleaningdaysperweek": "7",
+        "wifi": true,
+        "waterslide": false,
+        "lolloandbernie": false,
+        "isadulthotel": false,
+        "allinclusive": false
+      }
+    }
+  },
+  {
+    "packageOffer": {
+      "priorityCode": 300,
+      "hotel": {
+        "name": "Gloria Palace Royal",
+        "images": {
+          "small": [
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_1_13.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_10_51.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_3_15.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_4_14.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_6_16.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_7_20.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_8_17.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1003_9_46.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1011_2_29.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1011_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1039_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1039_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1002_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1002_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1064_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1064_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1050_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1050_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1074_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1074_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1085_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1085_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1088_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1088_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1089_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1089_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1094_2_30.jpg?v=15"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1094_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1049_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1049_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1036_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1036_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1031_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1031_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1033_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1033_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1028_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1028_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1021_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1021_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1015_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1015_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1068_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1068_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1072_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1072_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1013_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1013_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1086_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1086_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1093_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1093_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1008_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1008_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1007_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1007_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1004_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1004_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1024_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1024_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1029_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1029_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1030_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1030_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1080_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1080_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1081_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1081_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1082_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1082_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1079_2_30.jpg?v=16"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/LPAGLOR1079_5_32.jpg?v=3"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_396_13.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_396_51.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_397_15.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_398_14.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_399_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_400_16.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_401_20.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090001_402_17.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090002_404_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090003_406_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090004_408_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090005_410_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090006_412_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090007_414_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090008_416_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090009_418_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090010_420_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090011_422_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/HotelBedbank/HLPAH0090012_424_32.jpg?v=1"
+            }
+          ],
+          "large": [
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1003_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1039_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1002_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1064_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1050_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1074_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1089_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1085_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1094_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1088_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1049_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1036_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1031_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1033_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1028_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1021_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1015_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1072_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1068_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1086_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1093_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1013_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1008_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1007_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1004_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1024_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1029_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1030_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1080_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1081_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1082_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/LPAGLOR1079_2_30.jpg"
+            }
+          ]
+        },
+        "starRating": 4.7,
+        "place": {
+          "name": "Playa de Amadores",
+          "country": "Spanien",
+          "region": "Gran Canaria"
+        },
+        "description": "Gloria Palace Royal er et elegant hotel med høj standard og komfort. Hotellet ligger højt i Playa de Amadores med flot udsigt over havet og den hvide sandstrand. På Gloria Palace Royal kan du både slappe af og være aktiv. Her findes to store solterrasser med indbydende pools, et motionsrum samt en lækker spaafdeling, der indbyder til selvforkælelse."
+      },
+      "flights": {
+        "outbound": [
+          {
+            "number": "na",
+            "departure": {
+              "localDateTime": "2016-12-21T07:30:00",
+              "airport": {
+                "code": "CPH",
+                "name": "Kastrup Terminal 2"
+              }
+            },
+            "arrival": {
+              "localDateTime": "2016-12-21T11:45:00",
+              "airport": {
+                "code": "LPA"
+              }
+            },
+            "carrier": {
+              "code": "DK"
+            }
+          }
+        ],
+        "inbound": [
+          {
+            "number": "na",
+            "departure": {
+              "localDateTime": "2016-12-28T13:15:00",
+              "airport": {
+                "code": "LPA",
+                "name": "Gran Canaria"
+              }
+            },
+            "arrival": {
+              "localDateTime": "2016-12-28T19:15:00",
+              "airport": {
+                "code": "CPH"
+              }
+            },
+            "carrier": {
+              "code": "DK"
+            }
+          }
+        ]
+      },
+      "price": {
+        "total": 46065,
+        "perPerson": 9799,
+        "currency": "DKK",
+        "discountPrice": -300
+      },
+      "provider": {
+        "id": "lambda-searcher",
+        "reference": "LPAGLOR",
+        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2016-12-21&duration=8&departureCode=CPH&destinationCode=LPA&transportSerial=31&transportClass=E&hotelCode=GLOR&roomType=A12SEA"
+      },
+      "nights": 7,
+      "amenities": {
+        "outdoorpool": "2 stk.",
+        "distancetobeach": "300 m",
+        "distancetocenter": true,
+        "bar": "3 stk.",
+        "childrenpool": true,
+        "elevator": true,
+        "poolbar": true,
+        "restaurant": "2",
+        "minimarket": false,
+        "cleaningdaysperweek": "7",
+        "wifi": true,
+        "waterslide": false,
+        "lolloandbernie": false,
+        "isadulthotel": false,
+        "allinclusive": false
+      }
+    }
+  }
+]

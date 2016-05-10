@@ -58,13 +58,19 @@ describe('Get Currency Code from Market ID', function () {
   });
 });
 
+function sortByDiscount (a, b) {
+  return a.packageOffer.price.discountPrice > b.packageOffer.price.discountPrice;
+}
+
 describe('Map results and hotels', function () {
   it('map_ne_result_to_graphql maps entire NE API result to GraphQL', function (done) {
     // console.log(sample_packages_result);
     var result = mapper.map_ne_result_to_graphql(sample_packages_result.result, sample_hotels_result.result);
     var expected_keys = ['id', 'name', 'images', 'starRating', 'place', 'description'];
     assert.deepEqual(Object.keys(result[0].packageOffer.hotel), expected_keys);
-    // console.log(result[0].packageOffer.hotel)
+    // console.log(result)
+    fs.writeFileSync(__dirname + '/sample_results/formatted_packages.json',
+      JSON.stringify(result.sort(sortByDiscount).splice(0, 5), null, 2));
     done();
   });
 });

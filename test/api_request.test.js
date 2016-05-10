@@ -19,6 +19,7 @@ describe('api_request', function () {
       fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
       // console.log(JSON.stringify(json.result[0], null, 2));
       console.log('Result Count:', json.result.length);
+      console.log(json.result);
       assert(json.result.length > 10);
       assert(json.totalHits > 10);
       done();
