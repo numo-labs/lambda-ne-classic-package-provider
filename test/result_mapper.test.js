@@ -70,7 +70,7 @@ describe('Map results and hotels', function () {
     assert.deepEqual(Object.keys(result[0].packageOffer.hotel), expected_keys);
     // console.log(result)
     fs.writeFileSync(__dirname + '/sample_results/formatted_packages.json',
-      JSON.stringify(result.sort(sortByDiscount).splice(0, 5), null, 2));
+      JSON.stringify(result.sort(sortByDiscount).slice(0, 2), null, 2));
     done();
   });
 });

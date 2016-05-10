@@ -6,7 +6,7 @@ var dir = path.resolve(__dirname + '/sample_results/') + '/';
 // console.log('>>' + dir);
 
 describe('api_request', function () {
-  it('GET NE trips', function (done) {
+  it('GET NE trips (without specifying hotels)', function (done) {
     var params = { // leave "path" and "stage" unset
       adults: 2,
       children: 3,
@@ -19,7 +19,6 @@ describe('api_request', function () {
       fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
       // console.log(JSON.stringify(json.result[0], null, 2));
       console.log('Result Count:', json.result.length);
-      console.log(json.result);
       assert(json.result.length > 10);
       assert(json.totalHits > 10);
       done();
