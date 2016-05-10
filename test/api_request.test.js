@@ -6,7 +6,7 @@ var dir = path.resolve(__dirname + '/sample_results/') + '/';
 // console.log('>>' + dir);
 
 describe('api_request', function () {
-  it('GET NE trips', function (done) {
+  it('GET NE trips (without specifying hotels)', function (done) {
     var params = { // leave "path" and "stage" unset
       adults: 2,
       children: 3,

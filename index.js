@@ -18,6 +18,7 @@ exports.handler = function (event, context) {
   params.stage = stage = (stage === '$LATEST' || !stage) ? 'ci' : stage;
   var bucketId = params.id; // we need the bucketId to insert the results
   delete params.id;         // don't send bucketId to NE api
+
   api_request(params, function (err, response) { // get packages from NE API
     console.log(err, 'Package Results:', response.result.length);
 
@@ -25,6 +26,7 @@ exports.handler = function (event, context) {
     console.log('Number of unique packages: ' + results.length);
 
     var packages = results.splice(0, 30); // limit to the first 30 results
+
     // console.log(results.map(function (i) { return i.wvHotelPartId; }).join(','));
     var hotel_params = {
       path: 'hotels',
