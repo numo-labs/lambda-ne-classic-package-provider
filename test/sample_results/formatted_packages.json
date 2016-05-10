@@ -766,7 +766,11 @@
           "country": "Spanien",
           "region": "Gran Canaria"
         },
-        "description": "Gloria Palace Royal er et elegant hotel med høj standard og komfort. Hotellet ligger højt i Playa de Amadores med flot udsigt over havet og den hvide sandstrand. På Gloria Palace Royal kan du både slappe af og være aktiv. Her findes to store solterrasser med indbydende pools, et motionsrum samt en lækker spaafdeling, der indbyder til selvforkælelse."
+        "description": "Gloria Palace Royal er et elegant hotel med høj standard og komfort. Hotellet ligger højt i Playa de Amadores med flot udsigt over havet og den hvide sandstrand. På Gloria Palace Royal kan du både slappe af og være aktiv. Her findes to store solterrasser med indbydende pools, et motionsrum samt en lækker spaafdeling, der indbyder til selvforkælelse.",
+        "concept": {
+          "id": "familyTopSelection",
+          "title": "Family Top Selection"
+        }
       },
       "flights": {
         "outbound": [
@@ -1448,7 +1452,11 @@
           "country": "Grækenland",
           "region": "Kreta"
         },
-        "description": "Populært lejlighedshotel beliggende i gåafstand fra det pulserende forlystelsesliv ved havet og havnen i Hersonissos, og du kommer nemt med taxi til de ældre dele af byen, hvor der findes mange hyggelige tavernaer. Hotellet har et livligt poolområde samt en bar, der serverer enkle retter. Villa Aspro har mange unge og livlige gæster. Er du under 18 år, kan du ikke bestille hotellet i perioden 15/6-13/8.\n\nDe fleste af hotellets gæster er fra Skandinavien."
+        "description": "Populært lejlighedshotel beliggende i gåafstand fra det pulserende forlystelsesliv ved havet og havnen i Hersonissos, og du kommer nemt med taxi til de ældre dele af byen, hvor der findes mange hyggelige tavernaer. Hotellet har et livligt poolområde samt en bar, der serverer enkle retter. Villa Aspro har mange unge og livlige gæster. Er du under 18 år, kan du ikke bestille hotellet i perioden 15/6-13/8.\n\nDe fleste af hotellets gæster er fra Skandinavien.",
+        "concept": {
+          "id": "",
+          "title": ""
+        }
       },
       "flights": {
         "outbound": [
