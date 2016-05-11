@@ -3,9 +3,17 @@ var assert = require('assert');
 var fs = require('fs');
 var path = require('path');
 var dir = path.resolve(__dirname + '/sample_results/') + '/';
+var AwsHelper = require('aws-lambda-helper');
 // console.log('>>' + dir);
 
 describe('api_request', function () {
+  before(function (done) {
+    AwsHelper.init({
+      invokedFunctionArn: 'arn:aws:lambda:eu-west-1:123456789:function:mylambda:ci'
+    });
+    done();
+  });
+
   it('GET NE trips (without specifying hotels)', function (done) {
     var params = { // leave "path" and "stage" unset
       adults: 2,
