@@ -1,3 +1,7 @@
+var AwsHelper = require('aws-lambda-helper');
+AwsHelper.init({
+  invokedFunctionArn: 'arn:aws:lambda:eu-west-1:123456789:function:mylambda:ci'
+});
 var parse_sns = require('../lib/parse_sns');
 var assert = require('assert');
 
@@ -44,6 +48,21 @@ describe('get_age', function () {
     var BORN_TOMORROW = D.getFullYear() + '-' + (D.getMonth() + 1) + '-' + (D.getDate() + 1);
     // console.log('Tomorrow is:', BORN_TOMORROW);
     assert(parse_sns.get_age(BORN_TOMORROW) === -1);
+    done();
+  });
+});
+
+var complete_event = require('./fixtures/complete_sns_event.json');
+describe('Parse Complete SNS Message', function () {
+  it('Including departureDate, departureAirport & Nights!', function (done) {
+    var sns_msg = complete_event.Records[0].Sns.Message;
+    // console.log(sns_msg);
+    // console.log(JSON.stringify(sns_msg.query, null, 2));
+    var parsed = parse_sns(sns_msg);
+    // console.log(parsed);
+    assert.equal(parsed.departureCode, 'CPH');
+    assert.equal(parsed.hotelDuration, 7);
+    assert.equal(parsed.departureDate, '2016-10-26');
     done();
   });
 });
