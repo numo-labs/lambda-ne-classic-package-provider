@@ -26,7 +26,7 @@ describe('Search request handler ', function () {
     CONTEXT.succeed = function () {
       // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
       // console.log(arguments); // the argument to context.succeed
-      assert(arguments[0].packageOffer);
+      assert(arguments[0] > 0);
       done();
     };
     handler(EVENT, CONTEXT);
@@ -35,11 +35,25 @@ describe('Search request handler ', function () {
   it('invoke the lambda function handler CI', function (done) {
     CONTEXT.invokedFunctionArn = 'arn:aws:lambda:eu-west-1:12345:function:LambdaTest:ci';
     CONTEXT.succeed = function () {
-      console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      console.log(JSON.stringify(arguments[0], null, 2)); // the argument to context.succeed
-      assert(arguments[0].packageOffer);
+      // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
+      // console.log(JSON.stringify(arguments[0], null, 2)); // the argument to context.succeed
+      assert(arguments[0] > 0);
       done();
     };
     handler(EVENT, CONTEXT);
+  });
+});
+
+var real_event = require('./fixtures/sample_sns_event.json');
+describe('Thailand End-to-End Test', function () {
+  it('test for thailand', function (done) {
+    CONTEXT.invokedFunctionArn = 'arn:aws:lambda:eu-west-1:12345:function:LambdaTest:ci';
+    CONTEXT.succeed = function () {
+      // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
+      // console.log(JSON.stringify(arguments[0], null, 2)); // the argument to context.succeed
+      assert(arguments[0] > 0);
+      done();
+    };
+    handler(real_event, CONTEXT);
   });
 });

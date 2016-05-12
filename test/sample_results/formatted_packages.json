@@ -1,7 +1,7 @@
 [
   {
     "packageOffer": {
-      "priorityCode": 300,
+      "priorityCode": 320,
       "hotel": {
         "name": "Gloria Palace Royal",
         "images": {
@@ -777,14 +777,14 @@
           {
             "number": "na",
             "departure": {
-              "localDateTime": "2017-02-25T07:20:00",
+              "localDateTime": "2016-12-21T07:30:00",
               "airport": {
-                "code": "BLL",
-                "name": "Billund"
+                "code": "CPH",
+                "name": "Kastrup Terminal 2"
               }
             },
             "arrival": {
-              "localDateTime": "2017-02-25T11:30:00",
+              "localDateTime": "2016-12-21T11:45:00",
               "airport": {
                 "code": "LPA"
               }
@@ -798,16 +798,16 @@
           {
             "number": "na",
             "departure": {
-              "localDateTime": "2017-03-11T12:50:00",
+              "localDateTime": "2016-12-28T13:15:00",
               "airport": {
                 "code": "LPA",
                 "name": "Gran Canaria"
               }
             },
             "arrival": {
-              "localDateTime": "2017-03-11T18:40:00",
+              "localDateTime": "2016-12-28T19:15:00",
               "airport": {
-                "code": "BLL"
+                "code": "CPH"
               }
             },
             "carrier": {
@@ -817,17 +817,17 @@
         ]
       },
       "price": {
-        "total": 61805,
-        "perPerson": 13249,
+        "total": 46065,
+        "perPerson": 9799,
         "currency": "DKK",
-        "discountPrice": 0
+        "discountPrice": -300
       },
       "provider": {
         "id": "lambda-searcher",
         "reference": "LPAGLOR",
-        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2017-02-25&duration=15&departureCode=BLL&destinationCode=LPA&transportSerial=61&transportClass=E&hotelCode=GLOR&roomType=A12SEX"
+        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2016-12-21&duration=8&departureCode=CPH&destinationCode=LPA&transportSerial=31&transportClass=E&hotelCode=GLOR&roomType=A12SEX"
       },
-      "nights": 14,
+      "nights": 7,
       "amenities": {
         "outdoorpool": "2 stk.",
         "distancetobeach": "300 m",
@@ -1463,14 +1463,14 @@
           {
             "number": "na",
             "departure": {
-              "localDateTime": "2016-08-18T07:00:00",
+              "localDateTime": "2016-09-29T07:00:00",
               "airport": {
                 "code": "BLL",
                 "name": "Billund"
               }
             },
             "arrival": {
-              "localDateTime": "2016-08-18T11:30:00",
+              "localDateTime": "2016-09-29T11:30:00",
               "airport": {
                 "code": "HER"
               }
@@ -1484,14 +1484,14 @@
           {
             "number": "na",
             "departure": {
-              "localDateTime": "2016-08-25T12:50:00",
+              "localDateTime": "2016-10-06T12:50:00",
               "airport": {
                 "code": "HER",
                 "name": "Kreta-Heraklion"
               }
             },
             "arrival": {
-              "localDateTime": "2016-08-25T15:30:00",
+              "localDateTime": "2016-10-06T15:30:00",
               "airport": {
                 "code": "BLL"
               }
@@ -1503,15 +1503,15 @@
         ]
       },
       "price": {
-        "total": 15695,
-        "perPerson": 2699,
+        "total": 16745,
+        "perPerson": 3299,
         "currency": "DKK",
-        "discountPrice": -1000
+        "discountPrice": -400
       },
       "provider": {
         "id": "lambda-searcher",
         "reference": "HERASPR",
-        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2016-08-18&duration=8&departureCode=BLL&destinationCode=HER&transportSerial=41&transportClass=E&hotelCode=ASPR&roomType=A23"
+        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2016-09-29&duration=8&departureCode=BLL&destinationCode=HER&transportSerial=41&transportClass=E&hotelCode=ASPR&roomType=A12"
       },
       "nights": 7,
       "amenities": {

@@ -16,6 +16,9 @@ exports.handler = function (event, context) {
 
   AwsHelper.log.info({ event: event }, 'Received event'); // debug sns
   var params = parse_sns(event.Records[0].Sns.Message);
+  // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - - - - - SNS PARMS');
+  // console.log(JSON.stringify(params));
+  // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - - - - - -');
   var stage = AwsHelper.version; // get environment e.g: ci or prod
   params.stage = stage = (stage === '$LATEST' || !stage) ? 'ci' : stage;
   var bucketId = params.id; // we need the bucketId to insert the results
@@ -27,7 +30,7 @@ exports.handler = function (event, context) {
     var results = unique_packages(response.result); // one package per hotel
     AwsHelper.log.info({ packages: results.length }, 'Package uniq');
 
-    var packages = results.splice(0, 30); // limit to the first 30 results
+    var packages = results;
     var hotel_params = {
       path: 'hotels',
       stage: params.stage, // always need the stage (environment e.g: ci/prod)
@@ -42,7 +45,7 @@ exports.handler = function (event, context) {
           // during dev we write results to disk for debug - remove these lines in prod.
           // require('fs').writeFileSync(__dirname + '/test/sample_results/results.json',
           //   JSON.stringify(records, null, 2));
-        context.succeed(records[0]);
+        context.succeed(records.length);
       });
     });
   });
