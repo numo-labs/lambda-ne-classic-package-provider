@@ -29,8 +29,8 @@ exports.handler = function (event, context) {
   console.log('PATH:', path);
   console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
   if (CACHE[path]) {
-    console.log('CACHE HIT');
     var records = CACHE[path];
+    console.log('CACHE HIT:', records.length + ' records');
     batch_insert(stage, bucketId, records, function (err, data) {
       AwsHelper.log.info({ err: err, records: records.length }, 'DynamoDB records');
       return context.succeed(records.length);

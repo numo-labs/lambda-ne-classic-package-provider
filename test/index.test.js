@@ -85,4 +85,15 @@ describe('Spain End-to-End Test with Departure Date and Airport!', function () {
     };
     handler(complete_event, CONTEXT);
   });
+  it('Complete Cache Hit', function (done) {
+    CONTEXT.invokedFunctionArn = 'arn:aws:lambda:eu-west-1:12345:function:LambdaTest:ci';
+    CONTEXT.succeed = function () {
+      // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
+      // console.log(JSON.stringify(arguments[0], null, 2)); // the argument to context.succeed
+      COUNT = arguments[0];
+      assert(COUNT > 0);
+      done();
+    };
+    handler(complete_event, CONTEXT);
+  });
 });
