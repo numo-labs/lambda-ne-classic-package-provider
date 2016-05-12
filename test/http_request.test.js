@@ -1,7 +1,15 @@
 var http_request = require('../lib/http_request');
 var assert = require('assert');
+var AwsHelper = require('aws-lambda-helper');
 
 describe('http_request', function () {
+  before(function (done) {
+    AwsHelper.init({
+      invokedFunctionArn: 'arn:aws:lambda:eu-west-1:123456789:function:mylambda:ci'
+    });
+    done();
+  });
+
   it('issue a GET request to Guardian API (confirms internet accessible)', function (done) {
     var options = {
       'host': 'content.guardianapis.com',

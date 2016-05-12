@@ -1,6 +1,6 @@
 {
   "name": "lambda-ne-classic-package-provider",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "AWS lambda-ne-classic-package-provider",
   "main": "index.js",
   "scripts": {
