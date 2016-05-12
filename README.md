@@ -1,5 +1,10 @@
 ## Lambda Northern Europe (NE) Classic Package (Holiday) Provider
 
+[![Codeship](https://img.shields.io/codeship/d78bd820-c6c7-0133-6694-1ac1b065c1d6/master.svg?maxAge=2592000)](https://codeship.com/projects/138820)
+[![codecov](https://codecov.io/gh/numo-labs/lambda-ne-classic-package-provider/branch/master/graph/badge.svg)](https://codecov.io/gh/numo-labs/lambda-ne-classic-package-provider)
+[![Dependency Status](https://david-dm.org/numo-labs/lambda-ne-classic-package-provider.svg)](https://david-dm.org/numo-labs/lambda-ne-classic-package-provider)
+[![devDependency Status](https://david-dm.org/numo-labs/lambda-ne-classic-package-provider/dev-status.svg)](https://david-dm.org/numo-labs/lambda-ne-classic-package-provider#info=devDependencies)
+
 A lambda function that listens to an SNS topic,
 makes a call to the Nordics' Price and Availability ("*Price & Avail*")
 cache API and adds the results to a corresponding (DynamoDB) search bucket.
