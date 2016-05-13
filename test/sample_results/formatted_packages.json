@@ -1,6 +1,266 @@
 [
   {
     "packageOffer": {
+      "priorityCode": 265,
+      "hotel": {
+        "name": "Anan House",
+        "images": {
+          "small": [
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1011_1_13.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1011_10_51.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1011_2_30.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1011_3_15.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1011_4_14.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1011_5_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1011_6_16.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1011_7_20.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1011_8_17.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1017_2_30.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1017_5_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1018_2_30.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1018_5_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1016_2_30.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1016_5_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1019_2_30.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1019_5_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1020_2_30.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1020_5_32.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1014_2_29.jpg?v=1"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1014_5_32.jpg?v=1"
+            }
+          ],
+          "large": [
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HKTANAN1011_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HKTANAN1017_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HKTANAN1018_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HKTANAN1016_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HKTANAN1019_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HKTANAN1020_2_30.jpg"
+            }
+          ]
+        },
+        "starRating": 4.6,
+        "place": {
+          "name": "Karon Beach",
+          "country": "Thailand",
+          "region": "Phuket"
+        },
+        "description": "Charmerende og enkelt hotel tæt på både shopping og restauranter. Anan House er et godt udgangspunkt for dig, der hellere vil udforske Karon Beach og omgivelser end tilbringe ferien ved en hotelpool. De store turistgader i Karon Beach ligger kun et stykke væk, og der er gåafstand til stranden.\n\nI perioden oktober til april er de fleste af hotellets gæster fra Skandinavien.",
+        "concept": {
+          "id": "",
+          "title": ""
+        }
+      },
+      "flights": {
+        "outbound": [
+          {
+            "number": "na",
+            "departure": {
+              "localDateTime": "2017-01-03T16:10:00",
+              "airport": {
+                "code": "CPH",
+                "name": "Kastrup Terminal 2"
+              }
+            },
+            "arrival": {
+              "localDateTime": "2017-01-04T08:50:00",
+              "airport": {
+                "code": "HKT"
+              }
+            },
+            "carrier": {
+              "code": "DK"
+            }
+          }
+        ],
+        "inbound": [
+          {
+            "number": "na",
+            "departure": {
+              "localDateTime": "2017-01-31T11:00:00",
+              "airport": {
+                "code": "HKT",
+                "name": "Phuket"
+              }
+            },
+            "arrival": {
+              "localDateTime": "2017-02-01T17:05:00",
+              "airport": {
+                "code": "CPH"
+              }
+            },
+            "carrier": {
+              "code": "DK"
+            }
+          }
+        ]
+      },
+      "price": {
+        "total": 56380,
+        "perPerson": 11449,
+        "currency": "DKK",
+        "discountPrice": 0
+      },
+      "provider": {
+        "id": "lambda-searcher",
+        "reference": "HKTANAN",
+        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2017-01-03&duration=29&departureCode=CPH&destinationCode=HKT&transportSerial=21&transportClass=S&hotelCode=ANAN&roomType=H12"
+      },
+      "nights": 28,
+      "amenities": {
+        "outdoorpool": false,
+        "distancetobeach": true,
+        "distancetocenter": "600 m",
+        "bar": false,
+        "childrenpool": false,
+        "elevator": false,
+        "poolbar": false,
+        "restaurant": true,
+        "minimarket": false,
+        "cleaningdaysperweek": "7",
+        "wifi": true,
+        "waterslide": false,
+        "lolloandbernie": false,
+        "isadulthotel": false,
+        "allinclusive": false
+      }
+    }
+  },
+  {
+    "packageOffer": {
       "priorityCode": 300,
       "hotel": {
         "name": "Phuket Island View",
@@ -486,548 +746,6 @@
         "minimarket": false,
         "cleaningdaysperweek": "7",
         "wifi": "Mod betaling",
-        "waterslide": false,
-        "lolloandbernie": false,
-        "isadulthotel": false,
-        "allinclusive": false
-      }
-    }
-  },
-  {
-    "packageOffer": {
-      "priorityCode": 260,
-      "hotel": {
-        "name": "Andaman Seaview",
-        "images": {
-          "small": [
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1023_1_51.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1023_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1023_3_15.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1023_4_14.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1023_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1023_6_16.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1023_7_20.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1023_8_17.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1060_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1060_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1038_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1038_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1044_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1044_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1034_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1034_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1035_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1035_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1036_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1036_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1037_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1037_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1033_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1033_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1023_10_13.jpg?v=1"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1061_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1061_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1053_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1053_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1052_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1052_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1048_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1048_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1049_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1049_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1043_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1043_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1041_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1041_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1042_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1042_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1057_2_29.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1057_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1056_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1056_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1051_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1051_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1050_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1050_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1040_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1040_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1047_2_29.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HKTANSE1047_5_32.jpg?v=2"
-            }
-          ],
-          "large": [
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1060_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1023_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1038_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1044_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1034_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1035_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1036_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1037_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1033_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1061_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1053_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1052_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1048_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1049_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1043_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1041_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1042_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1056_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1051_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1050_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HKTANSE1040_2_30.jpg"
-            }
-          ]
-        },
-        "starRating": 3.8,
-        "place": {
-          "name": "Karon Beach",
-          "country": "Thailand",
-          "region": "Phuket"
-        },
-        "description": "Pænt og nydeligt hotel med en afslappet atmosfære. Her bor du lige ved stranden i Karon Beach. Hotellet har en pæn have med to pools. Andaman Seaview har også en a la carte-restaurant samt en dejlig spaafdeling.",
-        "concept": {
-          "id": "",
-          "title": ""
-        }
-      },
-      "flights": {
-        "outbound": [
-          {
-            "number": "na",
-            "departure": {
-              "localDateTime": "2017-01-03T16:10:00",
-              "airport": {
-                "code": "CPH",
-                "name": "Kastrup Terminal 2"
-              }
-            },
-            "arrival": {
-              "localDateTime": "2017-01-04T08:50:00",
-              "airport": {
-                "code": "HKT"
-              }
-            },
-            "carrier": {
-              "code": "DK"
-            }
-          }
-        ],
-        "inbound": [
-          {
-            "number": "na",
-            "departure": {
-              "localDateTime": "2017-01-31T11:00:00",
-              "airport": {
-                "code": "HKT",
-                "name": "Phuket"
-              }
-            },
-            "arrival": {
-              "localDateTime": "2017-02-01T17:05:00",
-              "airport": {
-                "code": "CPH"
-              }
-            },
-            "carrier": {
-              "code": "DK"
-            }
-          }
-        ]
-      },
-      "price": {
-        "total": 122645,
-        "perPerson": 27799,
-        "currency": "DKK",
-        "discountPrice": 0
-      },
-      "provider": {
-        "id": "lambda-searcher",
-        "reference": "HKTANSE",
-        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2017-01-03&duration=29&departureCode=CPH&destinationCode=HKT&transportSerial=21&transportClass=S&hotelCode=ANSE&roomType=H12SUI"
-      },
-      "nights": 28,
-      "amenities": {
-        "outdoorpool": "2 stk.",
-        "distancetobeach": true,
-        "distancetocenter": "400 m",
-        "bar": true,
-        "childrenpool": true,
-        "elevator": true,
-        "poolbar": true,
-        "restaurant": true,
-        "minimarket": false,
-        "cleaningdaysperweek": "7",
-        "wifi": true,
         "waterslide": false,
         "lolloandbernie": false,
         "isadulthotel": false,
