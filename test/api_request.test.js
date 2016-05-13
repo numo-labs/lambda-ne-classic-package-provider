@@ -49,7 +49,7 @@ describe('api_request', function () {
       // console.log('Result Count:', json.result.length);
       assert(json.result.length > 1);
       assert(json.totalHits > 10);
-      console.log(JSON.stringify(json, null, 2));
+      // console.log(JSON.stringify(json, null, 2));
       done();
     });
   });
