@@ -5,6 +5,7 @@ var dir = path.resolve(__dirname + '/sample_results/') + '/';
 // Sample Hotels API Query Result Saved by the api_request.test.js
 var filename = dir + 'NE_trips_without_hotels.json';
 var sample_packages_result = JSON.parse(fs.readFileSync(filename, 'utf8'));
+// console.log(sample_packages_result);
 
 var unique_packages = require('../lib/unique_packages');
 
@@ -19,7 +20,7 @@ describe('Functional test for priorityCode sorting', function () {
     ];
 
     var results = pkg.sort(unique_packages.sort_by_priority_code_descending);
-    console.log(results);
+    // console.log(results);
     assert.equal(results[0].priorityCode, 100);
     assert.equal(results[4].priorityCode, -1);
     done();
