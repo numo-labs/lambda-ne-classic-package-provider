@@ -27,8 +27,8 @@ describe('api_request', function () {
       fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
       // console.log(JSON.stringify(json.result[0], null, 2));
       console.log('Result Count:', json.result.length);
-      assert(json.result.length > 10);
-      assert(json.totalHits > 10);
+      assert(json.result.length > 0);
+      assert(json.totalHits > 0);
       done();
     });
   });
@@ -39,7 +39,7 @@ describe('api_request', function () {
       children: 3,
       allInclusive: 'true', // yes these values are strings not boolean!
       lmsOnly: 'true',
-      hotelIds: '139891,10002,99281'
+      hotelIds: '139891,122133,14044,121633,109622,107706,10567,10564,10617,10573,11276'
     };
     api_request(params, function (err, json) {
       assert(!err);
@@ -47,8 +47,29 @@ describe('api_request', function () {
       fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
       // console.log(JSON.stringify(json.result[0], null, 2));
       // console.log('Result Count:', json.result.length);
-      assert(json.result.length > 1);
-      assert(json.totalHits > 10);
+      assert(json.result.length > 0);
+      assert(json.totalHits > 0);
+      // console.log(JSON.stringify(json, null, 2));
+      done();
+    });
+  });
+
+  it('GET NE trips with hotels (CACHE Test)', function (done) {
+    var params = { // leave "path" and "stage" unset
+      adults: 2,
+      children: 3,
+      allInclusive: 'true', // yes these values are strings not boolean!
+      lmsOnly: 'true',
+      hotelIds: '139891,122133,14044,121633,109622,107706,10567,10564,10617,10573,11276'
+    };
+    api_request(params, function (err, json) {
+      assert(!err);
+      var sample_filename = dir + 'NE_trips_with_hotels.json';
+      fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
+      // console.log(JSON.stringify(json.result[0], null, 2));
+      // console.log('Result Count:', json.result.length);
+      assert(json.result.length > 0);
+      assert(json.totalHits > 0);
       // console.log(JSON.stringify(json, null, 2));
       done();
     });
@@ -58,7 +79,7 @@ describe('api_request', function () {
     var params = {
       path: 'hotels',
       stage: '$LATEST', // there is no 'prod' API Gateway endpoint for now.
-      hotelIds: '139891,10002,99281',
+      hotelIds: '139891,122133,14044,121633,109622,107706,10567,10564,10617,10573,11276',
       adults: 2,
       allInclusive: 'true', // yes these values are strings not boolean!
       lmsOnly: 'true'
@@ -69,7 +90,7 @@ describe('api_request', function () {
       fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
       // console.log(JSON.stringify(json.result[0], null, 2));
       // console.log('Result Count:', json.result.length);
-      assert(json.result.length > 1);
+      assert(json.result.length > 0);
       done();
     });
   });

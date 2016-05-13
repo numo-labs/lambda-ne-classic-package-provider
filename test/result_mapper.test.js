@@ -7,7 +7,9 @@ var dir = path.resolve(__dirname + '/sample_results/') + '/';
 var sample_hotels_result_filename = dir + 'NE_hotels_without_trips.json';
 var sample_hotels_result = require(sample_hotels_result_filename);
 var sample_packages_result_filename = dir + 'NE_trips_with_hotels.json';
-var sample_packages_result = JSON.parse(fs.readFileSync(sample_packages_result_filename, 'utf8'));
+var sample_packages_result = require(sample_packages_result_filename);
+// console.log(sample_packages_result);
+// console.log(sample_hotels_result);
 
 var mapper = require('../lib/result_mapper');
 
@@ -67,6 +69,7 @@ describe('Map results and hotels', function () {
     // console.log(sample_packages_result);
     var result = mapper.map_ne_result_to_graphql(sample_packages_result.result, sample_hotels_result.result);
     var expected_keys = ['id', 'name', 'images', 'starRating', 'place', 'description', 'concept'];
+    console.log(result[0]);
     assert.deepEqual(Object.keys(result[0].packageOffer.hotel), expected_keys);
     // console.log(result[0].packageOffer.hotel);
     // result.forEach(function(res) {

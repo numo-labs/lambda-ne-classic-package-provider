@@ -28,7 +28,9 @@ exports.handler = function (event, context) {
       stage: params.stage, // always need the stage (environment e.g: ci/prod)
       hotelIds: packages.map(function (i) { return i.wvHotelPartId; }).join(',')
     };
-
+    // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
+    // console.log(hotel_params.hotelIds);
+    // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
     api_request(hotel_params, function (err, hotel_response) { // get hotel info
       AwsHelper.log.info({ err: err, hotels: hotel_response.result.length }, 'Hotel results');
       var records = mapper.map_ne_result_to_graphql(packages, hotel_response.result);
