@@ -88,7 +88,8 @@ var sample_packages_result_without = require(sample_packages_without_hotels);
 
 describe('Simulate Failure Where a hotels API does not return hotel detail', function () {
   it('map_ne_result_to_graphql returns early when no hotel details found', function (done) {
-    var one_hotel = sample_hotels_result.result.slice(0, 1); // simulate mapping failure
+    var len = sample_hotels_result.result;
+    var one_hotel = sample_hotels_result.result.slice(len - 1, len); // simulate mapping failure
     var result = mapper.map_ne_result_to_graphql(sample_packages_result_without.result, one_hotel);
     // console.log(result);
     assert.equal(result.length, 0);
