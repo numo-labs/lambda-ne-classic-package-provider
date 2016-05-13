@@ -46,9 +46,10 @@ describe('api_request', function () {
       var sample_filename = dir + 'NE_trips_with_hotels.json';
       fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
       // console.log(JSON.stringify(json.result[0], null, 2));
-      console.log('Result Count:', json.result.length);
-      assert(json.result.length > 10);
+      // console.log('Result Count:', json.result.length);
+      assert(json.result.length > 1);
       assert(json.totalHits > 10);
+      // console.log(JSON.stringify(json, null, 2));
       done();
     });
   });
@@ -67,7 +68,7 @@ describe('api_request', function () {
       var sample_filename = dir + 'NE_hotels_without_trips.json';
       fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
       // console.log(JSON.stringify(json.result[0], null, 2));
-      console.log('Result Count:', json.result.length);
+      // console.log('Result Count:', json.result.length);
       assert(json.result.length > 1);
       done();
     });

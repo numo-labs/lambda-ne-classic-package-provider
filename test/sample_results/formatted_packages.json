@@ -1,7 +1,692 @@
 [
   {
     "packageOffer": {
-      "priorityCode": 320,
+      "priorityCode": 215,
+      "hotel": {
+        "name": "Villa Aspro",
+        "images": {
+          "small": [
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_1_13.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_10_51.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_3_15.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_4_14.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_6_16.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_7_20.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_8_17.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1054_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1054_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1061_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1061_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1070_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1070_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1041_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1041_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1042_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1042_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1062_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1062_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1063_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1063_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1060_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1060_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1076_2_29.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1053_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1053_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1051_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1051_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1049_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1049_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1043_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1043_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1044_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1044_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1045_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1045_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1046_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1046_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1047_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1047_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1050_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1050_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1056_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1056_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1058_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1058_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1065_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1065_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1066_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1066_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1064_2_29.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1064_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1068_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1068_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1069_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1069_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1077_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1072_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1072_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1067_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1067_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1075_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1040_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1040_5_32.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1052_2_30.jpg?v=2"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1052_5_32.jpg?v=2"
+            }
+          ],
+          "large": [
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1048_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1054_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1061_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1070_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1041_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1042_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1062_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1063_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1060_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1053_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1051_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1049_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1043_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1044_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1045_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1046_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1047_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1050_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1056_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1058_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1065_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1066_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1068_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1069_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1077_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1072_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1075_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1067_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1040_2_30.jpg"
+            },
+            {
+              "type": "image/jpeg",
+              "displaySequence": null,
+              "primary": null,
+              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1052_2_30.jpg"
+            }
+          ]
+        },
+        "starRating": 4.4,
+        "place": {
+          "name": "Hersonissos",
+          "country": "Grækenland",
+          "region": "Kreta"
+        },
+        "description": "Populært lejlighedshotel beliggende i gåafstand fra det pulserende forlystelsesliv ved havet og havnen i Hersonissos, og du kommer nemt med taxi til de ældre dele af byen, hvor der findes mange hyggelige tavernaer. Hotellet har et livligt poolområde samt en bar, der serverer enkle retter. Villa Aspro har mange unge og livlige gæster. Er du under 18 år, kan du ikke bestille hotellet i perioden 15/6-13/8.\n\nDe fleste af hotellets gæster er fra Skandinavien.",
+        "concept": {
+          "id": "",
+          "title": ""
+        }
+      },
+      "flights": {
+        "outbound": [
+          {
+            "number": "na",
+            "departure": {
+              "localDateTime": "2016-09-15T16:50:00",
+              "airport": {
+                "code": "CPH",
+                "name": "Kastrup Terminal 2"
+              }
+            },
+            "arrival": {
+              "localDateTime": "2016-09-15T21:10:00",
+              "airport": {
+                "code": "HER"
+              }
+            },
+            "carrier": {
+              "code": "DK"
+            }
+          }
+        ],
+        "inbound": [
+          {
+            "number": "na",
+            "departure": {
+              "localDateTime": "2016-09-29T22:30:00",
+              "airport": {
+                "code": "HER",
+                "name": "Kreta-Heraklion"
+              }
+            },
+            "arrival": {
+              "localDateTime": "2016-09-30T01:00:00",
+              "airport": {
+                "code": "CPH"
+              }
+            },
+            "carrier": {
+              "code": "DK"
+            }
+          }
+        ]
+      },
+      "price": {
+        "total": 24745,
+        "perPerson": 4999,
+        "currency": "DKK",
+        "discountPrice": 0
+      },
+      "provider": {
+        "id": "lambda-searcher",
+        "reference": "HERASPR",
+        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2016-09-15&duration=15&departureCode=CPH&destinationCode=HER&transportSerial=41&transportClass=E&hotelCode=ASPR&roomType=A12"
+      },
+      "nights": 14,
+      "amenities": {
+        "outdoorpool": true,
+        "distancetobeach": true,
+        "distancetocenter": "400 m",
+        "bar": true,
+        "childrenpool": true,
+        "elevator": "(i en af bygningerne)",
+        "poolbar": "(serverer enkle retter)",
+        "minimarket": false,
+        "cleaningdaysperweek": "4",
+        "wifi": "Mod betaling",
+        "waterslide": false,
+        "lolloandbernie": false,
+        "isadulthotel": false,
+        "allinclusive": false
+      }
+    }
+  },
+  {
+    "packageOffer": {
+      "priorityCode": 199,
       "hotel": {
         "name": "Gloria Palace Royal",
         "images": {
@@ -777,14 +1462,14 @@
           {
             "number": "na",
             "departure": {
-              "localDateTime": "2016-12-21T07:30:00",
+              "localDateTime": "2017-02-15T07:30:00",
               "airport": {
                 "code": "CPH",
                 "name": "Kastrup Terminal 2"
               }
             },
             "arrival": {
-              "localDateTime": "2016-12-21T11:45:00",
+              "localDateTime": "2017-02-15T11:45:00",
               "airport": {
                 "code": "LPA"
               }
@@ -798,14 +1483,14 @@
           {
             "number": "na",
             "departure": {
-              "localDateTime": "2016-12-28T13:15:00",
+              "localDateTime": "2017-03-29T13:15:00",
               "airport": {
                 "code": "LPA",
                 "name": "Gran Canaria"
               }
             },
             "arrival": {
-              "localDateTime": "2016-12-28T19:15:00",
+              "localDateTime": "2017-03-29T19:15:00",
               "airport": {
                 "code": "CPH"
               }
@@ -817,17 +1502,17 @@
         ]
       },
       "price": {
-        "total": 46065,
-        "perPerson": 9799,
+        "total": 191195,
+        "perPerson": 41549,
         "currency": "DKK",
-        "discountPrice": -300
+        "discountPrice": 0
       },
       "provider": {
         "id": "lambda-searcher",
         "reference": "LPAGLOR",
-        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2016-12-21&duration=8&departureCode=CPH&destinationCode=LPA&transportSerial=31&transportClass=E&hotelCode=GLOR&roomType=A12SEX"
+        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2017-02-15&duration=43&departureCode=CPH&destinationCode=LPA&transportSerial=31&transportClass=E&hotelCode=GLOR&roomType=A22SUI"
       },
-      "nights": 7,
+      "nights": 42,
       "amenities": {
         "outdoorpool": "2 stk.",
         "distancetobeach": "300 m",
@@ -840,691 +1525,6 @@
         "minimarket": false,
         "cleaningdaysperweek": "7",
         "wifi": true,
-        "waterslide": false,
-        "lolloandbernie": false,
-        "isadulthotel": false,
-        "allinclusive": false
-      }
-    }
-  },
-  {
-    "packageOffer": {
-      "priorityCode": 220,
-      "hotel": {
-        "name": "Villa Aspro",
-        "images": {
-          "small": [
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_1_13.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_10_51.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_3_15.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_4_14.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_6_16.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_7_20.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1048_8_17.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1054_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1054_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1061_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1061_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1070_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1070_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1041_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1041_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1042_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1042_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1062_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1062_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1063_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1063_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1060_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1060_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1076_2_29.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1053_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1053_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1051_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1051_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1049_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1049_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1043_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1043_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1044_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1044_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1045_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1045_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1046_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1046_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1047_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1047_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1050_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1050_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1056_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1056_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1058_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1058_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1065_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1065_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1066_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1066_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1064_2_29.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1064_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1068_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1068_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1069_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1069_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1077_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1072_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1072_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1067_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1067_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1075_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1040_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1040_5_32.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1052_2_30.jpg?v=2"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images1.spies.dk/images/Hotel/HERASPR1052_5_32.jpg?v=2"
-            }
-          ],
-          "large": [
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1048_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1054_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1061_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1070_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1041_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1042_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1062_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1063_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1060_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1053_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1051_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1049_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1043_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1044_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1045_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1046_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1047_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1050_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1056_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1058_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1065_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1066_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1068_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1069_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1077_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1072_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1075_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1067_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1040_2_30.jpg"
-            },
-            {
-              "type": "image/jpeg",
-              "displaySequence": null,
-              "primary": null,
-              "uri": "http://images2.spies.dk/images/Hotel/HERASPR1052_2_30.jpg"
-            }
-          ]
-        },
-        "starRating": 4.4,
-        "place": {
-          "name": "Hersonissos",
-          "country": "Grækenland",
-          "region": "Kreta"
-        },
-        "description": "Populært lejlighedshotel beliggende i gåafstand fra det pulserende forlystelsesliv ved havet og havnen i Hersonissos, og du kommer nemt med taxi til de ældre dele af byen, hvor der findes mange hyggelige tavernaer. Hotellet har et livligt poolområde samt en bar, der serverer enkle retter. Villa Aspro har mange unge og livlige gæster. Er du under 18 år, kan du ikke bestille hotellet i perioden 15/6-13/8.\n\nDe fleste af hotellets gæster er fra Skandinavien.",
-        "concept": {
-          "id": "",
-          "title": ""
-        }
-      },
-      "flights": {
-        "outbound": [
-          {
-            "number": "na",
-            "departure": {
-              "localDateTime": "2016-09-29T07:00:00",
-              "airport": {
-                "code": "BLL",
-                "name": "Billund"
-              }
-            },
-            "arrival": {
-              "localDateTime": "2016-09-29T11:30:00",
-              "airport": {
-                "code": "HER"
-              }
-            },
-            "carrier": {
-              "code": "DK"
-            }
-          }
-        ],
-        "inbound": [
-          {
-            "number": "na",
-            "departure": {
-              "localDateTime": "2016-10-06T12:50:00",
-              "airport": {
-                "code": "HER",
-                "name": "Kreta-Heraklion"
-              }
-            },
-            "arrival": {
-              "localDateTime": "2016-10-06T15:30:00",
-              "airport": {
-                "code": "BLL"
-              }
-            },
-            "carrier": {
-              "code": "DK"
-            }
-          }
-        ]
-      },
-      "price": {
-        "total": 16745,
-        "perPerson": 3299,
-        "currency": "DKK",
-        "discountPrice": -400
-      },
-      "provider": {
-        "id": "lambda-searcher",
-        "reference": "HERASPR",
-        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2016-09-29&duration=8&departureCode=BLL&destinationCode=HER&transportSerial=41&transportClass=E&hotelCode=ASPR&roomType=A12"
-      },
-      "nights": 7,
-      "amenities": {
-        "outdoorpool": true,
-        "distancetobeach": true,
-        "distancetocenter": "400 m",
-        "bar": true,
-        "childrenpool": true,
-        "elevator": "(i en af bygningerne)",
-        "poolbar": "(serverer enkle retter)",
-        "minimarket": false,
-        "cleaningdaysperweek": "4",
-        "wifi": "Mod betaling",
         "waterslide": false,
         "lolloandbernie": false,
         "isadulthotel": false,
