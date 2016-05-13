@@ -777,14 +777,14 @@
           {
             "number": "na",
             "departure": {
-              "localDateTime": "2016-12-21T07:30:00",
+              "localDateTime": "2016-11-12T07:20:00",
               "airport": {
-                "code": "CPH",
-                "name": "Kastrup Terminal 2"
+                "code": "AAL",
+                "name": "Aalborg"
               }
             },
             "arrival": {
-              "localDateTime": "2016-12-21T11:45:00",
+              "localDateTime": "2016-11-12T11:40:00",
               "airport": {
                 "code": "LPA"
               }
@@ -798,16 +798,16 @@
           {
             "number": "na",
             "departure": {
-              "localDateTime": "2016-12-28T13:15:00",
+              "localDateTime": "2016-11-19T13:00:00",
               "airport": {
                 "code": "LPA",
                 "name": "Gran Canaria"
               }
             },
             "arrival": {
-              "localDateTime": "2016-12-28T19:15:00",
+              "localDateTime": "2016-11-19T19:10:00",
               "airport": {
-                "code": "CPH"
+                "code": "AAL"
               }
             },
             "carrier": {
@@ -817,15 +817,15 @@
         ]
       },
       "price": {
-        "total": 46065,
-        "perPerson": 9799,
+        "total": 47675,
+        "perPerson": 10199,
         "currency": "DKK",
-        "discountPrice": -300
+        "discountPrice": 0
       },
       "provider": {
         "id": "lambda-searcher",
         "reference": "LPAGLOR",
-        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2016-12-21&duration=8&departureCode=CPH&destinationCode=LPA&transportSerial=31&transportClass=E&hotelCode=GLOR&roomType=A12SEX"
+        "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2016-11-12&duration=8&departureCode=AAL&destinationCode=LPA&transportSerial=61&transportClass=E&hotelCode=GLOR&roomType=A22SUI"
       },
       "nights": 7,
       "amenities": {
