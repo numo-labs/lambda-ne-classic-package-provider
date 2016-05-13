@@ -11,7 +11,7 @@ var parse_sns = require('./lib/parse_sns');
  */
 exports.handler = function (event, context) {
   AwsHelper.init(context, event); // used to extract the version (ci/prod) from Arn
-
+  AwsHelper.Logger('lambda-ne-classic-package-provider');
   AwsHelper.log.info({ event: event }, 'Received event'); // debug sns
   var params = parse_sns(event.Records[0].Sns.Message);
   var stage = AwsHelper.version; // get environment e.g: ci or prod

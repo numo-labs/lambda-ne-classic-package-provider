@@ -6,7 +6,7 @@
   "scripts": {
     "fixtures": "node test/_create_hotels_fixture.js",
     "start": "node index.js",
-    "test": "semistandard && npm run fixtures && npm run api && npm run coverage",
+    "test": "semistandard && npm run fixtures && npm run coverage",
     "deploy": "node ./node_modules/dpl/dpl.js",
     "nocov": "node ./node_modules/.bin/mocha test/api_request.test.js",
     "semistandard": "semistandard --verbose | snazzy",
