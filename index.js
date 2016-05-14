@@ -11,7 +11,7 @@ var parse_sns = require('./lib/parse_sns');
  */
 exports.handler = function (event, context) {
   AwsHelper.init(context, event); // used to extract the version (ci/prod) from Arn
-
+  AwsHelper.Logger('lambda-ne-classic-package-provider');
   AwsHelper.log.info({ event: event }, 'Received event'); // debug sns
   var params = parse_sns(event.Records[0].Sns.Message);
   var stage = AwsHelper.version; // get environment e.g: ci or prod
@@ -28,7 +28,9 @@ exports.handler = function (event, context) {
       stage: params.stage, // always need the stage (environment e.g: ci/prod)
       hotelIds: packages.map(function (i) { return i.wvHotelPartId; }).join(',')
     };
-
+    // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
+    // console.log(hotel_params.hotelIds);
+    // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
     api_request(hotel_params, function (err, hotel_response) { // get hotel info
       AwsHelper.log.info({ err: err, hotels: hotel_response.result.length }, 'Hotel results');
       var records = mapper.map_ne_result_to_graphql(packages, hotel_response.result);
