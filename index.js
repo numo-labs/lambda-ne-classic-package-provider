@@ -23,6 +23,10 @@ exports.handler = function (event, context) {
     AwsHelper.log.info({ err: err, packages: response.result.length }, 'Package results');
 
     var packages = response.result;
+    if (packages.length === 0) {
+      AwsHelper.log.info('No packages found');
+      return context.fail('No packages found');
+    }
     var hotel_params = {
       path: 'hotels',
       stage: params.stage, // always need the stage (environment e.g: ci/prod)
