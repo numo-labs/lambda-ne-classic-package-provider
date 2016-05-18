@@ -1,6 +1,6 @@
 {
   "name": "lambda-ne-classic-package-provider",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "AWS lambda-ne-classic-package-provider",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,8 @@
     "/lib",
     ".env"
   ],
+  "lambda_memory":"1536",
+  "lambda_timeout":"30",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/numo-labs/lambda-ne-classic-package-provider.git"
@@ -32,29 +34,36 @@
   },
   "homepage": "https://github.com/numo-labs/lambda-ne-classic-package-provider#readme",
   "dependencies": {
-    "aws-lambda-helper": "^2.10.0",
+    "aws-lambda-helper": "^2.11.0",
     "dynamodb-doc": "^1.0.0",
-    "env2": "^2.0.7",
+    "env2": "^2.0.8",
     "lodash.result": "^4.4.0"
   },
   "devDependencies": {
     "aws-lambda-test-utils": "^1.0.2",
-    "aws-sdk": "^2.2.41",
+    "aws-sdk": "^2.3.11",
     "aws-sdk-mock": "^1.0.10",
-    "dpl": "^3.0.1",
+    "dpl": "^3.2.0",
     "istanbul": "^0.4.3",
     "mocha": "^2.4.5",
     "pre-commit": "^1.1.3",
-    "semistandard": "^7.0.5",
+    "semistandard": "7.0.5",
     "snazzy": "^4.0.0"
   },
   "semistandard": {
+    "rules": {
+      "camelcase": false
+    },
     "globals": [
       "describe",
       "it",
       "afterEach",
       "before"
     ]
+  },
+  "eslintConfig": {
+    "camelcase": false,
+    "node": true
   },
   "pre-commit": [
     "semistandard",
