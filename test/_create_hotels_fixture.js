@@ -6,6 +6,11 @@ var path = require('path');
 var assert = require('assert');
 var sample_results = path.resolve(__dirname + '/sample_results/') + '/';
 
+var AwsHelper = require('aws-lambda-helper');
+AwsHelper.init({
+  invokedFunctionArn: 'arn:aws:lambda:eu-west-1:123456789:function:mylambda:ci'
+});
+
 function api_request (path, callback) {
   var options = {
     headers: {
