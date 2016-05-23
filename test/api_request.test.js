@@ -19,30 +19,38 @@ describe('api_request', function () {
       adults: 2,
       children: 3,
       allInclusive: 'true', // yes these values are strings not boolean!
-      lmsOnly: 'true'
+      lmsOnly: 'true',
+      searchId: 12345,
+      id: 67890,
+      userId: 'test'
     };
     api_request(params, function (err, json) {
       assert(!err);
+      console.log(' - - - - - - - - - - - - - - - ');
       var sample_filename = dir + 'NE_trips_without_hotels.json';
       fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
       // console.log(JSON.stringify(json.result[0], null, 2));
-      console.log('Result Count:', json.result.length);
+      // console.log('Result Count:', json.result.length);
       assert(json.result.length > 0);
       assert(json.totalHits > 0);
       done();
     });
   });
 
-  it('GET NE trips with hotels', function (done) {
+  it.only('GET NE trips with hotels', function (done) {
     var params = { // leave "path" and "stage" unset
       adults: 2,
       children: 3,
       allInclusive: 'true', // yes these values are strings not boolean!
       lmsOnly: 'true',
-      hotelIds: '139891,122133,14044,121633,109622,107706,10567,10564,10617,10573,11276'
+      hotelIds: '139891,122133,14044,121633,109622,107706,10567,10564,10617,10573,11276',
+      searchId: 12345,
+      id: 67890,
+      userId: 'test'
     };
     api_request(params, function (err, json) {
-      assert(!err);
+      console.log(err);
+      // assert(!err);
       var sample_filename = dir + 'NE_trips_with_hotels.json';
       fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
       // console.log(JSON.stringify(json.result[0], null, 2));

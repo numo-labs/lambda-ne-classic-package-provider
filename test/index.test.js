@@ -76,8 +76,8 @@ var FAKE_HOTELS_EVENT = {
 describe('Exercise Error Handler (No Packages Found)', function () {
   it('Exercise the "no packages" error handler in index.js', function (done) {
     CONTEXT.fail = function (err) {
-      // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      // console.log(err); // the argument to context.succeed
+      console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
+      console.log(err); // the argument to context.succeed
       assert(err, 'No packages found');
       done();
     };
