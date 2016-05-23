@@ -52,8 +52,8 @@ describe('Spain End-to-End Test with Departure Date and Airport!', function () {
     var start = Date.now();
     CONTEXT.invokedFunctionArn = 'arn:aws:lambda:eu-west-1:655240711487:function:LambdaTest:$LATEST';
     CONTEXT.succeed = function () {
-      // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      // console.log(JSON.stringify(arguments[0], null, 2)); // the argument to context.succeed
+      console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
+      console.log(JSON.stringify(arguments[0], null, 2)); // the argument to context.succeed
       COUNT = arguments[0];
       assert(COUNT > 0);
       console.log('Took:', Date.now() - start, 'ms - the bottleneck is dynamodb ...');
@@ -67,7 +67,7 @@ var FAKE_HOTELS_EVENT = {
   'Records': [
     {
       'Sns': { // CONTAINS FAKE HOTELS
-        'Message': '{\"data\":{\"context\":{\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"123456\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"}],\"hotels\":[\"hotel:NE.wvHotelPartId.1234\",\"hotel:NE.wvHotelPartId.2345\"]}},\"id\":\"12345\"}'
+        'Message': '{\"data\":{\"content\":{\"hotels\":[\"hotel:ne.wvid.1234\",\"hotel:ne.wvid.2345\"]},\"context\":{\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"123456\",\"connectionId\":\"98765\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"}],\"hotels\":[\"hotel:NE.wvHotelPartId.1234\",\"hotel:NE.wvHotelPartId.2345\"]}},\"id\":\"12345\"}'
       }
     }
   ]
