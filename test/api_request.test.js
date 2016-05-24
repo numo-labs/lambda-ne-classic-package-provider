@@ -82,19 +82,28 @@ describe('api_request', function () {
     });
   });
 
-  // it.only('Feed api_request invalid params to force error branch', function (done) {
+  it('Give api_request invalid params to force error branch', function (done) {
+    var params = { // leave "path" and "stage" unset
+      path: 'failure',
+      unrecognised: 'this-will-fail'
+    };
+    api_request(params, function (err, json) {
+      assert(err.toString().indexOf('TypeError') > -1);
+      done();
+    });
+  });
+
+  // it.only('Give api_request invalid params to force error (With Hotel IDs)', function (done) {
   //   var params = { // leave "path" and "stage" unset
-  //     path: 'failure',
-  //     unrecognised: 'this-will-fail'
+  //     path: 'hotels',
+  //     unrecognised: 'this-will-fail',
+  //     hotelIds: '12345'
   //   };
   //   api_request(params, function (err, json) {
-  //     // assert(!err);
+  //     console.log(' - - - - - - - - - - - - - - - ');
   //     console.log(err, json);
-  //     // console.log(JSON.stringify(json.result[0], null, 2));
-  //     // console.log('Result Count:', json.result.length);
-  //     // assert(json.result.length > 0);
-  //     // assert(json.totalHits > 0);
-  //     // console.log(JSON.stringify(json, null, 2));
+  //     console.log(' - - - - - - - - - - - - - - - ');
+  //     assert(err.toString().indexOf('TypeError') > -1);
   //     done();
   //   });
   // });
