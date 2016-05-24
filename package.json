@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/numo-labs/lambda-ne-classic-package-provider#readme",
   "dependencies": {
-    "aws-lambda-helper": "^2.13.2",
+    "aws-lambda-helper": "^2.13.3",
     "dynamodb-doc": "^1.0.0",
     "env2": "^2.0.8",
     "lodash.result": "^4.4.0"

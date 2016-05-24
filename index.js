@@ -1,6 +1,6 @@
 var AwsHelper = require('aws-lambda-helper');
 var api_request = require('./lib/api_request');
-var batch_insert = require('./lib/dynamo_insert');
+// var batch_insert = require('./lib/dynamo_insert');
 var parse_sns = require('./lib/parse_sns');
 /**
  * handler receives an SNS message with search parameters and makes requests
@@ -15,20 +15,19 @@ exports.handler = function (event, context) {
   var params = parse_sns(event.Records[0].Sns.Message);
   var stage = AwsHelper.version; // get environment e.g: ci or prod
   params.stage = stage = (stage === '$LATEST' || !stage) ? 'ci' : stage;
-  var bucketId = params.id; // we need the bucketId to insert the results
-  console.log(params);
-  console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
+  // var bucketId = params.id; // we need the bucketId to insert the results
+  // console.log(params);
+  // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
   api_request(params, function (err, response) { // get packages from NE API
     if (err || response.result.length === 0) {
-      AwsHelper.log.info('No packages found');
+      AwsHelper.log.info({err: err}, 'No packages found');
       return context.fail('No packages found');
     }
     AwsHelper.log.info({ err: err, packages: response.result.length }, 'Package results');
-    // var packages = response.result;
 
     // batch_insert(stage, bucketId, response.result, function (err, data) {
-      AwsHelper.log.info({ err: err, records: response.result.length }, 'DynamoDB records');
-      return context.succeed(response.result.length);
+    AwsHelper.log.info({ err: err, records: response.result.length }, 'DynamoDB records');
+    return context.succeed(response.result.length);
     // });
   });
 };
