@@ -81,13 +81,20 @@ describe('api_request', function () {
     });
   });
 
-  it('Give api_request invalid params to force error branch', function (done) {
+  it('Force error by supplying invalid params to api_request', function (done) {
     var params = { // leave "path" and "stage" unset
       path: 'failure',
       unrecognised: 'this-will-fail'
     };
     api_request(params, function (err, json) {
       assert(err.toString().indexOf('TypeError') > -1);
+      done();
+    });
+  });
+
+  it('Force error by supplying invalid params to get_hotel_info', function (done) {
+    api_request.get_hotel_info('fail', function (err, res) {
+      assert(err.toString().indexOf('SyntaxError') > -1);
       done();
     });
   });
