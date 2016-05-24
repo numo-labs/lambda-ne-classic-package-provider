@@ -20,13 +20,13 @@ describe('parse_sns', function () {
   it('extracts the bucketId from the SNS message', function (done) {
     var params = parse_sns(sns.Message);
     // console.log(params);
-    assert.ok(params.id === 'bd3c5c00-efa5-11e5-9ef8-c535434e66f5', 'Id extracted');
+    assert.ok(params.searchId === 'bd3c5c00-efa5-11e5-9ef8-c535434e66f5', 'Id extracted');
     done();
   });
   it('Parse SNS without hotels', function (done) {
     var params = parse_sns(sns_no_hotels.Message);
     // console.log(params);
-    assert.ok(params.id === '123456', 'Id extracted');
+    assert.ok(params.searchId === '123456', 'Id extracted');
     done();
   });
 });
