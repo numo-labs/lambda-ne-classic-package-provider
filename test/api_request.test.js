@@ -99,23 +99,14 @@ describe('api_request', function () {
     });
   });
 
-  // it('GET NE hotels (fetch additional info)', function (done) {
-  //   var params = {
-  //     path: 'hotels',
-  //     stage: '$LATEST', // there is no 'prod' API Gateway endpoint for now.
-  //     hotelIds: '139891,122133,14044,121633,109622,107706,10567,10564,10617,10573,11276',
-  //     adults: 2,
-  //     allInclusive: 'true', // yes these values are strings not boolean!
-  //     lmsOnly: 'true'
-  //   };
-  //   api_request(params, function (err, json) {
-  //     assert(!err);
-  //     var sample_filename = dir + 'NE_hotels_without_trips.json';
-  //     fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
-  //     // console.log(JSON.stringify(json.result[0], null, 2));
-  //     // console.log('Result Count:', json.result.length);
-  //     assert(json.result.length > 0);
-  //     done();
-  //   });
-  // });
+  it('GET NE hotel detail (fetch additional info)', function (done) {
+    var hid = 139891;
+    api_request.get_hotel_info(139891, function (err, json) {
+      assert(!err);
+      var sample_filename = dir + 'NE_hotels_without_trips.json';
+      fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
+      assert.equal(json[0].wvId, hid);
+      done();
+    });
+  });
 });
