@@ -25,8 +25,7 @@ describe('api_request', function () {
       userId: 'test'
     };
     api_request(params, function (err, json) {
-      console.log(err);
-      console.log(' - - - - - - - - - - - - - - - ');
+      assert.equal(err, null, 'No errors requesting results from API');
       var sample_filename = dir + 'NE_trips_without_hotels.json';
       fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
       // console.log(JSON.stringify(json.result[0], null, 2));
@@ -49,7 +48,7 @@ describe('api_request', function () {
       userId: 'test'
     };
     api_request(params, function (err, json) {
-      assert(!err);
+      assert.equal(err, null, 'No errors requesting results from API');
       var sample_filename = dir + 'NE_trips_with_hotels.json';
       fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
       // console.log(JSON.stringify(json.result[0], null, 2));
@@ -70,7 +69,7 @@ describe('api_request', function () {
       hotelIds: '139891,122133,14044,121633,109622,107706,10567,10564,10617,10573,11276'
     };
     api_request(params, function (err, json) {
-      assert(!err);
+      assert.equal(err, null, 'No errors requesting results from API');
       var sample_filename = dir + 'NE_trips_with_hotels.json';
       fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
       // console.log(JSON.stringify(json.result[0], null, 2));
@@ -92,21 +91,6 @@ describe('api_request', function () {
       done();
     });
   });
-
-  // it.only('Give api_request invalid params to force error (With Hotel IDs)', function (done) {
-  //   var params = { // leave "path" and "stage" unset
-  //     path: 'hotels',
-  //     unrecognised: 'this-will-fail',
-  //     hotelIds: '12345'
-  //   };
-  //   api_request(params, function (err, json) {
-  //     console.log(' - - - - - - - - - - - - - - - ');
-  //     console.log(err, json);
-  //     console.log(' - - - - - - - - - - - - - - - ');
-  //     assert(err.toString().indexOf('TypeError') > -1);
-  //     done();
-  //   });
-  // });
 
   // it('GET NE hotels (fetch additional info)', function (done) {
   //   var params = {
