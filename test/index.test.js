@@ -52,8 +52,8 @@ describe('Spain End-to-End Test with Departure Date and Airport!', function () {
     var start = Date.now();
     CONTEXT.invokedFunctionArn = 'arn:aws:lambda:eu-west-1:655240711487:function:LambdaTest:$LATEST';
     CONTEXT.succeed = function () {
-      console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      console.log(JSON.stringify(arguments[0], null, 2)); // the argument to context.succeed
+      // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
+      // console.log(JSON.stringify(arguments[0], null, 2)); // the argument to context.succeed
       COUNT = arguments[0];
       assert(COUNT > 0);
       console.log('Took:', Date.now() - start, 'ms - the bottleneck is dynamodb ...');

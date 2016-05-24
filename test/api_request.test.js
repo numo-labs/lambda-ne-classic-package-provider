@@ -28,8 +28,6 @@ describe('api_request', function () {
       assert.equal(err, null, 'No errors requesting results from API');
       var sample_filename = dir + 'NE_trips_without_hotels.json';
       fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
-      // console.log(JSON.stringify(json.result[0], null, 2));
-      // console.log('Result Count:', json.result.length);
       assert(json.result.length > 0);
       assert(json.totalHits > 0);
       done();
@@ -51,11 +49,8 @@ describe('api_request', function () {
       assert.equal(err, null, 'No errors requesting results from API');
       var sample_filename = dir + 'NE_trips_with_hotels.json';
       fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
-      // console.log(JSON.stringify(json.result[0], null, 2));
-      // console.log('Result Count:', json.result.length);
       assert(json.result.length > 0);
       assert(json.totalHits > 0);
-      // console.log(JSON.stringify(json, null, 2));
       done();
     });
   });
@@ -69,14 +64,9 @@ describe('api_request', function () {
       hotelIds: '139891,122133,14044,121633,109622,107706,10567,10564,10617,10573,11276'
     };
     api_request(params, function (err, json) {
-      assert.equal(err, null, 'No errors requesting results from API');
-      var sample_filename = dir + 'NE_trips_with_hotels.json';
-      fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
-      // console.log(JSON.stringify(json.result[0], null, 2));
-      // console.log('Result Count:', json.result.length);
+      assert.equal(err, null, 'No errors requesting results from API (CACHE)');
       assert(json.result.length > 0);
       assert(json.totalHits > 0);
-      // console.log(JSON.stringify(json, null, 2));
       done();
     });
   });

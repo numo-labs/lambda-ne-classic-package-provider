@@ -6,13 +6,10 @@ var dir = path.resolve(__dirname + '/sample_results/') + '/';
 // Sample Hotels API Query Result Saved by the api_request.test.js
 var sample_hotels_result_filename = dir + 'NE_hotels_without_trips.json';
 var sample_hotels_result = require(sample_hotels_result_filename);
-// console.log(sample_hotels_result);
 var HID = sample_hotels_result[0].wvId;
 
 var sample_packages_result_filename = dir + 'NE_trips_with_hotels.json';
 var sample_packages_result = require(sample_packages_result_filename);
-// console.log(sample_packages_result);
-// console.log(sample_hotels_result);
 
 var mapper = require('../lib/result_mapper');
 
@@ -61,10 +58,6 @@ describe('Get Currency Code from Market ID', function () {
   });
 });
 
-// function sortByDiscount (a, b) {
-//   return a.packageOffer.price.discountPrice > b.packageOffer.price.discountPrice;
-// }
-
 describe('Map results and hotels', function () {
   it('map_ne_result_to_graphql maps entire NE API result to GraphQL', function (done) {
     var result = sample_packages_result.result[0];
@@ -81,7 +74,6 @@ var sample_packages_result_without = require(sample_packages_without_hotels);
 describe('Simulate Failure Where a hotels API does not return hotel detail', function () {
   it('map_ne_result_to_graphql returns early when no hotel details found', function (done) {
     var result = mapper.map_ne_result_to_graphql(sample_packages_result_without.result, sample_hotels_result);
-    // console.log(result);
     assert.equal(result.length, 0);
     done();
   });

@@ -1,7 +1,7 @@
 var AwsHelper = require('aws-lambda-helper');
+var parse_sns = require('./lib/parse_sns');
 var api_request = require('./lib/api_request');
 var batch_insert = require('./lib/dynamo_insert');
-var parse_sns = require('./lib/parse_sns');
 /**
  * handler receives an SNS message with search parameters and makes requests
  * to the ThomasCook Nordics "Classsic" Packages API. Once we get results
@@ -16,15 +16,12 @@ exports.handler = function (event, context) {
   var stage = AwsHelper.version; // get environment e.g: ci or prod
   params.stage = stage = (stage === '$LATEST' || !stage) ? 'ci' : stage;
   var bucketId = params.id; // we need the bucketId to insert the results
-  // console.log(params);
-  // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
   api_request(params, function (err, response) { // get packages from NE API
-    if (err || response.result.length === 0) {
-      AwsHelper.log.info({err: err}, 'No packages found');
+    if (err || !response.result || response.result.length === 0) {
+      AwsHelper.log.info({err: err, params: params}, 'ZERO NE Classic Packages Found');
       return context.fail('No packages found');
     }
     AwsHelper.log.info({ err: err, packages: response.result.length }, 'Package results');
-
     batch_insert(stage, bucketId, response.result, function (err, data) {
       AwsHelper.log.info({ err: err, records: response.result.length }, 'DynamoDB records');
       return context.succeed(response.result.length);
