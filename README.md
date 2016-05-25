@@ -33,15 +33,20 @@ other regions.
 To run/develop/test this Lambda *locally* you will need a few Environment Variables.
 We recommend you export these using an `.env` file containing the following keys:
 ```
-export API_GATEWAY_ENDPOINT=https://tc-jira.atlassian.net/browse/ISEARCH-218
-export NE_API_KEY=https://tc-jira.atlassian.net/browse/ISEARCH-218
-export NE_API_ENDPOINT=https://tc-jira.atlassian.net/browse/ISEARCH-218
+export API_GATEWAY_ENDPOINT=get_this_from_codeship
+export NE_API_KEY=get_this_from_codeship
+export NE_API_ENDPOINT=get_this_from_codeship
 export AWS_REGION=eu-west-1
-export AWS_IAM_ROLE=arn:aws:iam::12345678:role/lambdafull
-export AWS_ACCESS_KEY_ID=YOURKEY
-export AWS_SECRET_ACCESS_KEY=SUPERSECRET
+export AWS_IAM_ROLE=get_this_from_codeship
+export AWS_ACCESS_KEY_ID=get_this_from_codeship
+export AWS_SECRET_ACCESS_KEY=get_this_from_codeship
+export AWS_S3_SEARCH_RESULT_BUCKET=numo-search-results
+export WEBSOCKET_SERVER_URL=get_this_from_codeship
+export LOG_LEVEL=fatal
 ```
-> set the correct values ... if you get stuck *ask*!
+> set the correct values ... the easiest place to get these is CodeShip: https://codeship.com/projects/138820/configure_environment 
+> login using an **incognito browser** window the `numo-labs-ci` (GitHub user)
+> also, only set the `LOG_LEVEL` on your localhost leave it out for Prod so we log all errors.
 
 ## *Sample* NE Classic API Request & Response:
 
