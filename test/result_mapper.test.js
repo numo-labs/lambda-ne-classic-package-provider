@@ -84,10 +84,10 @@ describe('Use NE Product SKU as provider.reference', function () {
     // var result = mapper.map_ne_result_to_graphql(sample_packages_result.result, sample_hotels_result.result);
     var result = sample_packages_result.result[0];
 
-    var pkg = sample_packages_result.result[0].packageOffer;
+    var id = sample_packages_result.result[0].id;
     // console.log(pkg);
     // var ref = pkg.destinationCode + pkg.hotelCode;
-    assert.equal(result.packageOffer.provider.reference, pkg.id);
+    assert.equal(result.packageOffer.provider.reference, id);
     done();
   });
 });
