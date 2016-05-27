@@ -21,8 +21,8 @@
     "/lib",
     ".env"
   ],
-  "lambda_memory":"1536",
-  "lambda_timeout":"30",
+  "lambda_memory": "1536",
+  "lambda_timeout": "30",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/numo-labs/lambda-ne-classic-package-provider.git"
@@ -34,6 +34,7 @@
   },
   "homepage": "https://github.com/numo-labs/lambda-ne-classic-package-provider#readme",
   "dependencies": {
+    "async": "2.0.0-rc.5",
     "aws-lambda-helper": "^2.14.0",
     "dynamodb-doc": "^1.0.0",
     "env2": "^2.0.8",
