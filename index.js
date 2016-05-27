@@ -9,7 +9,7 @@ var batch_insert = require('./lib/dynamo_insert');
  * they are converted into the format required by GraphQL and inserted into
  * DynamoDB for retrieval by by the lambda-dynamo-search-result-retriever
  */
-exports.handler = function (event, context) {
+exports.handler = function (event, context, callback) {
   AwsHelper.init(context, event); // used to extract the version (ci/prod) from Arn
   AwsHelper.Logger('lambda-ne-classic-package-provider');
   AwsHelper.log.info({ event: event }, 'Received event'); // debug sns
@@ -25,7 +25,7 @@ exports.handler = function (event, context) {
       var body = JSON.parse(JSON.stringify(params));
       body.items = [];
       AwsHelper.pushToSocketServer(body, function () {
-        return context.fail(new Error('No packages found'));
+        return callback(new Error('No packages found'));
       });
     }
     AwsHelper.log.info({ err: err, packages: response.result.length },
@@ -33,7 +33,7 @@ exports.handler = function (event, context) {
     batch_insert(stage, bucketId, response.result, function (err, data) {
       AwsHelper.log.info({ err: err, records: response.result.length },
                          'DynamoDB records');
-      return context.succeed(response.result.length);
+      return callback(err, response.result.length);
     });
   }).on('result', function (body) {
     AwsHelper.pushResultToClient(body, function (err, result) {
