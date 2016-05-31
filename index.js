@@ -10,14 +10,12 @@ var batch_insert = require('./lib/dynamo_insert');
  * DynamoDB for retrieval by by the lambda-dynamo-search-result-retriever
  */
 exports.handler = function (event, context, callback) {
-  var ONCE = false;
   AwsHelper.init(context, event); // to extract the version (ci/prod) from Arn
   AwsHelper.Logger('lambda-ne-classic-package-provider');
   AwsHelper.log.info({ event: event }, 'Received event'); // debug sns
   var params = parse_sns(event.Records[0].Sns.Message);
   var stage = AwsHelper.version; // get environment e.g: ci or prod
   params.stage = stage = (stage === '$LATEST' || !stage) ? 'ci' : stage;
-  var searchId = params.searchId; // we need the bucketId to insert the results
 
   api_request(params, function (err, response) { // get packages from NE API
     if (err || !response.result || response.result.length === 0) {
@@ -25,14 +23,14 @@ exports.handler = function (event, context, callback) {
         'ZERO NE Classic Packages Found');
 
       var body = JSON.parse(JSON.stringify(params));
-      body.items = [];
+      body.items = []; // send an empty array to the client so it knows wazzup!
       AwsHelper.pushResultToClient(body, function () {
         return callback(new Error('No packages found'));
       });
     }
     AwsHelper.log.info({ err: err, packages: response.result.length },
       'Package results');
-    batch_insert(stage, searchId, response.result, function (err, data) {
+    batch_insert(stage, params.searchId, response.result, function (err, data) {
       AwsHelper.log.info({ err: err, records: response.result.length },
                          'DynamoDB records');
       return callback(err, response.result.length);
@@ -44,11 +42,6 @@ exports.handler = function (event, context, callback) {
       return item;
     });
     AwsHelper.pushResultToClient(body, function (err, result) {
-      if (!ONCE) {
-        ONCE = !ONCE;
-        console.log('> item', JSON.stringify(body.items[0], null, 2));
-        console.log(err, result);
-      }
       AwsHelper.log.trace({ err: err },
         'Sending Packages to Client via WebSocket Server');
     });
