@@ -69,7 +69,7 @@ var FAKE_HOTELS_EVENT = {
   'Records': [
     {
       'Sns': { // CONTAINS FAKE HOTELS
-        'Message': '{\"data\":{\"content\":{\"hotels\":[\"hotel:ne.wvid.1234\",\"hotel:ne.wvid.2345\"]},\"context\":{\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"testuser123\",\"connectionId\":\"98765\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"}],\"hotels\":[\"hotel:NE.wvHotelPartId.1234\",\"hotel:NE.wvHotelPartId.2345\"]}},\"id\":\"12345\"}'
+        'Message': '{\"content\":{\"hotels\":[\"hotel:ne.wvid.1234\",\"hotel:ne.wvid.2345\"]},\"context\":{\"searchId\":\"12345\",\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"testuser123\",\"connectionId\":\"98765\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"}],\"hotels\":[\"hotel:NE.wvHotelPartId.1234\",\"hotel:NE.wvHotelPartId.2345\"]}}'
       }
     }
   ]

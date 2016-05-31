@@ -16,6 +16,7 @@ exports.handler = function (event, context, callback) {
   var params = parse_sns(event.Records[0].Sns.Message);
   var stage = AwsHelper.version; // get environment e.g: ci or prod
   params.stage = stage = (stage === '$LATEST' || !stage) ? 'ci' : stage;
+  params.bucketId = params.id;
   var bucketId = params.id; // we need the bucketId to insert the results
 
   api_request(params, function (err, response) { // get packages from NE API
@@ -36,6 +37,11 @@ exports.handler = function (event, context, callback) {
       return callback(err, response.result.length);
     });
   }).on('result', function (body) {
+    // AwsHelper.pushResultToClient requires that each item has a url defined
+    body.items = body.items.map(function (item) { // so update the list of items
+      item.url = bucketId + '/' + item.id;       // to include an item.url
+      return item;
+    });
     AwsHelper.pushResultToClient(body, function (err, result) {
       AwsHelper.log.trace({ err: err }, 'Sending Packages to Client via WebSocket Server');
     });

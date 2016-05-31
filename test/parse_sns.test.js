@@ -45,21 +45,23 @@ describe('get_age', function () {
   });
   it('compute age of person born in the *future*!', function (done) {
     var D = new Date();
-    var BORN_TOMORROW = D.getFullYear() + '-' + (D.getMonth() + 1) + '-' + (D.getDate() + 1);
-    // console.log('Tomorrow is:', BORN_TOMORROW);
+    D.setDate(D.getDate() + 1); // tomorrow is now + 1 day
+    var BORN_TOMORROW = D.getFullYear() + '-' + (D.getMonth() + 1) + '-' + (D.getDate());
+    console.log('    ✓ Tomorrow is:', BORN_TOMORROW);
     assert(parse_sns.get_age(BORN_TOMORROW) === -1);
     done();
   });
 });
 
 var complete_event = require('./fixtures/complete_sns_event.json');
+// console.log(complete_event.Records[0].Sns.Message);
 describe('Parse Complete SNS Message', function () {
   it('Including departureDate, departureAirport & Nights!', function (done) {
     var sns_msg = complete_event.Records[0].Sns.Message;
-    // console.log(sns_msg);
+    // console.log(typeof sns_msg);
     // console.log(JSON.stringify(sns_msg.query, null, 2));
     var parsed = parse_sns(sns_msg);
-    // console.log(parsed);
+    // console.log('parsed', parsed);
     assert.equal(parsed.departureCode, 'CPH');
     assert.equal(parsed.hotelDuration, 8);
     // assert.equal(parsed.departureDate, '2016-10-26');
