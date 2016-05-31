@@ -1,5 +1,5 @@
 /*eslint handle-callback-err: 0 */
-
+require('env2')('.env');
 var handler = require('../index').handler;
 var assert = require('assert');
 
