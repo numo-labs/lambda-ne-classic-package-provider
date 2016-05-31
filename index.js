@@ -24,7 +24,7 @@ exports.handler = function (event, context, callback) {
 
       var body = JSON.parse(JSON.stringify(params));
       body.items = [];
-      AwsHelper.pushToSNSTopic(body, function () {
+      AwsHelper.pushResultToClient(body, function () {
         return callback(new Error('No packages found'));
       });
     }
