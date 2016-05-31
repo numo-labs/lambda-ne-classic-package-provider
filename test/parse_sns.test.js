@@ -45,9 +45,18 @@ describe('get_age', function () {
   });
   it('compute age of person born in the *future*!', function (done) {
     var D = new Date();
-    var BORN_TOMORROW = D.getFullYear() + '-' + (D.getMonth() + 1) + '-' + (D.getDate() + 1);
-    // console.log('Tomorrow is:', BORN_TOMORROW);
-    assert(parse_sns.get_age(BORN_TOMORROW) === -1);
+    var month = D.getMonth() + 1;
+    var year = D.getFullYear();
+    if (month === 12) {
+      month = 1;
+      year += 1;
+    } else {
+      month += 1;
+    }
+    var BORN_NEXT_MONTH = year + '-' + month + '-' + (D.getDate());
+    console.log('Tomorrow is:', BORN_NEXT_MONTH);
+    console.log(parse_sns.get_age(BORN_NEXT_MONTH));
+    assert(parse_sns.get_age(BORN_NEXT_MONTH) === -1);
     done();
   });
 });

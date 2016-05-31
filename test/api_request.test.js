@@ -77,7 +77,7 @@ describe('api_request', function () {
       unrecognised: 'this-will-fail'
     };
     api_request(params, function (err, json) {
-      assert(err.toString().indexOf('TypeError') > -1);
+      assert(err, 'should get an error');
       done();
     });
   });
