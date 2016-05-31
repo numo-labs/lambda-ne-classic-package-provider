@@ -38,7 +38,7 @@ describe('http_request', function () {
       'port': 443,
       'path': '/numo-labs'
     };
-    AwsHelper.httpRequest(options, function (e) {
+    http_request(options, function (e) {
       assert(e.toString().indexOf('Unexpected token <') > -1, 'ENOTFOUND');
       done();
     });
