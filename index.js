@@ -38,7 +38,7 @@ exports.handler = function (event, context, callback) {
   }).on('result', function (body) {
     // AwsHelper.pushResultToClient requires that each item has a url defined
     body.items = body.items.map(function (item) { // so update the list of items
-      item.url = searchId + '/' + item.id;       // to include an item.url
+      item.url = params.searchId + '/' + item.id; // to include an item.url
       return item;
     });
     AwsHelper.pushResultToClient(body, function (err, result) {
