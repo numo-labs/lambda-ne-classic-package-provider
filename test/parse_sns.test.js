@@ -6,7 +6,7 @@ var parse_sns = require('../lib/parse_sns');
 var assert = require('assert');
 
 // yes this is how the SNS message arrives ...
-var sns = {'Message': '{\"context\":{\"searchId\":\"bd3c5c00-efa5-11e5-9ef8-c535434e66f5\",\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"12345\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"},{\"birthday\":\"2015-07-14\"}],\"hotels\":[\"hotel:NE.wvHotelPartId.197915\",\"hotel:NE.wvHotelPartId.197941\"]}}'};
+var sns = {'Message': '{\"context\":{\"searchId\":\"bd3c5c00-efa5-11e5-9ef8-c535434e66f5\",\"connectionId\":\"connection-abc123\",\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"12345\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"},{\"birthday\":\"2015-07-14\"}],\"hotels\":[\"hotel:NE.wvHotelPartId.197915\",\"hotel:NE.wvHotelPartId.197941\"]}}'};
 var sns_no_hotels = {'Message': '{\"context\":{\"searchId\":\"123456\",\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"12345\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"},{\"birthday\":\"2015-07-14\"}]}}'};
 // console.log('sns.Message:', JSON.stringify(JSON.parse(sns_no_hotels.Message), null, 2));
 
@@ -21,6 +21,12 @@ describe('parse_sns', function () {
     var params = parse_sns(sns.Message);
     // console.log(params);
     assert.ok(params.searchId === 'bd3c5c00-efa5-11e5-9ef8-c535434e66f5', 'Id extracted');
+    done();
+  });
+  it('extracts the connection id from the SNS message and writes to the id property', function (done) {
+    var params = parse_sns(sns.Message);
+    // console.log(params);
+    assert.ok(params.id === 'connection-abc123', 'Id extracted');
     done();
   });
   it('Parse SNS without hotels', function (done) {
