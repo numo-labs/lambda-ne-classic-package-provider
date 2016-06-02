@@ -257,5 +257,6 @@
       "isadulthotel": false,
       "allinclusive": false
     }
-  }
+  },
+  "type": "package"
 }
