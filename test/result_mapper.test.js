@@ -62,8 +62,9 @@ describe('Map results and hotels', function () {
   it('map_ne_result_to_graphql maps entire NE API result to GraphQL', function (done) {
     var result = sample_packages_result.result[0];
     assert(Object.keys(result.packageOffer.hotel).length > 5);
+    assert.equal(result.type, 'package'); // https://git.io/vrx7l (issues/75)
     fs.writeFileSync(__dirname + '/sample_results/formatted_packages.json',
-      JSON.stringify(result, null, 2));
+      JSON.stringify(result, null, 2)); // save sample result for reference
     done();
   });
 });
