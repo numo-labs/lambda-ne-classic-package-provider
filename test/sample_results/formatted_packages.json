@@ -1,7 +1,8 @@
 {
+  "type": "package",
   "id": "HKTANAN",
   "packageOffer": {
-    "priorityCode": 300,
+    "priorityCode": 295,
     "hotel": {
       "name": "Anan House",
       "images": {
@@ -243,7 +244,7 @@
     "amenities": {
       "outdoorpool": false,
       "distancetobeach": true,
-      "distancetocenter": "600 m",
+      "distancetocenter": "300 m",
       "bar": false,
       "childrenpool": false,
       "elevator": false,
@@ -257,6 +258,5 @@
       "isadulthotel": false,
       "allinclusive": false
     }
-  },
-  "type": "package"
+  }
 }
