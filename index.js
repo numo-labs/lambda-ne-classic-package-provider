@@ -10,6 +10,7 @@ var batch_insert = require('./lib/dynamo_insert');
  * DynamoDB for retrieval by by the lambda-dynamo-search-result-retriever
  */
 exports.handler = function (event, context, callback) {
+  context.callbackWaitsForEmptyEventLoop = false;
   AwsHelper.init(context, event); // to extract the version (ci/prod) from Arn
   AwsHelper.Logger('lambda-ne-classic-package-provider');
   AwsHelper.log.info({ event: event }, 'Received event'); // debug sns
