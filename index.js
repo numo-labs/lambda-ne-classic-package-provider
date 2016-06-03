@@ -21,8 +21,8 @@ exports.handler = function (event, context, callback) {
 
   var resultsReturned = 0;
   if (params.hotelIds && params.hotelIds.length > 0) {
-    var hids = params.hotelIds.split(',');
-    AwsHelper.log.info({ hotels: hids.length },
+    var hids = params.hotelIds.split(',').length;
+    AwsHelper.log.info({ hotels: hids },
                        'Number of Hotel IDs to get packages for');
 
     setInterval(function () {
