@@ -6,7 +6,10 @@ var assert = require('assert');
 var CONTEXT = {
   functionName: 'LambdaTest',
   functionVersion: '1',
-  invokedFunctionArn: 'arn:aws:lambda:eu-west-1:655240711487:function:LambdaTest:$LATEST'
+  invokedFunctionArn: 'arn:aws:lambda:eu-west-1:655240711487:function:LambdaTest:$LATEST',
+  getRemainingTimeInMillis: function () {
+    return 60 * 1000;
+  }
 };
 
 var real_event = require('./fixtures/sample_sns_event.json');
