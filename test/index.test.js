@@ -61,7 +61,7 @@ describe('Spain End-to-End Test with Departure Date and Airport!', function () {
       // console.log(JSON.stringify(arguments[0], null, 2)); // the argument to context.succeed
       COUNT = arguments[1];
       assert(COUNT > 1);
-      console.log('Took:', Date.now() - start, 'ms - the bottleneck is dynamodb ...');
+      console.log('Took:', Date.now() - start, 'ms to complete.');
       done();
     };
     handler(complete_event, CONTEXT, callback);

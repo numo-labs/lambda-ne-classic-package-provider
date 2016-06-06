@@ -7,7 +7,7 @@
 
 A lambda function that listens to an SNS topic,
 makes a call to the Nordics' Price and Availability ("*Price & Avail*")
-cache API and adds the results to a corresponding (DynamoDB) search bucket.
+cache API and sends the results to a S3 and to the client app via WebSockets.
 
 ## API Gateway *Reverse Proxy*
 
