@@ -68,23 +68,19 @@ describe('Spain End-to-End Test with Departure Date and Airport!', function () {
   });
 });
 
-var FAKE_HOTELS_EVENT = {
-  'Records': [
-    {
-      'Sns': { // CONTAINS FAKE HOTELS
-        'Message': '{\"content\":{\"hotels\":[\"hotel:ne.wvid.1234\",\"hotel:ne.wvid.2345\"]},\"context\":{\"searchId\":\"12345\",\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"testuser123\",\"connectionId\":\"98765\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"}],\"hotels\":[\"hotel:NE.wvHotelPartId.1234\",\"hotel:NE.wvHotelPartId.2345\"]}}'
-      }
-    }
-  ]
-};
+var FAKE_HOTELS_EVENT = require('./fixtures/fake_hotels_sns_event.json');
 
 describe('Exercise Error Handler (No Packages Found)', function () {
   it('Exercise the "no packages" error handler in index.js', function (done) {
     var callback = function (err, result) {
-      console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      console.log(err); // the argument to context.succeed
-      assert(err, 'No packages found');
+      // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
+      // console.log(err, result); // the argument to context.succeed
+      assert.equal(result, 0, 'No packages found');
       done();
+    };
+    // exercise lines setInterval function in index.js
+    CONTEXT.getRemainingTimeInMillis = function () {
+      return 1;
     };
     handler(FAKE_HOTELS_EVENT, CONTEXT, callback);
   });
