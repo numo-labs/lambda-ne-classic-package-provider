@@ -18,8 +18,6 @@ describe('Thailand End-to-End Test', function () {
   it('test for thailand', function (done) {
     CONTEXT.invokedFunctionArn = 'arn:aws:lambda:eu-west-1:12345:function:LambdaTest:ci';
     var callback = function (err, result) {
-      // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      // console.log(JSON.stringify(arguments[0], null, 2)); // the argument to context.succeed
       COUNT = arguments[1];
       assert(COUNT > 1);
       done();
@@ -30,8 +28,6 @@ describe('Thailand End-to-End Test', function () {
     var start = Date.now();
     CONTEXT.invokedFunctionArn = 'arn:aws:lambda:eu-west-1:12345:function:LambdaTest:ci';
     var callback = function (err, result) {
-      // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      // console.log(JSON.stringify(arguments[0], null, 2)); // the argument to context.succeed
       assert(arguments[1] > 1);
       console.log('Took:', Date.now() - start, 'ms');
       done();
@@ -45,8 +41,6 @@ describe('Spain End-to-End Test with Departure Date and Airport!', function () {
   it('Test Spain Complete', function (done) {
     CONTEXT.invokedFunctionArn = 'arn:aws:lambda:eu-west-1:655240711487:function:LambdaTest:$LATEST';
     var callback = function (err, result) {
-      // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      // console.log(JSON.stringify(arguments[0], null, 2)); // the argument to context.succeed
       COUNT = arguments[1];
       assert(COUNT > 1);
       done();
@@ -57,8 +51,6 @@ describe('Spain End-to-End Test with Departure Date and Airport!', function () {
     var start = Date.now();
     CONTEXT.invokedFunctionArn = 'arn:aws:lambda:eu-west-1:655240711487:function:LambdaTest:$LATEST';
     var callback = function (err, result) {
-      // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      // console.log(JSON.stringify(arguments[0], null, 2)); // the argument to context.succeed
       COUNT = arguments[1];
       assert(COUNT > 1);
       console.log('Took:', Date.now() - start, 'ms to complete.');
@@ -73,8 +65,6 @@ var FAKE_HOTELS_EVENT = require('./fixtures/fake_hotels_sns_event.json');
 describe('Exercise Error Handler (No Packages Found)', function () {
   it('Exercise the "no packages" error handler in index.js', function (done) {
     var callback = function (err, result) {
-      // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      // console.log(err, result); // the argument to context.succeed
       assert(err, 'No packages found');
       done();
     };
@@ -87,12 +77,10 @@ var ZERO_HOTELS_EVENT = require('./fixtures/zero_hotels_sns_event.json');
 describe('If no hotels are supplied return ANY 30 hotels', function () {
   it('Supply zero hotels to index.js', function (done) {
     var callback = function (err, result) {
-      // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      // console.log(err, result); // the argument to context.succeed
       assert.equal(result, 30, '30 packages found');
       done();
     };
-    // exercise lines setInterval function in index.js
+    // exercise lines inside setInterval function in index.js
     CONTEXT.getRemainingTimeInMillis = function () {
       return 1;
     };
