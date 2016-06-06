@@ -75,13 +75,27 @@ describe('Exercise Error Handler (No Packages Found)', function () {
     var callback = function (err, result) {
       // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
       // console.log(err, result); // the argument to context.succeed
-      assert.equal(result, 0, 'No packages found');
+      assert(err, 'No packages found');
+      done();
+    };
+    handler(FAKE_HOTELS_EVENT, CONTEXT, callback);
+  });
+});
+
+var ZERO_HOTELS_EVENT = require('./fixtures/zero_hotels_sns_event.json');
+// console.log('ZERO_HOTELS_EVENT', JSON.stringify(ZERO_HOTELS_EVENT, null, 2));
+describe('If no hotels are supplied return ANY 30 hotels', function () {
+  it('Supply zero hotels to index.js', function (done) {
+    var callback = function (err, result) {
+      // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
+      // console.log(err, result); // the argument to context.succeed
+      assert.equal(result, 30, '30 packages found');
       done();
     };
     // exercise lines setInterval function in index.js
     CONTEXT.getRemainingTimeInMillis = function () {
       return 1;
     };
-    handler(FAKE_HOTELS_EVENT, CONTEXT, callback);
+    handler(ZERO_HOTELS_EVENT, CONTEXT, callback);
   });
 });

@@ -1,7 +1,7 @@
 var AwsHelper = require('aws-lambda-helper');
 var parse_sns = require('./lib/parse_sns');
 var api_request = require('./lib/api_request');
-var batch_insert = require('./lib/dynamo_insert');
+// var batch_insert = require('./lib/dynamo_insert');
 
 /**
  * handler receives an SNS message with search parameters and makes requests
@@ -37,20 +37,16 @@ exports.handler = function (event, context, callback) {
     if (err || !response.result || response.result.length === 0) {
       AwsHelper.log.info({err: err, params: params},
         'ZERO NE Classic Packages Found');
-
       var body = JSON.parse(JSON.stringify(params));
       body.items = []; // send an empty array to the client so it knows wazzup!
       AwsHelper.pushResultToClient(body, function () {
         return callback(new Error('No packages found'));
       });
-    }
-    AwsHelper.log.info({ err: err, packages: response.result.length },
-      'Package results');
-    batch_insert(stage, params.searchId, response.result, function (err, data) {
-      AwsHelper.log.info({ err: err, records: response.result.length },
-                         'DynamoDB records');
+    } else {
+      AwsHelper.log.info({ err: err, packages: response.result.length },
+        'Package results');
       return callback(err, response.result.length);
-    });
+    }
   }).on('result', function (body) {
     resultsReturned++;
     // AwsHelper.pushResultToClient requires that each item has a url defined
