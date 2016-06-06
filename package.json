@@ -36,7 +36,6 @@
   "dependencies": {
     "async": "2.0.0-rc.5",
     "aws-lambda-helper": "^2.18.0",
-    "dynamodb-doc": "^1.0.0",
     "env2": "^2.0.8",
     "lodash.result": "^4.4.0"
   },

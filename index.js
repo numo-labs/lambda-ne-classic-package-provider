@@ -1,7 +1,6 @@
 var AwsHelper = require('aws-lambda-helper');
 var parse_sns = require('./lib/parse_sns');
 var api_request = require('./lib/api_request');
-// var batch_insert = require('./lib/dynamo_insert');
 
 /**
  * handler receives an SNS message with search parameters and makes requests
