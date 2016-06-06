@@ -1,0 +1,9 @@
+{
+  "Records": [
+    {
+      "Sns": {
+        "Message": "{\"content\":{\"hotels\":[]},\"context\":{\"searchId\":\"12345\",\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"testuser123\",\"connectionId\":\"98765\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"}],\"hotels\":[]}}"
+      }
+    }
+  ]
+}
