@@ -1,0 +1,76 @@
+{
+  "type": "package",
+  "id": "HKTANAN",
+  "url": "/123456/HKTANAN",
+  "packageOffer": {
+    "hotel": {
+      "name": "Anan House",
+      "images": {
+        "small": [
+          {
+            "type": "image/jpeg",
+            "displaySequence": null,
+            "primary": null,
+            "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1011_1_13.jpg?v=1"
+          }
+        ]
+      }
+    },
+    "flights": {
+      "outbound": [
+        {
+          "number": "na",
+          "departure": {
+            "localDateTime": "2016-12-13T16:10:00",
+            "airport": {
+              "code": "CPH",
+              "name": "Kastrup Terminal 2"
+            }
+          },
+          "arrival": {
+            "localDateTime": "2016-12-14T08:50:00",
+            "airport": {
+              "code": "HKT"
+            }
+          },
+          "carrier": {
+            "code": "DK"
+          }
+        }
+      ],
+      "inbound": [
+        {
+          "number": "na",
+          "departure": {
+            "localDateTime": "2017-01-03T11:00:00",
+            "airport": {
+              "code": "HKT",
+              "name": "Phuket"
+            }
+          },
+          "arrival": {
+            "localDateTime": "2017-01-04T17:05:00",
+            "airport": {
+              "code": "CPH"
+            }
+          },
+          "carrier": {
+            "code": "DK"
+          }
+        }
+      ]
+    },
+    "price": {
+      "total": 79855,
+      "perPerson": 16094,
+      "currency": "DKK",
+      "discountPrice": 0
+    },
+    "provider": {
+      "id": "lambda-searcher",
+      "reference": "HKTANAN",
+      "deepLink": "http://www.spies.dk/redir/BookRedirect.aspx?departureDate=2016-12-13&duration=22&departureCode=CPH&destinationCode=HKT&transportSerial=21&transportClass=R&hotelCode=ANAN&roomType=H12"
+    },
+    "nights": 21
+  }
+}

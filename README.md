@@ -1,7 +1,8 @@
 ## Lambda Northern Europe (NE) Classic Package (Holiday) Provider
 
 [![Codeship](https://img.shields.io/codeship/d78bd820-c6c7-0133-6694-1ac1b065c1d6/master.svg)](https://codeship.com/projects/138820)
-[![codecov](https://codecov.io/gh/numo-labs/lambda-ne-classic-package-provider/branch/master/graph/badge.svg)](https://codecov.io/gh/numo-labs/lambda-ne-classic-package-provider)
+[![Codecov](https://img.shields.io/codecov/c/github/numo-labs/lambda-ne-classic-package-provider.svg)](https://codecov.io/gh/numo-labs/lambda-ne-classic-package-provider)
+[![Code Climate](https://codeclimate.com/github/numo-labs/lambda-ne-classic-package-provider/badges/gpa.svg)](https://codeclimate.com/github/numo-labs/lambda-ne-classic-package-provider)
 [![Dependency Status](https://david-dm.org/numo-labs/lambda-ne-classic-package-provider.svg)](https://david-dm.org/numo-labs/lambda-ne-classic-package-provider)
 [![devDependency Status](https://david-dm.org/numo-labs/lambda-ne-classic-package-provider/dev-status.svg)](https://david-dm.org/numo-labs/lambda-ne-classic-package-provider#info=devDependencies)
 
@@ -331,6 +332,11 @@ e.g: `"wvHotelPartId": 10861`
 ## Sample Package Result
 
 > See: [/test/sample_results/sample_package.json](https://github.com/numo-labs/lambda-ne-classic-package-provider/blob/master/test/sample_results/sample_package.json)
+
+For detail on minimizing bandwidth by reducing the size of
+package results returned to the client, see:
+https://github.com/numo-labs/lambda-ne-classic-package-provider/issues/84
+
 
 Read:
 + http://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-aws-proxy.html
