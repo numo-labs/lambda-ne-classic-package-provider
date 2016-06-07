@@ -10,6 +10,7 @@ var HID = sample_hotels_result[0].wvId;
 
 var sample_packages_result_filename = dir + 'NE_trips_with_hotels.json';
 var sample_packages_result = require(sample_packages_result_filename);
+var all_hotels = require(dir + 'all_hotels.json');
 
 var mapper = require('../lib/result_mapper');
 
@@ -20,6 +21,27 @@ describe('Map the hotel results by their hotel id', function () {
     var result = mapper.map_hotels_by_hotel_id(sample_hotels_result);
     // console.log(result[hotelId]);
     assert.equal(result[hotelId].name, name, 'Hotel name: ' + result[hotelId].name);
+    done();
+  });
+
+  it('map_hotels_by_hotel_id returns empty if no hotels supplied', function (done) {
+    var result = mapper.map_hotels_by_hotel_id();
+    assert.deepEqual(result, {}, 'no hotels');
+    done();
+  });
+});
+
+describe('Large Hotel Images', function () {
+  it('map_large_hotel_images returns default image if large unavailable', function (done) {
+    all_hotels.forEach(function (hotel) {
+      var images = mapper.map_large_hotel_images(hotel);
+      if (images.length < 1) {
+        var img_url = 'http://images1.spies.dk/images/SiteID11/SitePage/hotelbillede_mangler_975_350.jpg';
+        assert.equal(images[0].uri, img_url);
+      } else {
+        assert(images.length > 0);
+      }
+    });
     done();
   });
 });
