@@ -107,8 +107,8 @@ describe('Format result for client (reduce amount of data sent)', function () {
     assert.equal(min.packageOffer.hotel.images.small.length, 1, 'only one small image returned to client');
     assert.deepEqual(item.concept, min.concept);
     // save sample result
-    fs.writeFileSync(__dirname + '/sample_results/minimal_package.json',
-      JSON.stringify(result, null, 2)); // save sample result for reference
+    fs.writeFileSync(__dirname + '/sample_results/minified_package.json',
+      JSON.stringify(min, null, 2)); // save sample result for reference
     // outcome
     var itemLength = JSON.stringify(item).length;
     var minlength = JSON.stringify(min).length;
