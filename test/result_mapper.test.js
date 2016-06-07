@@ -92,3 +92,26 @@ describe('Use NE Product SKU as provider.reference', function () {
     done();
   });
 });
+
+describe('Format result for client (reduce amount of data sent)', function () {
+  it('bandwidthSaver reduces the amount of data sent to the client', function (done) {
+    // var result = mapper.map_ne_result_to_graphql(sample_packages_result.result, sample_hotels_result.result);
+    var item = sample_packages_result.result[0];
+    item.url = '/12345/' + item.id; // by default results don't have url
+    var min = mapper.minimiseBandwidth(item);
+    // console.log(JSON.stringify(min, null, 2));
+    assert.equal(item.type, min.type);
+    assert.equal(item.id, min.id);
+    assert.equal(item.url, min.url);
+    assert.equal(item.url, min.url);
+    assert.equal(min.packageOffer.hotel.images.small.length, 1, 'only one small image returned to client');
+    assert.deepEqual(item.concept, min.concept);
+    // outcome
+    var itemLength = JSON.stringify(item).length;
+    var minlength = JSON.stringify(min).length;
+    assert(minlength < itemLength / 2);
+    console.log('   > Saved:',
+      Math.floor(((itemLength - minlength) / itemLength) * 100) + '% bandwidth!');
+    done();
+  });
+});

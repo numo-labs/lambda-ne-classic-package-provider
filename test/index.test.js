@@ -77,7 +77,7 @@ var ZERO_HOTELS_EVENT = require('./fixtures/zero_hotels_sns_event.json');
 describe('If no hotels are supplied return ANY 30 hotels', function () {
   it('Supply zero hotels to index.js', function (done) {
     var callback = function (err, result) {
-      assert.equal(result, 30, '30 packages found');
+      assert(result > 0, result + ' packages found');
       done();
     };
     // exercise lines inside setInterval function in index.js

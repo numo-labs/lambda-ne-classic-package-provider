@@ -1,7 +1,7 @@
 var AwsHelper = require('aws-lambda-helper');
 var parse_sns = require('./lib/parse_sns');
 var api_request = require('./lib/api_request');
-
+var mapper = require('./lib/result_mapper');
 /**
  * handler receives an SNS message with search parameters and makes requests
  * to the ThomasCook Nordics "Classsic" Packages API. Once we get results
@@ -53,9 +53,15 @@ exports.handler = function (event, context, callback) {
       item.url = params.searchId + '/' + item.id; // to include an item.url
       return item;
     });
-    AwsHelper.pushResultToClient(body, function (err, result) {
-      AwsHelper.log.trace({ err: err },
-        'Sending Packages to Client via WebSocket Server');
+    var minimised = body;
+    minimised.items = [ mapper.minimiseBandwidth(body.items[0]) ];
+
+    AwsHelper.saveRecordToS3(body, function (err, data) {
+      AwsHelper.log.trace({ err: err }, 'Saved Package to S3');
+      AwsHelper.pushToSNSTopic(minimised, function (err, result) {
+        AwsHelper.log.trace({ err: err },
+          'Sending Packages to Client via WebSocket Server');
+      });
     });
   });
 };
