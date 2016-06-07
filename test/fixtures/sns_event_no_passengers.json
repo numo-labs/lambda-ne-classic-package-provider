@@ -1,0 +1,9 @@
+{
+  "Records": [
+    {
+      "Sns":  {
+        "Message": "{\"context\":{\"searchId\":\"bd3c5c00-efa5-11e5-9ef8-c535434e66f5\",\"connectionId\":\"connection-abc123\",\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"12345\"},\"query\":{\"hotels\":[\"hotel:NE.wvHotelPartId.197915\",\"hotel:NE.wvHotelPartId.197941\"]}}"
+      }
+    }
+  ]
+}
