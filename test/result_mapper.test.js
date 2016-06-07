@@ -94,7 +94,7 @@ describe('Use NE Product SKU as provider.reference', function () {
 });
 
 describe('Format result for client (reduce amount of data sent)', function () {
-  it('bandwidthSaver reduces the amount of data sent to the client', function (done) {
+  it('minimiseBandwidth reduces the amount of data sent to the client', function (done) {
     // var result = mapper.map_ne_result_to_graphql(sample_packages_result.result, sample_hotels_result.result);
     var item = sample_packages_result.result[0];
     item.url = '/12345/' + item.id; // by default results don't have url
