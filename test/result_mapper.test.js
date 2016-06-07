@@ -106,6 +106,10 @@ describe('Format result for client (reduce amount of data sent)', function () {
     assert.equal(item.url, min.url);
     assert.equal(min.packageOffer.hotel.images.small.length, 1, 'only one small image returned to client');
     assert.deepEqual(item.concept, min.concept);
+    assert.deepEqual(item.packageOffer.flights, min.packageOffer.flights);
+    assert.equal(item.packageOffer.price, min.packageOffer.price);
+    assert.deepEqual(item.packageOffer.provider, min.packageOffer.provider);
+    assert.equal(item.packageOffer.nights, min.packageOffer.nights);
     // save sample result
     fs.writeFileSync(__dirname + '/sample_results/minified_package.json',
       JSON.stringify(min, null, 2)); // save sample result for reference
