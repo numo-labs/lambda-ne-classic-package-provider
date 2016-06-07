@@ -54,6 +54,7 @@ exports.handler = function (event, context, callback) {
       return item;
     });
     var minimised = body;
+    delete minimised.hotelIds; // don't need hotelIds again https://git.io/voIAS
     minimised.items = [ mapper.minimiseBandwidth(body.items[0]) ];
 
     AwsHelper.saveRecordToS3(body, function (err, data) {
