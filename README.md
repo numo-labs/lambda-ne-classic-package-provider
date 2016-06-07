@@ -333,6 +333,11 @@ e.g: `"wvHotelPartId": 10861`
 
 > See: [/test/sample_results/sample_package.json](https://github.com/numo-labs/lambda-ne-classic-package-provider/blob/master/test/sample_results/sample_package.json)
 
+For detail on minimizing bandwidth by reducing the size of
+package results returned to the client, see:
+https://github.com/numo-labs/lambda-ne-classic-package-provider/issues/84
+
+
 Read:
 + http://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-aws-proxy.html
 + http://docs.aws.amazon.com/apigateway/latest/developerguide/request-response-data-mappings.html
