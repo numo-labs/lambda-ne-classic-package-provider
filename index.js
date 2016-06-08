@@ -56,7 +56,7 @@ exports.handler = function (event, context, callback) {
     AwsHelper.saveRecordToS3(body, function (err, data) {
       AwsHelper.log.trace({ err: err }, 'Saved Package to S3');
       delete body.hotelIds; // don't need hotelIds again https://git.io/voIAS
-      body.items = [ mapper.minimiseBandwidth(body.items[0]) ]; // minimal fields
+      body.items = body.items.map(mapper.minimiseBandwidth); // minimal fields
       AwsHelper.pushToSNSTopic(body, function (err, result) {
         AwsHelper.log.trace({ err: err },
           'Sending Packages to Client via WebSocket Server');
