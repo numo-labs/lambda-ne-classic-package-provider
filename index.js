@@ -33,17 +33,16 @@ exports.handler = function (event, context, callback) {
   }
 
   api_request(params, function (err, response) { // get packages from NE API
-    if (err || !response.result || response.result.length === 0) {
-      AwsHelper.log.info({err: err, params: params},
-        'ZERO NE Classic Packages Found');
-      var body = JSON.parse(JSON.stringify(params));
-      body.items = []; // send an empty array to the client so it knows wazzup!
-      AwsHelper.pushResultToClient(body, function () {
-        return callback(new Error('No packages found'));
-      });
-    } else {
+    var body = JSON.parse(JSON.stringify(params));
+    body.items = []; // send an empty array to the client so it knows wazzup!
+    body.searchComplete = true;
+    AwsHelper.pushResultToClient(body, () => {
       AwsHelper.log.info({ err: err, packages: response.result.length },
-        'Package results');
+        `Package search complete: ${response.result.length} packages found`);
+    });
+    if (err || !response.result || response.result.length === 0) {
+      return callback(new Error('No packages found'));
+    } else {
       return callback(err, response.result.length);
     }
   }).on('result', function (body) {
@@ -57,6 +56,7 @@ exports.handler = function (event, context, callback) {
       AwsHelper.log.trace({ err: err }, 'Saved Package to S3');
       delete body.hotelIds; // don't need hotelIds again https://git.io/voIAS
       body.items = body.items.map(mapper.minimiseBandwidth); // minimal fields
+      body.searchComplete = false;
       AwsHelper.pushToSNSTopic(body, function (err, result) {
         AwsHelper.log.trace({ err: err },
           'Sending Packages to Client via WebSocket Server');
