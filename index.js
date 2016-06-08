@@ -38,7 +38,7 @@ exports.handler = function (event, context, callback) {
     body.searchComplete = true;
     AwsHelper.pushResultToClient(body, () => {
       AwsHelper.log.info({ err: err, packages: response.result.length },
-        `Package search complete: ${response.result.length} packages found`);
+        'Package search complete');
     });
     if (err || !response.result || response.result.length === 0) {
       return callback(new Error('No packages found'));
