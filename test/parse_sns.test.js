@@ -1,3 +1,4 @@
+require('env2')('.env');
 var AwsHelper = require('aws-lambda-helper');
 AwsHelper.init({
   invokedFunctionArn: 'arn:aws:lambda:eu-west-1:123456789:function:mylambda:ci'
@@ -5,10 +6,8 @@ AwsHelper.init({
 var parse_sns = require('../lib/parse_sns');
 var assert = require('assert');
 
-// yes this is how the SNS message arrives ...
-var sns = {'Message': '{\"context\":{\"searchId\":\"bd3c5c00-efa5-11e5-9ef8-c535434e66f5\",\"connectionId\":\"connection-abc123\",\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"12345\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"},{\"birthday\":\"2015-07-14\"}],\"hotels\":[\"hotel:NE.wvHotelPartId.197915\",\"hotel:NE.wvHotelPartId.197941\"]}}'};
-var sns_no_hotels = {'Message': '{\"context\":{\"searchId\":\"123456\",\"market\":\"dk\",\"language\":\"en-EN\",\"userId\":\"12345\"},\"query\":{\"passengers\":[{\"birthday\":\"1986-07-14\"},{\"birthday\":\"1986-07-14\"},{\"birthday\":\"2015-07-14\"}]}}'};
-// console.log('sns.Message:', JSON.stringify(JSON.parse(sns_no_hotels.Message), null, 2));
+var sns = require('./fixtures/sns_event_two_hotels.json').Records[0].Sns;
+var sns_no_hotels = require('./fixtures/zero_hotels_sns_event.json').Records[0].Sns;
 
 describe('parse_sns', function () {
   it('get number of children & adults from passengers array', function (done) {
@@ -31,8 +30,7 @@ describe('parse_sns', function () {
   });
   it('Parse SNS without hotels', function (done) {
     var params = parse_sns(sns_no_hotels.Message);
-    // console.log(params);
-    assert.ok(params.searchId === '123456', 'Id extracted');
+    assert.ok(params.searchId === '12345', 'Id extracted');
     done();
   });
 });
@@ -55,6 +53,18 @@ describe('get_age', function () {
     var BORN_TOMORROW = D.getFullYear() + '-' + (D.getMonth() + 1) + '-' + (D.getDate());
     console.log('    ✓ Tomorrow is:', BORN_TOMORROW);
     assert(parse_sns.get_age(BORN_TOMORROW) === -1);
+    done();
+  });
+});
+
+var sns_event_no_passengers = require('./fixtures/sns_event_no_passengers.json').Records[0].Sns;
+// console.log(sns_event_no_passengers);
+describe('Ensure parse does not explode if no passengers list', function () {
+  it('regression test for issue 87', function (done) {
+    var parsed = parse_sns(sns_event_no_passengers.Message);
+    // console.log(parsed);
+    assert.equal(parsed.adults, 0);
+    assert.equal(parsed.children, 0);
     done();
   });
 });

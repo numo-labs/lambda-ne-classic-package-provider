@@ -14,6 +14,16 @@
             "uri": "http://images1.spies.dk/images/Hotel/HKTANAN1011_1_13.jpg?v=1"
           }
         ]
+      },
+      "starRating": 4.6,
+      "place": {
+        "name": "Karon Beach",
+        "country": "Thailand",
+        "region": "Phuket"
+      },
+      "concept": {
+        "id": "",
+        "title": ""
       }
     },
     "flights": {

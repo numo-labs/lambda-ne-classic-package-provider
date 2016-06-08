@@ -48,17 +48,16 @@ exports.handler = function (event, context, callback) {
     }
   }).on('result', function (body) {
     resultsReturned++;
-    // AwsHelper.pushResultToClient requires that each item has a url defined
     body.items = body.items.map(function (item) { // so update the list of items
       item.url = params.searchId + '/' + item.id; // to include an item.url
       return item;
     });
-    var minimised = body;
-    minimised.items = [ mapper.minimiseBandwidth(body.items[0]) ];
 
     AwsHelper.saveRecordToS3(body, function (err, data) {
       AwsHelper.log.trace({ err: err }, 'Saved Package to S3');
-      AwsHelper.pushToSNSTopic(minimised, function (err, result) {
+      delete body.hotelIds; // don't need hotelIds again https://git.io/voIAS
+      body.items = body.items.map(mapper.minimiseBandwidth); // minimal fields
+      AwsHelper.pushToSNSTopic(body, function (err, result) {
         AwsHelper.log.trace({ err: err },
           'Sending Packages to Client via WebSocket Server');
       });
