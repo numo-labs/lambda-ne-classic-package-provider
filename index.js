@@ -34,6 +34,7 @@ exports.handler = function (event, context, callback) {
 
   api_request(params, function (err, response) { // get packages from NE API
     var body = JSON.parse(JSON.stringify(params));
+    delete body.hotelIds; // don't need hotelIds again https://git.io/voIAS
     body.items = []; // send an empty array to the client so it knows wazzup!
     body.searchComplete = true;
     AwsHelper.pushResultToClient(body, () => {
