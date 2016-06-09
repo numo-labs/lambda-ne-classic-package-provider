@@ -19,7 +19,9 @@ exports.handler = function (event, context, callback) {
   params.stage = stage = (stage === '$LATEST' || !stage) ? 'ci' : stage;
 
   var resultsReturned = 0;
-  if (params.hotelIds && params.hotelIds.length > 0) {
+  if (!params.hotelIds || params.hotelIds && params.hotelIds.length === 0) {
+    return callback(new Error('No hotel ids provided'));
+  } else if (params.hotelIds && params.hotelIds.length > 0) {
     var hids = params.hotelIds.split(',').length;
     AwsHelper.log.info({ hotels: hids },
                        'Number of Hotel IDs to get packages for');

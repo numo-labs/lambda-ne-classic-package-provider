@@ -60,6 +60,18 @@ describe('Spain End-to-End Test with Departure Date and Airport!', function () {
   });
 });
 
+var EMPTY_FAKE_HOTELS_EVENT = require('./fixtures/fake_hotels_sns_event_empty.json');
+
+describe('Exercise Error Handler (No Packages Found)', function () {
+  it('Exercise the "no packages" error handler in index.js', function (done) {
+    var callback = function (err, result) {
+      assert(err, 'No packages found');
+      done();
+    };
+    handler(EMPTY_FAKE_HOTELS_EVENT, CONTEXT, callback);
+  });
+});
+
 var FAKE_HOTELS_EVENT = require('./fixtures/fake_hotels_sns_event.json');
 
 describe('Exercise Error Handler (No Packages Found)', function () {
@@ -69,21 +81,5 @@ describe('Exercise Error Handler (No Packages Found)', function () {
       done();
     };
     handler(FAKE_HOTELS_EVENT, CONTEXT, callback);
-  });
-});
-
-var ZERO_HOTELS_EVENT = require('./fixtures/zero_hotels_sns_event.json');
-// console.log('ZERO_HOTELS_EVENT', JSON.stringify(ZERO_HOTELS_EVENT, null, 2));
-describe('If no hotels are supplied return ANY 30 hotels', function () {
-  it('Supply zero hotels to index.js', function (done) {
-    var callback = function (err, result) {
-      assert(result > 0, result + ' packages found');
-      done();
-    };
-    // exercise lines inside setInterval function in index.js
-    CONTEXT.getRemainingTimeInMillis = function () {
-      return 1;
-    };
-    handler(ZERO_HOTELS_EVENT, CONTEXT, callback);
   });
 });
