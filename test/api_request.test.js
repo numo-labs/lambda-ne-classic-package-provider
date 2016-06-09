@@ -14,22 +14,20 @@ describe('api_request', function () {
     done();
   });
 
-  it('GET NE trips (without specifying hotels)', function (done) {
+  it('Should not handle msgs that do not have hotelids', function (done) {
     var params = { // leave "path" and "stage" unset
       adults: 2,
       children: 3,
       allInclusive: 'true', // yes these values are strings not boolean!
       lmsOnly: 'true',
+      hotelIds: '',
       searchId: 12345,
       id: 67890,
       userId: 'test'
     };
     api_request(params, function (err, json) {
-      assert.equal(err, null, 'No errors requesting results from API');
-      var sample_filename = dir + 'NE_trips_without_hotels.json';
-      fs.writeFileSync(sample_filename, JSON.stringify(json, null, 2));
-      assert(json.result.length > 0);
-      assert(json.totalHits > 0);
+      assert(err);
+      assert.equal(err.message, 'No hotel ids provided');
       done();
     });
   });
