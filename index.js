@@ -28,8 +28,13 @@ exports.handler = function (event, context, callback) {
 
     setInterval(function () {
       if (context.getRemainingTimeInMillis() < 1000) {
-        AwsHelper.log.info({ count: hids - resultsReturned },
-                           'Hotels still remaining just before we time out');
+        AwsHelper.log.error({ count: hids - resultsReturned },
+                            'Hotels still remaining just before we time out');
+        if (resultsReturned > 0) {
+          return callback(null, resultsReturned);
+        } else {
+          return callback(new Error('No results returned before lambda\'s timeout'), 0);
+        }
       }
     }, 500).unref();
   }
