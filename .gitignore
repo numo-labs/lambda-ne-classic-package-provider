@@ -42,3 +42,6 @@ test/sample_results/all_hotels.json
 
 # Keep .env Environment Variables Secure
 .env
+
+# Editor files to ignore
+.idea
