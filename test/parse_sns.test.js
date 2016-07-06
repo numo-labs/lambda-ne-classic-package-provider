@@ -72,6 +72,20 @@ describe('Ensure parse does not explode if no passengers list', function () {
 var complete_event = require('./fixtures/complete_sns_event.json');
 // console.log(complete_event.Records[0].Sns.Message);
 describe('Parse Complete SNS Message', function () {
+  it('Ensure no crash on empty arrays', function (done) {
+    var sns_msg = complete_event.Records[0].Sns.Message;
+    var updated = JSON.parse(sns_msg);
+    updated.departureBetween = [];
+    updated.departureAirports = [];
+    // console.log(typeof sns_msg);
+    // console.log(JSON.stringify(sns_msg.query, null, 2));
+    var parsed = parse_sns(JSON.stringify(updated));
+    console.log('parsed', parsed);
+    assert.equal(parsed.departureCode, 'CPH');
+    assert.equal(parsed.duration, 7);
+    // assert.equal(parsed.departureDate, '2016-10-26');
+    done();
+  });
   it('Including departureDate, departureAirport & Nights!', function (done) {
     var sns_msg = complete_event.Records[0].Sns.Message;
     // console.log(typeof sns_msg);
