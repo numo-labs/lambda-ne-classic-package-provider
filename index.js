@@ -61,6 +61,7 @@ exports.handler = function (event, context, callback) {
     });
 
     AwsHelper.pushResultToClient(body, function (err, data) {
+      /* istanbul ignore if */
       if (err) {
         AwsHelper.log.error({ err: err }, 'Error pushing results to client');
       }
