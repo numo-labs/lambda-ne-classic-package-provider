@@ -38,7 +38,7 @@ describe('parse_sns', function () {
 describe('get_age', function () {
   it('gets the age in years of a passenger given her birth date', function (done) {
     var DOB = '1986-07-14'; // Jimmy's test!
-    assert(parse_sns.get_age(DOB) === 29);
+    assert(parse_sns.get_age(DOB) === 30);
     done();
   });
   it('gets the age of a newborn (born today!)', function (done) {
