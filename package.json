@@ -37,6 +37,7 @@
     "async": "2.0.0-rc.5",
     "aws-lambda-helper": "^2.18.0",
     "env2": "^2.0.8",
+    "lltrace-aws-sdk": "^1.0.1",
     "lodash.result": "^4.4.0"
   },
   "devDependencies": {

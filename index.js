@@ -1,4 +1,13 @@
 var AwsHelper = require('aws-lambda-helper');
+
+/* istanbul ignore if */
+if (process.env.LLTRACE_ON) {
+  // Monkey-patch AwsHelper to use our AWS SDK with tracing:
+  var PAWS = require('lltrace-aws-sdk');
+  var AWS = new PAWS.AWS();
+  AwsHelper._AWS = AWS;
+}
+
 var parse_sns = require('./lib/parse_sns');
 var api_request = require('./lib/api_request');
 var mapper = require('./lib/result_mapper');
@@ -11,6 +20,10 @@ var mapper = require('./lib/result_mapper');
 exports.handler = function (event, context, callback) {
   context.callbackWaitsForEmptyEventLoop = false;
 
+  /* istanbul ignore if */
+  if (process.env.LLTRACE_ON) {
+    PAWS.init(context.functionName);
+  }
   AwsHelper.init(context, event); // to extract the version (ci/prod) from Arn
   AwsHelper.Logger('lambda-ne-classic-package-provider');
   AwsHelper.log.info({ event: event }, 'Received event'); // debug sns
