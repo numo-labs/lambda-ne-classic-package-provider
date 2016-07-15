@@ -60,15 +60,14 @@ exports.handler = function (event, context, callback) {
       return item;
     });
 
-    AwsHelper.saveRecordToS3(body, function (err, data) {
-      AwsHelper.log.trace({ err: err }, 'Saved Package to S3');
+    AwsHelper.pushResultToClient(body, function (err, data) {
+      /* istanbul ignore if */
+      if (err) {
+        AwsHelper.log.error({ err: err }, 'Error pushing results to client');
+      }
       delete body.hotelIds; // don't need hotelIds again https://git.io/voIAS
       body.items = body.items.map(mapper.minimiseBandwidth); // minimal fields
       body.searchComplete = false;
-      AwsHelper.pushToSNSTopic(body, function (err, result) {
-        AwsHelper.log.trace({ err: err },
-          'Sending Packages to Client via WebSocket Server');
-      });
     });
   });
 };
