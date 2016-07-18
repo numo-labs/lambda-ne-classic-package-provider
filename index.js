@@ -1,3 +1,5 @@
+require('env2')('.env');
+
 var AwsHelper = require('aws-lambda-helper');
 var parse_sns = require('./lib/parse_sns');
 var api_request = require('./lib/api_request');
