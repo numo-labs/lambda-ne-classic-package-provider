@@ -46,7 +46,7 @@ exports.handler = function (event, context, callback) {
     delete body.hotelIds; // don't need hotelIds again https://git.io/voIAS
     body.items = []; // send an empty array to the client so it knows wazzup!
     body.searchComplete = true;
-    AwsHelper.pushResultToClient(body, () => {
+    AwsHelper.pushToSNSTopic(body, () => {
       AwsHelper.log.info({ err: err, packages: response.result.length },
         'Package search complete');
     });
