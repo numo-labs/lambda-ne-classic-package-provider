@@ -22,7 +22,8 @@ exports.handler = function (event, context, callback) {
 
   var resultsReturned = 0;
   if (!params.hotelIds || params.hotelIds && params.hotelIds.length === 0) {
-    return callback(new Error('No hotel ids provided'));
+    AwsHelper.log.warn('No hotel ids provided');
+    return callback();
   } else if (params.hotelIds && params.hotelIds.length > 0) {
     var hids = params.hotelIds.split(',').length;
     AwsHelper.log.info({ hotels: hids },

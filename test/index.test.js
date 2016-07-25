@@ -63,9 +63,9 @@ describe('Spain End-to-End Test with Departure Date and Airport!', function () {
 var EMPTY_FAKE_HOTELS_EVENT = require('./fixtures/fake_hotels_sns_event_empty.json');
 
 describe('Exercise Error Handler (No Packages Found)', function () {
-  it('Exercise the "no packages" error handler in index.js', function (done) {
+  it('Return as normal when no packages are found', function (done) {
     var callback = function (err, result) {
-      assert(err, 'No packages found');
+      assert(!err);
       done();
     };
     handler(EMPTY_FAKE_HOTELS_EVENT, CONTEXT, callback);
