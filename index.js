@@ -52,7 +52,9 @@ exports.handler = function (event, context, callback) {
         'Package search complete');
     });
     if (err || !response.result || response.result.length === 0) {
-      return callback(new Error('No packages found'));
+      AwsHelper.log.warn({ packages: response.result.length },
+        'No packages found');
+      return callback();
     } else {
       return callback(err, response.result.length);
     }

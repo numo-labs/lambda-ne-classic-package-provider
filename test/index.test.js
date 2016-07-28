@@ -77,7 +77,7 @@ var FAKE_HOTELS_EVENT = require('./fixtures/fake_hotels_sns_event.json');
 describe('Exercise Error Handler (No Packages Found)', function () {
   it('Exercise the "no packages" error handler in index.js', function (done) {
     var callback = function (err, result) {
-      assert(err, 'No packages found');
+      assert(!err, 'No packages found');
       done();
     };
     handler(FAKE_HOTELS_EVENT, CONTEXT, callback);
